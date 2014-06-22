@@ -1,0 +1,643 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<STATES>
+  <State name = "A" extended = "0">
+    <Part1  value = "###"  mask = "NUMBER"     name = "State number" description = "State number"/>
+    <Part2  value = "#"    mask = "TYPE"             name = "Type" description = "Card Read State"/>
+    <Part3  value = "###"  mask = "SCREEN_DISPLAY"   name = "Screen Number" description = "Display screen that prompts the cardholder to enter the card. While the terminal is waiting for card entry, this screen is displayed."/>
+    <Part4  value = "###"  mask = "STATE_OK"         name = "Good Read Next State Number" description = "State number to which the terminal goes: \r\n1. Following a good read of the card if FITs are not used (Table entry 9 = 000) \r\nor 2. If the Financial Institution number on the card matches a Financial Institution number in a FIT."/>
+    <Part5  value = "###"  mask = "SCREEN_ERROR"      name = "Error (Misread) Screen Number" description = "If the read conditions are not satisfied due to a bad card or a mechanism error, the card is ejected and this screen is displayed."/>
+    <Part6  value = "###"  mask = "DATA"             name = "Read Condition 1" description = "These three entries specify which card track(s)and/or chip data will be read. The possible values for these entries are shown below this table."/>
+    <Part7  value = "###"  mask = "DATA"             name = "Read Condition 2" description = "These three entries specify which card track(s)and/or chip data will be read. The possible values for these entries are shown below this table."/>
+    <Part8  value = "###"  mask = "DATA"             name = "Read Condition 3" description = "These three entries specify which card track(s)and/or chip data will be read. The possible values for these entries are shown below this table."/>
+    <Part9  value = "###"  mask = "DATA"             name = "Card Return Flag" description = "Tells the terminal when the card should be returned to the cardholder:\r\n000 - eject the card immediately.\r\n001 - return the card as specified by a Transaction Reply command message."/>
+    <Part10 value = "###"  mask = "STATE_ERROR"      name = "No FIT Match Next State Number" description = "State number to which the terminal goes if either the Financial Institution number on the card does not match any FIT, or if the card reader is a smart card reader and the read condition being evaluated has the chip connect bit set (bit 3). If FITs are not used this entry must be 000."/>
+  </State>
+  <State name = "B" extended = "0">
+    <Part1  value = "###"  mask = "NUMBER"     name = "State number" description = "State number"/>
+    <Part2  value = "#"    mask = "TYPE"             name = "Type" description = "PIN Entry State"/>
+    <Part3  value = "###"  mask = "SCREEN_DISPLAY"   name = "Screen number" description = "Display screen that prompts the cardholder to enter the PIN the first time. This screen, which is displayed on entering the PIN Entry state, must leave the cardholder screen cursor at the start of the PIN Entry display area. An ‘X’ is displayed for each key pressed."/>
+    <Part4  value = "###"  mask = "STATE_TIME_OUT"   name = "Time-Out Next State Number" description = "State number to which the terminal goes if the cardholder does not enter the PIN within the permitted time limit. Enter 255 if the time-out function is not required."/>
+    <Part5  value = "###"  mask = "STATE_CANCEL"     name = "Cancel Next State Number" description = "State number to which the terminal goes if the cardholder presses the Cancel key before the maximum number of digits specified for the PIN have been entered."/>
+    <Part6  value = "###"  mask = "STATE_OK"         name = "Local PIN Check Good PIN" description = "State number to which the terminal goes after verification of a correct PIN entry. A Pre-Set Operation Code Buffer state (clearing the function key buffer before Transaction Selection) usually follows a correct PIN entry."/>
+    <Part7  value = "###"  mask = "STATE_ERROR"      name = "Local PIN Check Maximum Bad" description = "State number to which the terminal goes if the correct PIN has not been entered after the number of attempts allowed by table entry 9. The terminal normally enters a Close state if this occurs."/>
+    <Part8  value = "###"  mask = "SCREEN_ERROR"     name = "Local PIN Check Error Screen Number" description = "Display screen that prompts the cardholder to reenter the PIN. This screen is displayed after each incorrect PIN entry attempt. An ‘X’ is displayed for each key pressed. After the number of re-entry attempts allowed by table entry 9, the terminal enters the state determined by table entry 6."/>
+    <Part9  value = "###"  mask = "STATE_ERROR"      name = "Remote PIN Check Next State Number" description = "State number to which the terminal goes when local PIN verification is not performed."/>
+    <Part10 value = "###"  mask = "DATA"             name = "Local PIN Check Maximum PIN retries" description = "Maximum number of incorrect PIN entries allowed before the terminal enters the state determined by table entry 6."/>
+  </State>
+  <State name = "C" extended = "0">
+    <Part1  value = "###"  mask = "NUMBER"     name = "State number" description = "State number"/>
+    <Part2  value = "#"    mask = "TYPE"             name = "Type"  description = "Envelope Dispenser State"/>
+    <Part3  value = "###"  mask = "STATE_OK"         name = "Next State Number" description = "State number that the terminal enters immediately or after an envelope is presented."/>
+    <Part4  value = "###"  mask = "RESERVED"         name = "Must be 000" description = "Reserved"/>
+    <Part5  value = "###"  mask = "RESERVED"         name = "Must be 000" description = "Reserved"/>
+    <Part6  value = "###"  mask = "RESERVED"         name = "Must be 000" description = "Reserved"/>
+    <Part7  value = "###"  mask = "RESERVED"         name = "Must be 000" description = "Reserved"/>
+    <Part8  value = "###"  mask = "RESERVED"         name = "Must be 000" description = "Reserved"/>
+    <Part9  value = "###"  mask = "RESERVED"         name = "Must be 000" description = "Reserved"/>
+    <Part10 value = "###"  mask = "RESERVED"         name = "Must be 000" description = "Reserved"/>
+  </State>
+  <State name = "D" extended = "1">
+    <Part1  value = "###"  mask = "NUMBER"     name = "State number" description = "State number"/>
+    <Part2  value = "#"    mask = "TYPE"             name = "Type"  description = "Pre-Set Operation Code Buffer State"/>
+    <Part3  value = "###"  mask = "STATE_OK"         name = "Next State Number" description = "State number to which the terminal goes after presetting the Operation Code buffer."/>
+    <Part4  value = "###"  mask = "DATA"             name = "Clear Mask" description = "Specifies bytes of Operation Code buffer to be cleared to graphic ‘space’. Each bit relates to a byte in the Operation Code buffer. If a bit is zero, the corresponding entry is cleared. If a bit is one, the corresponding entry is unchanged. See Table Note 3."/>
+    <Part5  value = "###"  mask = "DATA"             name = "‘A’ Pre-Set Mask" description = "The buffer contains eight bytes. This entry sets the specified bytes to ‘C’. If a bit is one, the corresponding entry is set to ‘A’. If a bit is zero, the corresponding entry is unchanged. See Table Note 3."/>
+    <Part6  value = "###"  mask = "DATA"             name = "‘B’ Pre-Set Mask" description = "The buffer contains eight bytes. This entry sets the specified bytes to ‘C’. If a bit is one, the corresponding entry is set to ‘B’. If a bit is zero, the corresponding entry is unchanged. See Table Note 3."/>
+    <Part7  value = "###"  mask = "DATA"             name = "‘C’ Pre-Set Mask" description = "The buffer contains eight bytes. This entry sets the specified bytes to ‘C’. If a bit is one, the corresponding entry is set to ‘C’. If a bit is zero, the corresponding entry is unchanged. See Table Note 3."/>
+    <Part8  value = "###"  mask = "DATA"             name = "‘D’ Pre-Set Mask" description = "The buffer contains eight bytes. This entry sets the specified bytes to ‘D’. If a bit is one, the corresponding entry is set to ‘D’. If a bit is zero, the corresponding entry is unchanged. See Table Note 3."/>
+    <Part9  value = "###"  mask = "REDERVED"         name = "Must be 000 for each entry" description = "Reserved"/>
+    <Part10 value = "###"  mask = "STATE_EXTENSION"   name = "Extension State Number" description = "State number of the Extension state containing information on how the other operation codes are pre-set."/>
+    <Part11 value = "###"  mask = "STATE_EXTENDED"   name = "State extended" description = "State extended"/>
+    <Part12 value = "#"    mask = "TYPE"       name = "Type" description = "Extension to State D"/>
+    <Part13 value = "###"  mask = "DATA"             name = "‘F’ Pre-Set Mask" description = "The buffer contains eight bytes. This entry sets the specified bytes to ‘F’. If a bit is one, the corresponding entry is set to ‘F’. If a bit is zero, the corresponding entry is unchanged. See Table Note 3."/>
+    <Part14 value = "###"  mask = "DATA"             name = "‘G’ Pre-Set Mask" description = "The buffer contains eight bytes. This entry sets the specified bytes to ‘G’. If a bit is one, the corresponding entry is set to ‘G’. If a bit is zero, the corresponding entry is unchanged. See Table Note 3."/>
+    <Part15 value = "###"  mask = "DATA"             name = "‘H’ Pre-Set Mask" description = "The buffer contains eight bytes. This entry sets the specified bytes to ‘H’. If a bit is one, the corresponding entry is set to ‘H’. If a bit is zero, the corresponding entry is unchanged. See Table Note 3."/>
+    <Part16 value = "###"  mask = "DATA"             name = "‘I’ Pre-Set Mask" description = "The buffer contains eight bytes. This entry sets the specified bytes to ‘I’. If a bit is one, the corresponding entry is set to ‘I’. If a bit is zero, the corresponding entry is unchanged. See Table Note 3."/>
+    <Part17 value = "###"  mask = "RESERVED"         name = "Must be 000" description = "Reserved"/>
+    <Part18 value = "###"  mask = "RESERVED"         name = "Must be 000" description = "Reserved"/>
+    <Part19 value = "###"  mask = "RESERVED"         name = "Must be 000" description = "Reserved"/>
+    <Part20 value = "###"  mask = "RESERVED"         name = "Must be 000" description = "Reserved"/>
+  </State>
+  <State name = "E" extended = "0">
+    <Part1  value = "###"      mask = "NUMBER"   name = "State number" description = "State number"/>
+    <Part2  value = "#"        mask = "TYPE"     name = "Type" description = "Four FDK Selection Function State"/>
+    <Part3  value = "###"      mask = "SCREEN_DISPLAY" name = "Screen Number" description = "Display screen that requests the cardholder to choose between transaction types, account names, and so on. This screen must be aligned with the active FDKs, and is displayed when the terminal enters the Four FDK Selection Function state. For details, see the “C – Cardholder Display” section in Chapter 3, “Screen Data”."/>
+    <Part4  value = "###"      mask = "STATE_TIME_OUT" name = "Time-Out Next State Number" description = "State number to which the terminal goes if the cardholder does not respond to the screen message within the permitted time limit. Enter 255 if the time-out function is not required."/>
+    <Part5  value = "###"      mask = "STATE_CANCEL"   name = "Cancel Next State Number" description = "State number to which the terminal goes if the Cancel key is pressed."/>
+    <Part6  value = "###"      mask = "STATE_OK"       name = "FDK ‘A’ (or ‘I’)" description = "State number to which the terminal goes if the specified FDK or touch area is pressed. (Base 10 range 000-254 or 256-999) (Base 36 range 000-254 or 256-ZZZ) Enter 255 to deactivate any FDK or touch area."/>
+    <Part7  value = "###"      mask = "STATE_OK"       name = "FDK ‘B’ (or ‘H’)" description = "State number to which the terminal goes if the specified FDK or touch area is pressed. (Base 10 range 000-254 or 256-999) (Base 36 range 000-254 or 256-ZZZ) Enter 255 to deactivate any FDK or touch area."/>
+    <Part8  value = "###"      mask = "STATE_OK"       name = "FDK ‘C’ (or ‘G’)" description = "State number to which the terminal goes if the specified FDK or touch area is pressed. (Base 10 range 000-254 or 256-999) (Base 36 range 000-254 or 256-ZZZ) Enter 255 to deactivate any FDK or touch area."/>
+    <Part9  value = "###"      mask = "STATE_OK"       name = "FDK ‘D’ (or ‘F’)" description = "State number to which the terminal goes if the specified FDK or touch area is pressed. (Base 10 range 000-254 or 256-999) (Base 36 range 000-254 or 256-ZZZ) Enter 255 to deactivate any FDK or touch area."/>
+    <Part10 value = "###"      mask = "DATA"           name = "Buffer Location" description = "Defines the Operation Code buffer byte in which the keycode for the selected FDK is stored.\r\nEntry Value - Position in Buffer\r\n‘000’ - 1st byte\r\n‘001 - 2nd byte’\r\n‘002’\r\n‘003’\r\n‘004’\r\n‘005’\r\n‘006’\r\n‘007’ - 8th byte\r\n"/>
+  </State>
+  <State name = "F" extended = "0">
+    <Part1  value = "###"       mask = "NUMBER"     name = "State number" description = "State number"/>
+    <Part2  value = "#"         mask = "TYPE"       name = "Type" description = "Amount Entry State"/>
+    <Part3  value = "###"       mask = "SCREEN_DISPLAY"   name = "Screen Number" description = "Display screen that prompts the cardholder to make an amount entry. This screen is displayed when the terminal enters the Amount Entry state."/>
+    <Part4  value = "###"       mask = "STATE_TIME_OUT"   name = "Time-Out Next State Number" description = "State number to which the terminal goes if the amount entry is not made within the permitted time limit. Enter 255 if the time-out function is not required."/>
+    <Part5  value = "###"       mask = "STATE_CANCEL"     name = "Cancel Next State Number" description = "State number to which the terminal goes if the Cancel key is pressed."/>
+    <Part6  value = "###"       mask = "STATE_OK"         name = "FDK ‘A’ (or ‘I’)" description = "State number to which the terminal goes if the cardholder presses an FDK or touch area. Normally  one FDK or touch area is designated for correct amount entries and another for incorrect amount entries. The remaining two FDKs or touch areas are  inactive. (Base 10 range 000-254 or 256-999) (Base 36 range 000-254 or 256-ZZZ) Enter 255 to deactivate an FDK or touch area."/>
+    <Part7  value = "###"       mask = "STATE_OK"         name = "FDK ‘B’ (or ‘H’)" description = "State number to which the terminal goes if the cardholder presses an FDK or touch area. Normally  one FDK or touch area is designated for correct amount entries and another for incorrect amount entries. The remaining two FDKs or touch areas are  inactive. (Base 10 range 000-254 or 256-999) (Base 36 range 000-254 or 256-ZZZ) Enter 255 to deactivate an FDK or touch area."/>
+    <Part8  value = "###"       mask = "STATE_OK"         name = "FDK ‘C’ (or ‘G’)" description = "State number to which the terminal goes if the cardholder presses an FDK or touch area. Normally  one FDK or touch area is designated for correct amount entries and another for incorrect amount entries. The remaining two FDKs or touch areas are  inactive. (Base 10 range 000-254 or 256-999) (Base 36 range 000-254 or 256-ZZZ) Enter 255 to deactivate an FDK or touch area."/>
+    <Part9  value = "###"       mask = "STATE_OK"         name = "FDK ‘D’ (or ‘F’)" description = "State number to which the terminal goes if the cardholder presses an FDK or touch area. Normally  one FDK or touch area is designated for correct amount entries and another for incorrect amount entries. The remaining two FDKs or touch areas are  inactive. (Base 10 range 000-254 or 256-999) (Base 36 range 000-254 or 256-ZZZ) Enter 255 to deactivate an FDK or touch area."/>
+    <Part10 value = "###"       mask = "DATA"             name = "Amount Display Screen" description = "Overlay screen for setting the cardholder screen cursor position. This screen optionally defines the initial display format before amount entry by the cardholder. The cursor should be set on the lefthand side of the echo field on the screen. This is space filled until the required start position for the currency character is reached. For details, see “International Currency Display Format” on page  3-31. The default echo field for eight digits is: bbbbb$b0.00 where b = space. The default echo field for twelve digits is: bbbbbbbbb$b0.00 where b = space."/>
+  </State>
+  <State name = "G" extended = "0">
+    <Part1  value = "###"   mask = "NUMBER" name = "State number" description = "State number"/>
+    <Part2  value = "#"     mask = "TYPE"   name = "Type" description = "Amount Check State"/>
+    <Part3  value = "###"   mask = "STATE_OK"     name = "Amount Check Condition True Next State Number" description = "State number to which the terminal goes when the amount check condition indicated by table entry 8 evaluates to 'true'."/>
+    <Part4  value = "###"   mask = "STATE_ERROR"  name = "Amount Check Condition False Next State Number" description = "State number to which the terminal goes when the amount check condition indicated by table entry 8 evaluates to 'false'."/>
+    <Part5  value = "###"   mask = "DATA"         name = "Buffer to be checked" description = "This field specifies which buffer is to be checked:\r\n000 - Amount buffer\r\n001 - Buffer B.\r\n002 - Buffer C.\r\nIf Buffer B or C contains more than 12 digits, the amount check condition evaluates to ‘false’."/>
+    <Part6  value = "###"   mask = "DATA"         name = "Integer Multiple Value" description = "Integer multiple value used in checking specified buffer.\r\nFor example, to check that the specified buffer contains a multiple of the minimum denomination $5, this field would be set to '005'.\r\nThis field is ignored if table entry 8 is not ‘002’."/>
+    <Part7  value = "###"   mask = "DATA"         name = "Number of Decimal Places" description = "Number of decimal places used in specified buffer.\r\nFor example, $5 is sent as 500 cents, so has 002 decimal places.\r\nThis field is ignored if table entry 8 is ‘000’."/>
+    <Part8  value = "###"   mask = "DATA"         name = "Currency Type" description = "Currency type of amount in specified buffer. Used in conjunction with the Dispenser Currency Cassette Mapping Table.\r\nThis field is ignored if table entry 8 is not ‘003’."/>
+    <Part9  value = "###"   mask = "DATA"         name = "Amount Check Condition" description = "Amount check condition required.\r\nIf the condition being checked evaluates to 'true' then processing will proceed to the next state identified in table entry 2; otherwise processing will proceed to the next state identified in table entry 3.\r\nAll conditions check the buffer indicated by table entry 4, and take account of the decimal point location via the value in table entry 6.\r\nWhen this entry is set to 000, the state simply evaluates whether the value to the right of the decimal point position is zero.\r\nWhen this entry is set to 001, the state also evaluates whether the value is zero, or if Buffer B or C contains more than 12 digits.\r\nWhen this entry is set to 002, the state also evaluates whether the value is a whole number multiple of the value identified in table entry 5.\r\nWhen this entry is set to 003, the state evaluates whether the value is dispensable by the terminal, taking into account the Dispenser Currency Cassette Mapping Table entries, currency type required (table entry 7), the currency type denominations available, dispenser status and cassette status."/>
+    <Part10 value = "###"   mask = "RESERVED"     name = "Must be 000" description = "Reserved"/>
+  </State>
+  <State name = "H" extended = "0">
+    <Part1  value = "###"   mask = "NUMBER" name = "State number" description = "State number"/>
+    <Part2  value = "#"     mask = "TYPE"   name = "Type" description = "Information Entry State"/>
+    <Part3  value = "###"   mask = "SCREEN_OK"    name = "Screen Number" description = "Display screen that prompts the cardholder to make an amount entry. This screen is displayed when the terminal enters the Amount Entry state."/>
+    <Part4  value = "###"   mask = "STATE_TIME_OUT" name = "Time-Out Next State Number" description = "State number to which the terminal goes if the amount entry is not made within the permitted time limit. Enter 255 if the time-out function is not required."/>
+    <Part5  value = "###"   mask = "STATE_CANCEL" name = "Cancel Next State Number" description = "State number to which the terminal goes if the Cancel key is pressed."/>
+    <Part6  value = "###"   mask = "STATE_OK"     name = "FDK ‘A’ (or ‘I’)" description = "State number to which the terminal goes if the cardholder presses an FDK or touch area. Normally  one FDK or touch area is designated for correct amount entries and another for incorrect amount entries. The remaining two FDKs or touch areas are  inactive. (Base 10 range 000-254 or 256-999) (Base 36 range 000-254 or 256-ZZZ) Enter 255 to deactivate an FDK or touch area."/>
+    <Part7  value = "###"   mask = "STATE_OK"     name = "FDK ‘B’ (or ‘H’)" description = "State number to which the terminal goes if the cardholder presses an FDK or touch area. Normally  one FDK or touch area is designated for correct amount entries and another for incorrect amount entries. The remaining two FDKs or touch areas are  inactive. (Base 10 range 000-254 or 256-999) (Base 36 range 000-254 or 256-ZZZ) Enter 255 to deactivate an FDK or touch area."/>
+    <Part8  value = "###"   mask = "STATE_OK"     name = "FDK ‘C’ (or ‘G’)" description = "State number to which the terminal goes if the cardholder presses an FDK or touch area. Normally  one FDK or touch area is designated for correct amount entries and another for incorrect amount entries. The remaining two FDKs or touch areas are  inactive. (Base 10 range 000-254 or 256-999) (Base 36 range 000-254 or 256-ZZZ) Enter 255 to deactivate an FDK or touch area."/>
+    <Part9  value = "###"   mask = "STATE_OK"     name = "FDK ‘D’ (or ‘F’)" description = "State number to which the terminal goes if the cardholder presses an FDK or touch area. Normally  one FDK or touch area is designated for correct amount entries and another for incorrect amount entries. The remaining two FDKs or touch areas are  inactive. (Base 10 range 000-254 or 256-999) (Base 36 range 000-254 or 256-ZZZ) Enter 255 to deactivate an FDK or touch area."/>
+    <Part10 value = "###"   mask = "DATA"         name = "Buffer and Display Parameters" description = "A general-purpose buffer (B or C) is designated for storage. The actual data entered (or ‘X’) to be displayed on the cardholder screen is also defined. The display begins from the current cursor position. Buffer and display parameters are as follows:\r\n000 - Display ‘X’ for each numeric key pressed. Store data in general-purpose buffer C.\r\n001 - Display data as keyed in. Store data in general purpose buffer C.\r\n002 - Display ‘X’ for each numeric key pressed. Store data in general purpose buffer B.\r\n003 - Display data as keyed in. Store data in general purpose buffer B.\r\nSee Table Note 5."/>
+  </State>
+  <State name = "I" extended = "1">
+    <Part1  value = "###"   mask = "NUMBER" name = "State number" description = "State number"/>
+    <Part2  value = "#"     mask = "TYPE"   name = "Type" description = "Transaction Request State"/>
+    <Part3  value = "###"   mask = "SCREEN_DISPLAY" name = "Screen Number" description = "Display screen shown on the cardholder screen while the terminal sends a Transaction Request to Central and waits for a Transaction Reply command. This is usually a ‘Please Wait’ screen."/>
+    <Part4  value = "###"   mask = "STATE_OK" name = "Central Response Timeout Next" description = "State number to which the terminal goes if Central fails to reply to the Transaction Request within the permitted time interval (timer 03)."/>
+    <Part5  value = "###"   mask = "DATA" name = "Send Track 2 Data" description = "See Table Note 6."/>
+    <Part6  value = "###"   mask = "DATA" name = "Send Track 1 and/or Track 3 Data" description = "See Table Note 7."/>
+    <Part7  value = "###"   mask = "DATA" name = "Send Operation Code Data" description = "See Table Note 6."/>
+    <Part8  value = "###"   mask = "DATA" name = "Send Amount Data" description = "See Table Note 6."/>
+    <Part9  value = "###"   mask = "DATA" name = "Send PIN Buffer (Buffer A) Data/ Select Extended format" description = "See Table Note 6 and Table Note 7."/>
+    <Part10 value = "###"   mask = "STATE_EXTENSION_OR_DATA" name = "Send General Purpose Buffer B and/or C\r\n     or Extension State Number" description = "To send the general purpose buffer, the following values apply:\r\n000 - Send no buffers\r\n001 - Send Buffer B.\r\n002 - Send Buffer C\r\n003 - Send Buffers B and C\r\n004-007 - Reserved\r\nIf the extended format is selected in table entry 8, this entry is an Extension state number.\r\nSee Table Note 8."/>
+    <Part11 value = "###"   mask = "STATE_EXTENDED" name = "State extended" description = "State extended"/>
+    <Part12 value = "#"     mask = "TYPE"   name = "Type" description = "Extension to State I"/>
+    <Part13 value = "###"   mask = "DATA" name = "Send General Purpose Buffers B and/or C" description = "To send the general purpose buffers, these values apply:\r\n000 - Send no buffers\r\n001 - Send Buffer B.\r\n002 - Send Buffer C\r\n003 - Send Buffers B and C"/>
+    <Part14 value = "###"   mask = "DATA" name = "Send Optional Data Fields ‘A’ - ‘H’" description = "This entry is as for table entry 3 but the data fields are as follows:\r\n Bit - Field ID\r\n1 - ‘A’(Reserved)\r\n2 - ‘B’(Reserved)\r\n3 - ‘C’\r\n4 - ‘D’\r\n5 - ‘E’\r\n6 - ‘F’\r\n7 - ‘G’\r\n8 - ‘H’"/>
+    <Part15 value = "###"   mask = "DATA" name = "Send Optional Data Fields ‘I’ - ‘L’" description = "This entry is as for table entry 3 but the data fields are as follows:\r\n Bit - Field ID\r\n1 - ‘I’\r\n2 - ‘J’\r\n3 - ‘K’\r\n4 - ‘L’\r\n5 - Reserved for‘M’\r\n6 - Reserved for‘N’\r\n7 - Reserved for‘O’\r\n8 - Reserved for‘P’"/>
+    <Part16 value = "###"   mask = "DATA" name = "Send Optional Data Fields ‘Q’ - ‘a’" description = "This entry is as for table entry 3 but the data fields are as follows:\r\n Bit - Field ID\r\n1 - ‘Q’\r\n2 - ‘R’\r\n3 - ‘S’\r\n4 - Reserved for ‘T’\r\n5 - ‘U’\r\n6 - ‘V’\r\n7 - ‘w’\r\n8 - ‘a’"/>
+    <Part17 value = "###"   mask = "DATA" name = "Send Optional Data" description = "This entry is as for table entry 3 but the data fields are as follows:\r\n Bit - Field ID\r\n1 - ‘User Data Fields’\r\n2 - ‘b’ (Notes on escrow counts)\r\n3 - Reserved\r\n4 - Reserved\r\n5 - ‘e’ (Barcode data)\r\n6 - Reserved\r\n7 - Reserved\r\n8 - Reserved"/>
+    <Part18 value = "###"   mask = "RESERVED" name = "Must be 000" description = "Reserved"/>
+    <Part19 value = "###"   mask = "DATA" name = "EMV CAM Proces sing Flag" description = "Indicates if EMV CAM processing is to be performed, as follows:\r\n000 - Do not perform EMV CAM processing (default).\r\n001 - Perform EMV CAM processing."/>
+    <Part20 value = "###"   mask = "RESERVED" name = "Must be 000" description = "Reserved"/>
+  </State>
+  <State name = "J" extended = "1">
+    <Part1  value = "###"   mask = "NUMBER" name = "State number" description = "State number"/>
+    <Part2  value = "#"     mask = "TYPE"   name = "Type" description = "Close State"/>
+    <Part3  value = "###"   mask = "SCREEN_OK" name = "Receipt Delivered Screen Number" description = "Screen displayed on entry to the Close state. This is only displayed if a receipt is delivered in the Close state and the terminal has not been instructed by the last Transaction Reply message to capture the card. The last Transaction Reply Command performed determines the screen text as follows:\r\nCard Before Cash - ‘Take cash and receipt’\r\nFast Cash - ‘Take card, cash and receipt’\r\nOther Commands - ‘Take card and receipt’"/>
+    <Part4  value = "###"   mask = "STATE_OK" name = "Next State Number" description = "State number to which the terminal goes after the state is completed."/>
+    <Part5  value = "###"   mask = "SCREEN_OK" name = "No Receipt Delivered Screen Number" description = "Screen displayed on entry to the Close state. This is only displayed if no receipt is delivered in the Close state and the terminal has not been instructed by the last Transaction Reply message to capture the card. The last Transaction Reply Command performed determines the screen text as follows:\r\nCard Before Cash - ‘Take cash’\r\nFast Cash - ‘Take cash and card’\r\nOther Commands - ‘Take card’"/>
+    <Part6  value = "###"   mask = "SCREEN_OK" name = "Card Retained Screen Number" description = "Screen displayed on entry to the Close state, informing the cardholder that the card has been retained. This is only displayed if the terminal has been instructed by the last Transaction Reply message to capture the card during the Close state. This screen is also displayed for four seconds if the card is captured due to timer 09 expiring (card not taken)."/>
+    <Part7  value = "###"   mask = "SCREEN_OK" name = "Statement Delivered Screen Number" description = "Display screen to be overlaid when either the receipt is delivered (entry 2) or there is no receipt delivery (entry 4). This screen is only displayed if the statement is cut and delivered in a Close state and the terminal has not been instructed by the last Transaction Reply message to capture the card."/>
+    <Part8  value = "###"   mask = "RESERVED" name = "Must be 000" description = "Reserved"/>
+    <Part9  value = "###"   mask = "SCREEN_OK" name = "BNA Notes Returned Screen Number" description = "Screen displayed on entry to the Close state, informing the cardholder that the Bunch Note Acceptor (BNA) notes are being returned."/>
+    <Part10 value = "###"   mask = "STATE_EXTENSION" name = "Extension State Number" description = "State number of the optional Extension state. See Table Note 10."/>
+    <Part11 value = "###"   mask = "STATE_EXTENDED" name = "State extended" description = "State extended"/>
+    <Part12 value = "#"     mask = "TYPE"   name = "Type" description = "Extension to State J"/>
+    <Part13 value = "###"   mask = "SCREEN_ERROR" name = "CPM Take Document Screen Number" description = "Screen number required for the error recovery actions which may take place in this state if the CPM is present."/>
+    <Part14 value = "###"   mask = "DATA" name = "CPM Document Return/Retain Flag" description = "This flag controls the error recovery actions which may take place in this state if the CPM is present. See Table Note 11."/>
+    <Part15 value = "###"   mask = "RESERVED" name = "Must be 000" description = "Reserved"/>
+    <Part16 value = "###"   mask = "RESERVED" name = "Must be 000" description = "Reserved"/>
+    <Part17 value = "###"   mask = "RESERVED" name = "Must be 000" description = "Reserved"/>
+    <Part18 value = "###"   mask = "RESERVED" name = "Must be 000" description = "Reserved"/>
+    <Part19 value = "###"   mask = "DATA" name = "BNA Notes Return/Retain/Leave Flag" description = "This flag controls the error recovery actions which may take place in this state if the BNA is present. See Table Note 12."/>
+    <Part20 value = "###"   mask = "RESERVED" name = "Must be 000" description = "Reserved"/>
+  </State>
+  <State name = "K" extended = "2">
+    <Part1  value = "###"   mask = "NUMBER" name = "State number" description = "State number"/>
+    <Part2  value = "#"     mask = "TYPE"   name = "Type" description = "FIT Switch State"/>
+    <Part3  value = "###"   mask = "STATE_OK" name = "Next State Number" description = "State to which the terminal goes depending on the next state index stored in the FIT. (Base 10 range 000-254 or 256-999) (Base 36 range 000-254 or 256-ZZZ)"/>
+    <Part4  value = "###"   mask = "STATE_OK" name = "Next State Number" description = "State to which the terminal goes depending on the next state index stored in the FIT. (Base 10 range 000-254 or 256-999) (Base 36 range 000-254 or 256-ZZZ)"/>
+    <Part5  value = "###"   mask = "STATE_OK" name = "Next State Number" description = "State to which the terminal goes depending on the next state index stored in the FIT. (Base 10 range 000-254 or 256-999) (Base 36 range 000-254 or 256-ZZZ)"/>
+    <Part6  value = "###"   mask = "STATE_OK" name = "Next State Number" description = "State to which the terminal goes depending on the next state index stored in the FIT. (Base 10 range 000-254 or 256-999) (Base 36 range 000-254 or 256-ZZZ)"/>
+    <Part7  value = "###"   mask = "STATE_OK" name = "Next State Number" description = "State to which the terminal goes depending on the next state index stored in the FIT. (Base 10 range 000-254 or 256-999) (Base 36 range 000-254 or 256-ZZZ)"/>
+    <Part8  value = "###"   mask = "STATE_OK" name = "Next State Number" description = "State to which the terminal goes depending on the next state index stored in the FIT. (Base 10 range 000-254 or 256-999) (Base 36 range 000-254 or 256-ZZZ)"/>
+    <Part9  value = "###"   mask = "STATE_OK" name = "Next State Number" description = "State to which the terminal goes depending on the next state index stored in the FIT. (Base 10 range 000-254 or 256-999) (Base 36 range 000-254 or 256-ZZZ)"/>
+    <Part10 value = "###"   mask = "STATE_OK" name = "Next State Number" description = "State to which the terminal goes depending on the next state index stored in the FIT. (Base 10 range 000-254 or 256-999) (Base 36 range 000-254 or 256-ZZZ)"/>
+    <Part11 value = "###"   mask = "NUMBER" name = "State number" description = "State number"/>
+    <Part12 value = "#"     mask = "TYPE"   name = "Type" description = "Expanded FIT Switch State"/>
+    <Part13 value = "###"   mask = "STATE_OK" name = "Next State Number" description = "State to which the terminal goes depending on the next state index stored in the FIT. (Base 10 range 000-254 or 256-999) (Base 36 range 000-254 or 256-ZZZ)"/>
+    <Part14 value = "###"   mask = "STATE_OK" name = "Next State Number" description = "State to which the terminal goes depending on the next state index stored in the FIT. (Base 10 range 000-254 or 256-999) (Base 36 range 000-254 or 256-ZZZ)"/>
+    <Part15 value = "###"   mask = "STATE_OK" name = "Next State Number" description = "State to which the terminal goes depending on the next state index stored in the FIT. (Base 10 range 000-254 or 256-999) (Base 36 range 000-254 or 256-ZZZ)"/>
+    <Part16 value = "###"   mask = "STATE_OK" name = "Next State Number" description = "State to which the terminal goes depending on the next state index stored in the FIT. (Base 10 range 000-254 or 256-999) (Base 36 range 000-254 or 256-ZZZ)"/>
+    <Part17 value = "###"   mask = "STATE_OK" name = "Next State Number" description = "State to which the terminal goes depending on the next state index stored in the FIT. (Base 10 range 000-254 or 256-999) (Base 36 range 000-254 or 256-ZZZ)"/>
+    <Part18 value = "###"   mask = "STATE_OK" name = "Next State Number" description = "State to which the terminal goes depending on the next state index stored in the FIT. (Base 10 range 000-254 or 256-999) (Base 36 range 000-254 or 256-ZZZ)"/>
+    <Part19 value = "###"   mask = "STATE_OK" name = "Next State Number" description = "State to which the terminal goes depending on the next state index stored in the FIT. (Base 10 range 000-254 or 256-999) (Base 36 range 000-254 or 256-ZZZ)"/>
+    <Part20 value = "###"   mask = "STATE_EXTENSION" name = "Extension State Number" description = "State number of the mandatory Extension state."/>
+    <Part21 value = "###"   mask = "STATE_EXTENDED" name = "State extended" description = "State extended"/>
+    <Part22 value = "#"     mask = "TYPE"   name = "Type" description = "Extension to State _"/>
+    <Part23 value = "###"   mask = "STATE_OK" name = "Next State Number" description = "State to which the terminal goes depending on the next state index stored in the FIT. (Base 10 range 000-254 or 256-999) (Base 36 range 000-254 or 256-ZZZ)"/>
+    <Part24 value = "###"   mask = "STATE_OK" name = "Next State Number" description = "State to which the terminal goes depending on the next state index stored in the FIT. (Base 10 range 000-254 or 256-999) (Base 36 range 000-254 or 256-ZZZ)"/>
+    <Part25 value = "###"   mask = "STATE_OK" name = "Next State Number" description = "State to which the terminal goes depending on the next state index stored in the FIT. (Base 10 range 000-254 or 256-999) (Base 36 range 000-254 or 256-ZZZ)"/>
+    <Part26 value = "###"   mask = "STATE_OK" name = "Next State Number" description = "State to which the terminal goes depending on the next state index stored in the FIT. (Base 10 range 000-254 or 256-999) (Base 36 range 000-254 or 256-ZZZ)"/>
+    <Part27 value = "###"   mask = "STATE_OK" name = "Next State Number" description = "State to which the terminal goes depending on the next state index stored in the FIT. (Base 10 range 000-254 or 256-999) (Base 36 range 000-254 or 256-ZZZ)"/>
+    <Part28 value = "###"   mask = "STATE_OK" name = "Next State Number" description = "State to which the terminal goes depending on the next state index stored in the FIT. (Base 10 range 000-254 or 256-999) (Base 36 range 000-254 or 256-ZZZ)"/>
+    <Part29 value = "###"   mask = "STATE_OK" name = "Next State Number" description = "State to which the terminal goes depending on the next state index stored in the FIT. (Base 10 range 000-254 or 256-999) (Base 36 range 000-254 or 256-ZZZ)"/>
+    <Part30 value = "###"   mask = "STATE_OK" name = "Next State Number" description = "State to which the terminal goes depending on the next state index stored in the FIT. (Base 10 range 000-254 or 256-999) (Base 36 range 000-254 or 256-ZZZ)"/>
+  </State>
+  <State name = "_" extended = "2">
+    <Part1 value = "###"   mask = "NUMBER" name = "State number" description = "State number"/>
+    <Part2 value = "#"     mask = "TYPE"   name = "Type" description = "Expanded FIT Switch State"/>
+    <Part3 value = "###"   mask = "STATE_OK" name = "Next State Number" description = "State to which the terminal goes depending on the next state index stored in the FIT. (Base 10 range 000-254 or 256-999) (Base 36 range 000-254 or 256-ZZZ)"/>
+    <Part4 value = "###"   mask = "STATE_OK" name = "Next State Number" description = "State to which the terminal goes depending on the next state index stored in the FIT. (Base 10 range 000-254 or 256-999) (Base 36 range 000-254 or 256-ZZZ)"/>
+    <Part5 value = "###"   mask = "STATE_OK" name = "Next State Number" description = "State to which the terminal goes depending on the next state index stored in the FIT. (Base 10 range 000-254 or 256-999) (Base 36 range 000-254 or 256-ZZZ)"/>
+    <Part6 value = "###"   mask = "STATE_OK" name = "Next State Number" description = "State to which the terminal goes depending on the next state index stored in the FIT. (Base 10 range 000-254 or 256-999) (Base 36 range 000-254 or 256-ZZZ)"/>
+    <Part7 value = "###"   mask = "STATE_OK" name = "Next State Number" description = "State to which the terminal goes depending on the next state index stored in the FIT. (Base 10 range 000-254 or 256-999) (Base 36 range 000-254 or 256-ZZZ)"/>
+    <Part8 value = "###"   mask = "STATE_OK" name = "Next State Number" description = "State to which the terminal goes depending on the next state index stored in the FIT. (Base 10 range 000-254 or 256-999) (Base 36 range 000-254 or 256-ZZZ)"/>
+    <Part9 value = "###"   mask = "STATE_OK" name = "Next State Number" description = "State to which the terminal goes depending on the next state index stored in the FIT. (Base 10 range 000-254 or 256-999) (Base 36 range 000-254 or 256-ZZZ)"/>
+    <Part10 value = "###"   mask = "STATE_EXTENSION" name = "Extension State Number" description = "State number of the mandatory Extension state."/>
+    <Part11 value = "###"   mask = "STATE_EXTENDED" name = "State extended" description = "State extended"/>
+    <Part12 value = "#"     mask = "TYPE"   name = "Type" description = "Extension to State _"/>
+    <Part13 value = "###"   mask = "STATE_OK" name = "Next State Number" description = "State to which the terminal goes depending on the next state index stored in the FIT. (Base 10 range 000-254 or 256-999) (Base 36 range 000-254 or 256-ZZZ)"/>
+    <Part14 value = "###"   mask = "STATE_OK" name = "Next State Number" description = "State to which the terminal goes depending on the next state index stored in the FIT. (Base 10 range 000-254 or 256-999) (Base 36 range 000-254 or 256-ZZZ)"/>
+    <Part15 value = "###"   mask = "STATE_OK" name = "Next State Number" description = "State to which the terminal goes depending on the next state index stored in the FIT. (Base 10 range 000-254 or 256-999) (Base 36 range 000-254 or 256-ZZZ)"/>
+    <Part16 value = "###"   mask = "STATE_OK" name = "Next State Number" description = "State to which the terminal goes depending on the next state index stored in the FIT. (Base 10 range 000-254 or 256-999) (Base 36 range 000-254 or 256-ZZZ)"/>
+    <Part17 value = "###"   mask = "STATE_OK" name = "Next State Number" description = "State to which the terminal goes depending on the next state index stored in the FIT. (Base 10 range 000-254 or 256-999) (Base 36 range 000-254 or 256-ZZZ)"/>
+    <Part18 value = "###"   mask = "STATE_OK" name = "Next State Number" description = "State to which the terminal goes depending on the next state index stored in the FIT. (Base 10 range 000-254 or 256-999) (Base 36 range 000-254 or 256-ZZZ)"/>
+    <Part19 value = "###"   mask = "STATE_OK" name = "Next State Number" description = "State to which the terminal goes depending on the next state index stored in the FIT. (Base 10 range 000-254 or 256-999) (Base 36 range 000-254 or 256-ZZZ)"/>
+    <Part20 value = "###"   mask = "STATE_OK" name = "Next State Number" description = "State to which the terminal goes depending on the next state index stored in the FIT. (Base 10 range 000-254 or 256-999) (Base 36 range 000-254 or 256-ZZZ)"/>
+  </State>
+  <State name = "L" extended = "0">
+    <Part1  value = "###"   mask = "NUMBER" name = "State number" description = "State number"/>
+    <Part2  value = "#"     mask = "TYPE"   name = "Type" description = "Card Write State"/>
+    <Part3  value = "###"   mask = "SCREEN_DISPLAY" name = "Screen Number" description = "Screen displayed during a Card Write operation."/>
+    <Part4  value = "###"   mask = "STATE_OK" name = "Good Write Next State Number" description = "State number to which the terminal goes after a satisfactory Track write operation."/>
+    <Part5  value = "###"   mask = "STATE_ERROR" name = "Bad Write Next State Number" description = "State number to which the terminal goes if the Track write is unsuccessful."/>
+    <Part6  value = "###"   mask = "STATE_ERROR" name = "No Write Attempted Next State Number" description = "State number to which the terminal goes if no data or invalid data is present in the Track buffer. This state is also used if a start and/or end sentinel is missing, or the Track data buffers are too long."/>
+    <Part7  value = "###"   mask = "RESERVED" name = "Must be 000" description = "Reserved"/>
+    <Part8  value = "###"   mask = "RESERVED" name = "Must be 000" description = "Reserved"/>
+    <Part9  value = "###"   mask = "RESERVED" name = "Must be 000" description = "Reserved"/>
+    <Part10 value = "###"   mask = "RESERVED" name = "Must be 000" description = "Reserved"/>
+  </State>
+  <State name = "M" extended = "0">
+    <Part1  value = "###"   mask = "NUMBER" name = "State number" description = "State number"/>
+    <Part2  value = "#"     mask = "TYPE"   name = "Type" description = "Enhanced PIN Entry State"/>
+    <Part3  value = "###"   mask = "SCREEN_DISPLAY" name = "Screen Number" description = "Display screen that prompts the cardholder to enter the PIN the first time. This screen is displayed on entering the PIN Entry state. It must leave the cursor at the start of the PIN Entry display area. An ‘X’ is displayed for each key pressed."/>
+    <Part4  value = "###"   mask = "STATE_TIME_OUT" name = "Time-Out Next State Number" description = "State number to which the terminal goes if the cardholder does not enter the PIN within the permitted time limit. Enter state number 255 if the time-out function is not required."/>
+    <Part5  value = "###"   mask = "STATE_CANCEL" name = "Cancel Next State Number" description = "State number to which the terminal goes if the cardholder presses the Cancel key before the maximum number of digits specified for the PIN have been entered."/>
+    <Part6  value = "###"   mask = "STATE_OK" name = "Local PIN Check Good PIN Next State Number" description = "State number to which the terminal goes after verification of a correct PIN entry. A Pre-Set Operation Code buffer state (clearing the function key buffer before Transaction Selection) usually follows a correct PIN entry. See Table Note 15."/>
+    <Part7  value = "###"   mask = "STATE_ERROR" name = "Local PIN Check Maximum Bad PINs Next State Number" description = "State number to which the terminal goes if the correct PIN has not been entered after the number of attempts allowed by table entry 9. This could be a Card Write state in order to update the Track 3 PIN retry field. See Table Note 13, Table Note 14, and Table Note 15."/>
+    <Part8  value = "###"   mask = "SCREEN_ERROR" name = "Local PIN Check Error Screen Number" description = "Display screen that prompts the cardholder to reenter the PIN. This screen is displayed after each incorrect PIN entry attempt. An ‘X’ is displayed for each key pressed. After the number of re-entry attempts allowed by table entry 9, the terminal enters the state determined by table entry 6. See Table Note 13 and Table Note 15."/>
+    <Part9  value = "###"   mask = "STATE_ERROR" name = "Remote PIN Check Next State Number" description = "State number to which the terminal goes when local PIN verification is not performed."/>
+    <Part10 value = "###"   mask = "DATA" name = "Local PIN Check Maximum PIN Check Retries" description = "Maximum number of incorrect PIN entries before the terminal enters the state determined by table entry 6. This entry is used as the PIN retry count if the PIN retry count is not on the card (FIT entry PRCNT = FF). See Table Note 13 and Table Note 15."/>
+  </State>
+  <State name = "R" extended = "1">
+    <Part1  value = "###"   mask = "NUMBER" name = "State number" description = "State number"/>
+    <Part2  value = "#"     mask = "TYPE"   name = "Type" description = "Enhanced Amount Entry State"/>
+    <Part3  value = "###"   mask = "SCREEN_DISPLAY" name = "Screen Number" description = "Number of display screen prompting an amount entry."/>
+    <Part4  value = "###"   mask = "STATE_TIME_OUT" name = "Time-Out Next State Number" description = "State number to which the terminal goes if the cardholder fails to enter the amount within the specified time limit. Enter 255 if the time-out function is not required."/>
+    <Part5  value = "###"   mask = "STATE_CANCEL" name = "Cancel Next State Number" description = "State number to which the terminal goes if the cardholder presses the Cancel key."/>
+    <Part6  value = "###"   mask = "STATE_OK" name = "FDK ‘A’ (or ‘I’)" description = "State number to which the terminal goes if the cardholder presses the specified FDK. Normally one FDK is used to specify whether the amount entry is correct and another to specify incorrect. The other keys are inactive. Enter 255 to deactivate any FDK or touch area. (Base 10 range 000-254 or 256-999) (Base 36 range 000-254 or 256-ZZZ)"/>
+    <Part7  value = "###"   mask = "STATE_OK" name = "FDK ‘B’ (or ‘H’)" description = "State number to which the terminal goes if the cardholder presses the specified FDK. Normally one FDK is used to specify whether the amount entry is correct and another to specify incorrect. The other keys are inactive. Enter 255 to deactivate any FDK or touch area. (Base 10 range 000-254 or 256-999) (Base 36 range 000-254 or 256-ZZZ)"/>
+    <Part8  value = "###"   mask = "STATE_OK" name = "FDK ‘C’ (or ‘G’)" description = "State number to which the terminal goes if the cardholder presses the specified FDK. Normally one FDK is used to specify whether the amount entry is correct and another to specify incorrect. The other keys are inactive. Enter 255 to deactivate any FDK or touch area. (Base 10 range 000-254 or 256-999) (Base 36 range 000-254 or 256-ZZZ)"/>
+    <Part9  value = "###"   mask = "STATE_OK" name = "FDK ‘D’ (or ‘F’)" description = "State number to which the terminal goes if the cardholder presses the specified FDK. Normally one FDK is used to specify whether the amount entry is correct and another to specify incorrect. The other keys are inactive. Enter 255 to deactivate any FDK or touch area. (Base 10 range 000-254 or 256-999) (Base 36 range 000-254 or 256-ZZZ)"/>
+    <Part10 value = "###"   mask = "STATE_EXTENSION" name = "Extension State Number" description = "State number of the Extension state."/>
+    <Part11  value = "###"   mask = "STATE_EXTENDED" name = "State extended" description = "State extended"/>
+    <Part12  value = "#"     mask = "TYPE"   name = "Type" description = "Extension to State R"/>
+    <Part13  value = "###"   mask = "DATA" name = "Document Amount Buffer" description = "This field determines which buffer the amount entered will be stored in:\r\n000 - Amount buffer\r\n001 - Buffer B.\r\n002 - Buffer C"/>
+    <Part14  value = "###"   mask = "DATA" name = "Amount Display Screen Number" description = "Overlay screen for setting the cursor position on the cardholder screen. This screen optionally defines the initial display format before amount entry by the cardholder. The cursor should be set on the left-hand side of the echo field on the screen. This is space filled until the required start position for the currency character is reached. For details, see “International Currency Display Format” on page 3-31.\r\nThe default echo field for eight digits is: bbbb$b0.00 where b = space.\r\nThe default echo field for twelve digits is: bbbbbbbb$b0.00 where b = space."/>
+    <Part15  value = "###"   mask = "DATA" name = "Start CAV command" description = "Not used by Advance NDC."/>
+    <Part16  value = "###"   mask = "DATA" name = "Language Dependent Screen Flag" description = "This flag determines if the screen defined in table entry 3 of this extension state is language dependent:\r\n000 - Not language dependent\r\n001 - Language dependent, regardless of language group size."/>
+    <Part17  value = "###"   mask = "RESERVED" name = "Must be 000" description = "Reserved"/>
+    <Part18  value = "###"   mask = "RESERVED" name = "Must be 000" description = "Reserved"/>
+    <Part19  value = "###"   mask = "RESERVED" name = "Must be 000" description = "Reserved"/>
+    <Part10 value = "###"   mask = "RESERVED" name = "Must be 000" description = "Reserved"/>
+  </State>
+  <State name = "S" extended = "1">
+    <Part1  value = "###"   mask = "NUMBER" name = "State number" description = "State number"/>
+    <Part2  value = "#"     mask = "TYPE"   name = "Type" description = "Language Code Switch State"/>
+    <Part3  value = "###"   mask = "STATE_ERROR" name = "No Language Code Next State Number" description = "State number to which the terminal goes if the language code is illegal or cannot be read."/>
+    <Part4  value = "###"   mask = "STATE_OK" name = "Language Code = 0 Next State" description = "State number to which the terminal goes if the language code is 0."/>
+    <Part5  value = "###"   mask = "STATE_OK" name = "Language Code = 1 Next State" description = "State number to which the terminal goes if the language code is 1."/>
+    <Part6  value = "###"   mask = "STATE_OK" name = "Language Code = 2 Next State" description = "State number to which the terminal goes if the language code is 2."/>
+    <Part7  value = "###"   mask = "STATE_OK" name = "Language Code = 3 Next State" description = "State number to which the terminal goes if the language code is 3."/>
+    <Part8  value = "###"   mask = "STATE_OK" name = "Language Code = 4 Next State" description = "State number to which the terminal goes if the language code is 4."/>
+    <Part9  value = "###"   mask = "STATE_OK" name = "Language Code = 5 Next State" description = "State number to which the terminal goes if the language code is 5."/>
+    <Part10 value = "###"   mask = "STATE_EXTENSION" name = "Extension state number" description = "State number of the Extension state containing the next states for language codes 6-9.\r\nA value of 255 means that there is no Extension state, and language codes 6-9 cause the No Language Code next state exit to be taken."/>
+    <Part11 value = "###"   mask = "STATE_EXTENDED" name = "State extended" description = "State extended"/>
+    <Part12 value = "#"     mask = "TYPE"   name = "Type" description = "Extension to State S"/>
+    <Part13 value = "###"   mask = "STATE_OK" name = "Language Code = 6 Next State" description = "State number to which the terminal goes if the language code is 6."/>
+    <Part14 value = "###"   mask = "STATE_OK" name = "Language Code = 7 Next State" description = "State number to which the terminal goes if the language code is 7."/>
+    <Part15 value = "###"   mask = "STATE_OK" name = "Language Code = 8 Next State" description = "State number to which the terminal goes if the language code is 8."/>
+    <Part16 value = "###"   mask = "STATE_OK" name = "Language Code = 9 Next State" description = "State number to which the terminal goes if the language code is 9."/>
+    <Part17 value = "###"   mask = "RESERVED" name = "Must be 000" description = "Reserved"/>
+    <Part18 value = "###"   mask = "RESERVED" name = "Must be 000" description = "Reserved"/>
+    <Part19 value = "###"   mask = "RESERVED" name = "Must be 000" description = "Reserved"/>
+    <Part20 value = "###"   mask = "RESERVED" name = "Must be 000" description = "Reserved"/>
+  </State>
+  <State name = "T" extended = "1">
+    <Part1  value = "###"   mask = "NUMBER" name = "State number" description = "State number"/>
+    <Part2  value = "#"     mask = "TYPE"   name = "Type" description = "Card Read - PIN Entry Initiation State"/>
+    <Part3  value = "###"   mask = "SCREEN_DISPLAY" name = "Screen Number" description = "Display screen that prompts the cardholder to enter a card. While the terminal is waiting for a card entry, this screen will be displayed."/>
+    <Part4  value = "###"   mask = "STATE_OK" name = "Good Read Next State Number" description = "State nu mber to which the terminal goes:\r\n1. Following a good read of the card if FITs are not used (Table Entry 3 in Extension state = 000)\r\nor\r\n2. If the Financial Institution number on the card matches a Financial Institution number in a FIT."/>
+    <Part5  value = "###"   mask = "SCREEN_ERROR" name = "Error (Misread) Screen Number" description = "Screen that is displayed if an unsuccessful read occurs; or for a DASH card, the cardholder fails to take the card before timer 72 expires."/>
+    <Part6  value = "###"   mask = "DATA" name = "Read Condition 1" description = "These three entries specify which card track(s) and/or chip data will be read. The possible values for these entries are the same as for the ‘A’ Card Read state in Table 2-4 on page 2-7."/>
+    <Part7  value = "###"   mask = "DATA" name = "Read Condition 2" description = "These three entries specify which card track(s) and/or chip data will be read. The possible values for these entries are the same as for the ‘A’ Card Read state in Table 2-4 on page 2-7."/>
+    <Part8  value = "###"   mask = "DATA" name = "Read Condition 3" description = "These three entries specify which card track(s) and/or chip data will be read. The possible values for these entries are the same as for the ‘A’ Card Read state in Table 2-4 on page 2-7."/>
+    <Part9  value = "###"   mask = "RESERVED" name = "Reserved" description = "This field is not used. The early card eject feature is not supported by this state. The card is always returned as specified by the Transaction Reply command message."/>
+    <Part10 value = "###"   mask = "STATE_EXTENSION" name = "Extension State Number" description = "State number of the Extension state containing information for parallel PIN entry."/>
+    <!--Extension1-->
+    <Part11 value = "###"   mask = "STATE_EXTENDED" name = "State extended" description = "State extended"/>
+    <Part12 value = "#"     mask = "TYPE"   name = "Type" description = "Extension to State T"/>
+    <Part13 value = "###"   mask = "SCREEN_DISPLAY" name = "Screen Number" description = "Display screen that prompts the cardholder to enter a PIN. This screen is displayed on card entry. The identified screen must leave the cursor positioned at the beginning of the PIN Entry display area. An ‘X’ is displayed for each key pressed. The Track 1 name cannot be displayed at this time because the card has not been read."/>
+    <Part14 value = "###"   mask = "STATE_OK" name = "No FIT Match Next State Number" description = "State number to which the terminal goes if the Financial Institution number on the card does not match any FIT. If FITs are not used, this entry must be 000. The No FIT match exit is also taken if the SST has a DASH reader and one of the chip connect bits is set and the ATR succeeds."/>
+    <Part15 value = "###"   mask = "STATE_OK" name = "Clear Key Mask" description = "A binary encoded value which specifies the FDKs or touch areas that are active as Clear keys during PIN entry. Each bit relates to an FDK or touch area. Bit 0 relates to FDK ‘A’ (or FDK ‘A’ touch area); bit 7 relates to FDK ‘I’ (or FDK ‘I’ touch area). If a bit is ‘1’, the relative FDK or touch area is active. If a bit is ‘0’, the relative FDK or touch area is inactive. See Table Note 17."/>
+    <Part16 value = "###"   mask = "STATE_OK" name = "Accept Key Mask" description = "A binary encoded value which specifies the FDKs or touch areas that are active as Accept keys during PIN entry. Each bit relates to an FDK or touch area. Bit 0 relates to FDK ‘A’ (or FDK ‘A’ touch area); bit 7 relates to FDK ‘I’ (or FDK ‘I’ touch area). If a bit is ‘1’, the relative FDK or touch area is active. If a bit is ‘0’, the relative FDK or touch area is inactive. See Table Note 17."/>
+    <Part17 value = "###"   mask = "SCREEN_DISPLAY" name = "Screen Number" description = "Display screen that prompts the cardholder to remove the card and wait - if the card reader is a DASH card reader, and a chip connect bit is set, but the ATR fails. This screen is displayed until the cardholder removes the card or timer 72 expires."/>
+    <Part18 value = "###"   mask = "RESERVED" name = "Must be 000" description = "Reserved"/>
+    <Part19 value = "###"   mask = "RESERVED" name = "Must be 000" description = "Reserved"/>
+    <Part20 value = "###"   mask = "RESERVED" name = "Must be 000" description = "Reserved"/>
+  </State>
+  <State name = "V" extended = "0">
+    <Part1  value = "###"   mask = "NUMBER" name = "State number" description = "State number"/>
+    <Part2  value = "#"     mask = "TYPE"   name = "Type" description = "Language Select From Card State"/>
+    <Part3  value = "###"   mask = "STATE_OK" name = "Next State Number" description = "State number to which the terminal goes after selecting the screen group."/>
+    <Part4  value = "###"   mask = "DATA" name = "Language Code" description = "Decimal number in the range 0-9 identifying the code for screen group 1."/>
+    <Part5  value = "###"   mask = "DATA" name = "Language Code" description = "Decimal number in the range 0-9 identifying the code for screen group 2."/>
+    <Part6  value = "###"   mask = "DATA" name = "Language Code" description = "Decimal number in the range 0-9 identifying the code for screen group 3."/>
+    <Part7  value = "###"   mask = "DATA" name = "Language Code" description = "Decimal number in the range 0-9 identifying the code for screen group 4."/>
+    <Part8  value = "###"   mask = "DATA" name = "Language Code" description = "Decimal number in the range 0-9 identifying the code for screen group 5."/>
+    <Part9  value = "###"   mask = "DATA" name = "Language Code" description = "Decimal number in the range 0-9 identifying the code for screen group 6."/>
+    <Part10 value = "###"   mask = "DATA" name = "Screen Group Size" description = "Number of screens in each language group. To specify 1000 screens, set this to 001."/>
+  </State>
+  <State name = "W" extended = "0">
+    <Part1  value = "###"   mask = "NUMBER" name = "State number" description = "State number"/>
+    <Part2  value = "#"     mask = "TYPE"   name = "Type" description = "FDK Switch State"/>
+    <Part3  value = "###"   mask = "STATE_OK" name = "FDK ‘A’ Next State Number" description = "State number to which the terminal goes depending on the key code stored in the FDK buffer"/>
+    <Part4  value = "###"   mask = "STATE_OK" name = "FDK ‘B’ Next State Number" description = "State number to which the terminal goes depending on the key code stored in the FDK buffer"/>
+    <Part5  value = "###"   mask = "STATE_OK" name = "FDK ‘C’ Next State Number" description = "State number to which the terminal goes depending on the key code stored in the FDK buffer"/>
+    <Part6  value = "###"   mask = "STATE_OK" name = "FDK ‘D’ Next State Number" description = "State number to which the terminal goes depending on the key code stored in the FDK buffer"/>
+    <Part7  value = "###"   mask = "STATE_OK" name = "FDK ‘F’ Next State Number" description = "State number to which the terminal goes depending on the key code stored in the FDK buffer"/>
+    <Part8  value = "###"   mask = "STATE_OK" name = "FDK ‘G’ Next State Number" description = "State number to which the terminal goes depending on the key code stored in the FDK buffer"/>
+    <Part9  value = "###"   mask = "STATE_OK" name = "FDK ‘H’ Next State Number" description = "State number to which the terminal goes depending on the key code stored in the FDK buffer"/>
+    <Part10 value = "###"   mask = "STATE_OK" name = "FDK ‘I’ Next State Number" description = "State number to which the terminal goes depending on the key code stored in the FDK buffer"/>
+  </State>
+  <State name = "X" extended = "1">
+    <Part1  value = "###"   mask = "NUMBER" name = "State number" description = "State number"/>
+    <Part2  value = "#"     mask = "TYPE"   name = "Type" description = "FDK Information Entry State"/>
+    <Part3  value = "###"   mask = "SCREEN_DISPLAY" name = "Screen Number" description = "Display screen that prompts key selection by cardholder."/>
+    <Part4  value = "###"   mask = "STATE_TIME_OUT" name = "Time-Out Next State Number" description = "State number to which the terminal goes if the cardholder fails to respond to the message within the permitted time limit. Enter 255 if the time-out function is not required."/>
+    <Part5  value = "###"   mask = "STATE_CANCEL" name = "Cancel Next State Number" description = "State number to which the terminal goes if the Cancel key is pressed."/>
+    <Part6  value = "###"   mask = "STATE_OK" name = "FDK Next State Number" description = "State number to which the terminal goes if an FDK or touch area is pressed."/>
+    <Part7  value = "###"   mask = "STATE_EXTENSION" name = "Extension State Number" description = "State number of Extension state containing assigned values for the eight FDKs or touch areas."/>
+    <Part8  value = "###"   mask = "DATA" name = "Buffer ID" description = "Identifies which buffer is to be edited and the number of zeros to add to the values specified in the Extension state:\r\n01X - General purpose buffer B.\r\n02X - General purpose buffer C\r\n03X - Amount buffer. See Table Note 19.\r\nX specifies the number of zeros in the range 0-9"/>
+    <Part9  value = "###"   mask = "DATA" name = "FDKs Active Mask" description = "Specifies the FDKs or touch areas that are active during this state. Each bit relates to an FDK or touch area. Bit 0 relates to FDK ‘A’ (or FDK ‘A’ touch area); bit 7 relates to FDK ‘I’ (or FDK ‘I’ touch area). If a bit is ‘1’ the relative FDK or touch area is active. If a bit is ‘0’ the relative FDK or touch area is inactive. See Table Note 18."/>
+    <Part10 value = "###"   mask = "RESERVED" name = "Must be 000" description = "Reserved"/>
+    
+    <Part11 value = "###"   mask = "STATE_EXTENDED" name = "State extended" description = "State extended"/>
+    <Part12 value = "#"     mask = "TYPE"   name = "Type" description = "Extension to State X"/>
+    <Part13 value = "###"   mask = "DATA" name = "Value stored if FDK ‘A’\r\n or FDK ‘A’ touch area pressed" description = "Each table entry contains a value that is stored in the buffer specified in the associated FDK Information Entry state table (table entry 7) if the specified FDK or touch area is pressed. (Range 000-999 or 000-ZZZ)"/>
+    <Part14 value = "###"   mask = "DATA" name = "Value stored if FDK ‘B’\r\n or FDK ‘B’ touch area pressed" description = "Each table entry contains a value that is stored in the buffer specified in the associated FDK Information Entry state table (table entry 7) if the specified FDK or touch area is pressed. (Range 000-999 or 000-ZZZ)"/>
+    <Part15 value = "###"   mask = "DATA" name = "Value stored if FDK ‘C’\r\n or FDK ‘C’ touch area pressed" description = "Each table entry contains a value that is stored in the buffer specified in the associated FDK Information Entry state table (table entry 7) if the specified FDK or touch area is pressed. (Range 000-999 or 000-ZZZ)"/>
+    <Part16 value = "###"   mask = "DATA" name = "Value stored if FDK ‘D’\r\n or FDK ‘D’ touch area pressed" description = "Each table entry contains a value that is stored in the buffer specified in the associated FDK Information Entry state table (table entry 7) if the specified FDK or touch area is pressed. (Range 000-999 or 000-ZZZ)"/>
+    <Part17 value = "###"   mask = "DATA" name = "Value stored if FDK ‘F’\r\n or FDK ‘F’ touch area pressed" description = "Each table entry contains a value that is stored in the buffer specified in the associated FDK Information Entry state table (table entry 7) if the specified FDK or touch area is pressed. (Range 000-999 or 000-ZZZ)"/>
+    <Part18 value = "###"   mask = "DATA" name = "Value stored if FDK ‘G’\r\n or FDK ‘G’ touch area pressed" description = "Each table entry contains a value that is stored in the buffer specified in the associated FDK Information Entry state table (table entry 7) if the specified FDK or touch area is pressed. (Range 000-999 or 000-ZZZ)"/>
+    <Part19 value = "###"   mask = "DATA" name = "Value stored if FDK ‘H’\r\n or FDK ‘H’ touch area pressed" description = "Each table entry contains a value that is stored in the buffer specified in the associated FDK Information Entry state table (table entry 7) if the specified FDK or touch area is pressed. (Range 000-999 or 000-ZZZ)"/>
+    <Part20 value = "###"   mask = "DATA" name = "Value stored if FDK ‘I’\r\n or FDK ‘I’ touch area pressed" description = "Each table entry contains a value that is stored in the buffer specified in the associated FDK Information Entry state table (table entry 7) if the specified FDK or touch area is pressed. (Range 000-999 or 000-ZZZ)"/>
+  </State>
+  <State name = "Y" extended = "2">
+    <Part1  value = "###"   mask = "NUMBER" name = "State number" description = "State number"/>
+    <Part2  value = "#"     mask = "TYPE"   name = "Type" description = "Eight FDK Selection Function State"/>
+    <Part3  value = "###"   mask = "SCREEN_DISPLAY" name = "Screen Number" description = "Display screen that prompts key selection by the cardholder."/>
+    <Part4  value = "###"   mask = "STATE_TIME_OUT" name = "Time-Out Next State Number" description = "State number to which the terminal goes if the cardholder does not respond to the message within the specified time limit. Enter 255 if the time-out function is not required."/>
+    <Part5  value = "###"   mask = "STATE_CANCEL" name = "Cancel Next State Number" description = "State number to which the terminal goes if the cardholder presses the Cancel key."/>
+    <Part6  value = "###"   mask = "STATE_OK" name = "FDK Next State Number" description = "State number to which the terminal goes if the cardholder presses an FDK or touch area."/>
+    <Part7  value = "###"   mask = "STATE_EXTENSION" name = "Extension State Number" description = "State number of Extension state containing assigned operation codes for the eight FDKs or touch areas. If there is no Extension state, enter 255."/>
+    <Part8  value = "###"   mask = "DATA" name = "Buffer positions" description = "If there is no Extension state, this defines the Operation Code buffer position to be edited by a value in the range ‘000’ to ‘007’.\r\nIf there is an Extension state, this specifies three bytes of the Operation Code buffer to be set to the values specified in the Extension state. Three numeric values, each in the range ‘0’ to ‘7’, are specified to define three positions in the 8 byte Operation Code buffer to be edited. These three values must be ordered to correspond with the edit characters in the Extension state. If no buffer positions or fewer than three buffer positions are to be edited, this is specified in the Extension state."/>
+    <Part9  value = "###"   mask = "DATA" name = "FDKs Active Mask" description = "Specifies the FDKs or touch areas that are active during this state. Each bit relates to an FDK or touch area. Bit 0 relates to FDK ‘A’ (or FDK ‘A’ touch area); bit 7 relates to FDK ‘I’ (or FDK ‘I’ touch area). If a bit is ‘1’ the relative FDK or touch area is active. If a bit is ‘0’ the relative FDK or touch area is inactive. See Table Note 20."/>
+    <Part10 value = "###"   mask = "STATE_EXTENSION" name = "Multi-Language Screens Selection Extension State Number" description = "If the state selects the multi-language screen base, this contains the Extension state number. If there is no Extension state, enter 000 or 255."/>
+    <Part11 value = "###"   mask = "STATE_EXTENDED" name = "State extended" description = "State extended"/>
+    <Part12 value = "#"     mask = "TYPE"   name = "Type" description = "Extension1 to State Y"/>
+    <Part13 value = "###"   mask = "DATA" name = "Operation Code stored if FDK ‘A’\r\n or FDK ‘A’ touch area is pressed." description = "Each table entry contains the Operation Code characters to be written to the Operation Code buffer if the specified FDK or touch area is pressed. Three characters are specified for each code, which must be in the range ‘A’ - ‘I’. They are written, in order, to the three positions specified in the associated Eight FDK Selection Function state table (table entry 7). Enter ‘@’ if no character is to be written to a specified position in the buffer.\r\nSee Table Note 21"/>
+    <Part14 value = "###"   mask = "DATA" name = "Operation Code stored if FDK ‘B’\r\n or FDK ‘B’ touch area is pressed." description = "Each table entry contains the Operation Code characters to be written to the Operation Code buffer if the specified FDK or touch area is pressed. Three characters are specified for each code, which must be in the range ‘A’ - ‘I’. They are written, in order, to the three positions specified in the associated Eight FDK Selection Function state table (table entry 7). Enter ‘@’ if no character is to be written to a specified position in the buffer.\r\nSee Table Note 21"/>
+    <Part15 value = "###"   mask = "DATA" name = "Operation Code stored if FDK ‘C’\r\n or FDK ‘C’ touch area is pressed." description = "Each table entry contains the Operation Code characters to be written to the Operation Code buffer if the specified FDK or touch area is pressed. Three characters are specified for each code, which must be in the range ‘A’ - ‘I’. They are written, in order, to the three positions specified in the associated Eight FDK Selection Function state table (table entry 7). Enter ‘@’ if no character is to be written to a specified position in the buffer.\r\nSee Table Note 21"/>
+    <Part16 value = "###"   mask = "DATA" name = "Operation Code stored if FDK ‘D’\r\n or FDK ‘D’ touch area is pressed." description = "Each table entry contains the Operation Code characters to be written to the Operation Code buffer if the specified FDK or touch area is pressed. Three characters are specified for each code, which must be in the range ‘A’ - ‘I’. They are written, in order, to the three positions specified in the associated Eight FDK Selection Function state table (table entry 7). Enter ‘@’ if no character is to be written to a specified position in the buffer.\r\nSee Table Note 21"/>
+    <Part17 value = "###"   mask = "DATA" name = "Operation Code stored if FDK ‘F’\r\n or FDK ‘F’ touch area is pressed." description = "Each table entry contains the Operation Code characters to be written to the Operation Code buffer if the specified FDK or touch area is pressed. Three characters are specified for each code, which must be in the range ‘A’ - ‘I’. They are written, in order, to the three positions specified in the associated Eight FDK Selection Function state table (table entry 7). Enter ‘@’ if no character is to be written to a specified position in the buffer.\r\nSee Table Note 21"/>
+    <Part18 value = "###"   mask = "DATA" name = "Operation Code stored if FDK ‘G’\r\n or FDK ‘G’ touch area is pressed." description = "Each table entry contains the Operation Code characters to be written to the Operation Code buffer if the specified FDK or touch area is pressed. Three characters are specified for each code, which must be in the range ‘A’ - ‘I’. They are written, in order, to the three positions specified in the associated Eight FDK Selection Function state table (table entry 7). Enter ‘@’ if no character is to be written to a specified position in the buffer.\r\nSee Table Note 21"/>
+    <Part19 value = "###"   mask = "DATA" name = "Operation Code stored if FDK ‘H’\r\n or FDK ‘H’ touch area is pressed." description = "Each table entry contains the Operation Code characters to be written to the Operation Code buffer if the specified FDK or touch area is pressed. Three characters are specified for each code, which must be in the range ‘A’ - ‘I’. They are written, in order, to the three positions specified in the associated Eight FDK Selection Function state table (table entry 7). Enter ‘@’ if no character is to be written to a specified position in the buffer.\r\nSee Table Note 21"/>
+    <Part20 value = "###"   mask = "DATA" name = "Operation Code stored if FDK ‘I’\r\n or FDK ‘I’ touch area is pressed." description = "Each table entry contains the Operation Code characters to be written to the Operation Code buffer if the specified FDK or touch area is pressed. Three characters are specified for each code, which must be in the range ‘A’ - ‘I’. They are written, in order, to the three positions specified in the associated Eight FDK Selection Function state table (table entry 7). Enter ‘@’ if no character is to be written to a specified position in the buffer.\r\nSee Table Note 21"/>
+    <Part21 value = "###"   mask = "STATE_EXTENDED" name = "State extended" description = "State extended"/>
+    <Part22 value = "#"     mask = "TYPE"   name = "Type" description = "Extension2 to State Y"/>
+    <Part23 value = "###"   mask = "DATA" name = "Screen Base if FDK ‘A’\r\n or FDK ‘A’ touch area is pressed" description = "Each table entry contains the screen number of the first screen of each language group. The initial base is 000, and all unused fields should contain this value.\r\nSee Table Note 22"/>
+    <Part24 value = "###"   mask = "DATA" name = "Screen Base if FDK ‘B’\r\n or FDK ‘B’ touch area is pressed" description = "Each table entry contains the screen number of the first screen of each language group. The initial base is 000, and all unused fields should contain this value.\r\nSee Table Note 22"/>
+    <Part25 value = "###"   mask = "DATA" name = "Screen Base if FDK ‘C’\r\n or FDK ‘C’ touch area is pressed" description = "Each table entry contains the screen number of the first screen of each language group. The initial base is 000, and all unused fields should contain this value.\r\nSee Table Note 22"/>
+    <Part26 value = "###"   mask = "DATA" name = "Screen Base if FDK ‘D’\r\n or FDK ‘D’ touch area is pressed" description = "Each table entry contains the screen number of the first screen of each language group. The initial base is 000, and all unused fields should contain this value.\r\nSee Table Note 22"/>
+    <Part27 value = "###"   mask = "DATA" name = "Screen Base if FDK ‘F’\r\n or FDK ‘F’ touch area is pressed" description = "Each table entry contains the screen number of the first screen of each language group. The initial base is 000, and all unused fields should contain this value.\r\nSee Table Note 22"/>
+    <Part28 value = "###"   mask = "DATA" name = "Screen Base if FDK ‘G’\r\n or FDK ‘G’ touch area is pressed" description = "Each table entry contains the screen number of the first screen of each language group. The initial base is 000, and all unused fields should contain this value.\r\nSee Table Note 22"/>
+    <Part29 value = "###"   mask = "DATA" name = "Screen Base if FDK ‘H’\r\n or FDK ‘H’ touch area is pressed" description = "Each table entry contains the screen number of the first screen of each language group. The initial base is 000, and all unused fields should contain this value.\r\nSee Table Note 22"/>
+    <Part30 value = "###"   mask = "DATA" name = "Screen Base if FDK ‘I’\r\n or FDK ‘I’ touch area is pressed" description = "Each table entry contains the screen number of the first screen of each language group. The initial base is 000, and all unused fields should contain this value.\r\nSee Table Note 22"/>
+  </State>
+  <State name = "b" extended = "1">
+    <Part1  value = "###"   mask = "NUMBER" name = "State number" description = "State number"/>
+    <Part2  value = "#"     mask = "TYPE"   name = "Type" description = "Customer-Selectable PIN State"/>
+    <Part3  value = "###"   mask = "SCREEN_DISPLAY" name = "First Entry Screen Number" description = "Display screen that prompts the cardholder to enter the PIN the first time."/>
+    <Part4  value = "###"   mask = "STATE_TIME_OUT" name = "Time-Out Next State Number" description = "State number to which the terminal goes if the cardholder does not make a CSP entry within the specified time limit. Enter 255 if the time-out function is not required."/>
+    <Part5  value = "###"   mask = "STATE_CANCEL" name = "Cancel Next State Number" description = "State number to which the terminal goes if the cardholder presses the Cancel key to stop the CSP transaction."/>
+    <Part6  value = "###"   mask = "STATE_OK" name = "Good Next State Number" description = "State number to which the terminal goes if the cardholder enters a matching pair of new PIN values."/>
+    <Part7  value = "###"   mask = "STATE_ERROR" name = "CSP Fail Next State Number" description = "State number to which the terminal goes if the cardholder fails to enter a matching pair of new PIN digits or the maximum number of retries for local PIN checking is reached. This is also taken if: \r\n* There is no FIT match.\r\n* PIN block generation fails. Note that the option to send the PIN buffer irrespective of failure does not operate."/>
+    <Part8  value = "###"   mask = "SCREEN_DISPLAY" name = "Second Entry Screen Number" description = "Display screen used to ask for confirmation of the CSP."/>
+    <Part9  value = "###"   mask = "SCREEN_DISPLAY" name = "Mis-Match First Entry Screen Number" description = "Display screen that replaces the screen for table entry 2 on each attempt after a CSP pair attempt did not match or an error has occurred and there are still further retries allowed."/>
+    <Part10 value = "###"   mask = "STATE_EXTENSION" name = "Extension State Number" description = "State number of the Extension state."/>
+    <Part11 value = "###"   mask = "STATE_EXTENDED" name = "State extended" description = "State extended"/>
+    <Part12 value = "#"     mask = "TYPE"   name = "Type" description = "Extension to State b"/>
+    <Part13 value = "###"   mask = "DATA" name = "Number of attempts allowed\r\n to enter a matching CSP pair" description = "Limits the number of attempts the cardholder may make to select a new PIN. A value of 0 is no limit."/>
+    <Part14 value = "###"   mask = "DATA" name = "Use local verification of\r\n new PIN pair attempts" description = "Specifies which attempts are to be verified locally:\r\n0 - Do not verify locally. Make attempts available in transaction request fields ‘U’ and ‘V’.\r\n1 - Verify both attempts locally. Result available in transaction request field ‘U’. This option is not possible when using Banksys PIN block encryption. A random number is used as part of the  encryption and therefore no two consecutive keys will be the same. If it is selected the CSP Fail Next State will be taken when an attempt to enter PINs is made. See Table Note 23"/>
+    <Part15 value = "###"   mask = "RESERVED" name = "Must be 000" description = "Reserved."/>
+    <Part16 value = "###"   mask = "RESERVED" name = "Must be 000" description = "Reserved."/>
+    <Part17 value = "###"   mask = "RESERVED" name = "Must be 000" description = "Reserved."/>
+    <Part18 value = "###"   mask = "RESERVED" name = "Must be 000" description = "Reserved."/>
+    <Part19 value = "###"   mask = "RESERVED" name = "Must be 000" description = "Reserved."/>
+    <Part20 value = "###"   mask = "RESERVED" name = "Must be 000" description = "Reserved."/>
+  </State>
+  <State name = "d" extended = "0">
+    <Part1  value = "###"   mask = "NUMBER" name = "State number" description = "State number"/>
+    <Part2  value = "#"     mask = "TYPE"   name = "Type" description = "Exit States"/>
+    <Part3  value = "###"   mask = "" name = "" description = ""/>
+    <Part4  value = "###"   mask = "" name = "" description = ""/>
+    <Part5  value = "###"   mask = "" name = "" description = ""/>
+    <Part6  value = "###"   mask = "" name = "" description = ""/>
+    <Part7  value = "###"   mask = "" name = "" description = ""/>
+    <Part8  value = "###"   mask = "" name = "" description = ""/>
+    <Part9  value = "###"   mask = "" name = "" description = ""/>
+    <Part10 value = "###"   mask = "" name = "" description = ""/>
+  </State>
+  <State name = "e" extended = "0">
+    <Part1  value = "###"   mask = "NUMBER" name = "State number" description = "State number"/>
+    <Part2  value = "#"     mask = "TYPE"   name = "Type" description = "Exit States"/>
+    <Part3  value = "###"   mask = "" name = "" description = ""/>
+    <Part4  value = "###"   mask = "" name = "" description = ""/>
+    <Part5  value = "###"   mask = "" name = "" description = ""/>
+    <Part6  value = "###"   mask = "" name = "" description = ""/>
+    <Part7  value = "###"   mask = "" name = "" description = ""/>
+    <Part8  value = "###"   mask = "" name = "" description = ""/>
+    <Part9  value = "###"   mask = "" name = "" description = ""/>
+    <Part10 value = "###"   mask = "" name = "" description = ""/>
+  </State>
+  <State name = "f" extended = "0">
+    <Part1  value = "###"   mask = "NUMBER" name = "State number" description = "State number"/>
+    <Part2  value = "#"     mask = "TYPE"   name = "Type" description = "Exit States"/>
+    <Part3  value = "###"   mask = "" name = "" description = ""/>
+    <Part4  value = "###"   mask = "" name = "" description = ""/>
+    <Part5  value = "###"   mask = "" name = "" description = ""/>
+    <Part6  value = "###"   mask = "" name = "" description = ""/>
+    <Part7  value = "###"   mask = "" name = "" description = ""/>
+    <Part8  value = "###"   mask = "" name = "" description = ""/>
+    <Part9  value = "###"   mask = "" name = "" description = ""/>
+    <Part10 value = "###"   mask = "" name = "" description = ""/>
+  </State>
+  <State name = "g" extended = "0">
+    <Part1  value = "###"   mask = "NUMBER" name = "State number" description = "State number"/>
+    <Part2  value = "#"     mask = "TYPE"   name = "Type" description = "Exit States"/>
+    <Part3  value = "###"   mask = "" name = "" description = ""/>
+    <Part4  value = "###"   mask = "" name = "" description = ""/>
+    <Part5  value = "###"   mask = "" name = "" description = ""/>
+    <Part6  value = "###"   mask = "" name = "" description = ""/>
+    <Part7  value = "###"   mask = "" name = "" description = ""/>
+    <Part8  value = "###"   mask = "" name = "" description = ""/>
+    <Part9  value = "###"   mask = "" name = "" description = ""/>
+    <Part10 value = "###"   mask = "" name = "" description = ""/>
+  </State>
+  <State name = "k" extended = "0">
+    <Part1  value = "###"   mask = "NUMBER" name = "State number" description = "State number"/>
+    <Part2  value = "#"     mask = "TYPE"   name = "Type" description = "Smart FIT Check State"/>
+    <Part3  value = "###"   mask = "RESERVED" name = "Reserved (000)" description = "Not used - set to 0."/>
+    <Part4  value = "###"   mask = "STATE_OK" name = "Good Read Next State Number" description = "State number to which the terminal goes if the Financial Institution number on the card matches a Financial Institution number in the FIT."/>
+    <Part5  value = "###"   mask = "RESERVED" name = "Reserved (000)" description = "Not used - set to 0."/>
+    <Part6  value = "###"   mask = "RESERVED" name = "Reserved (000)" description = "Not used - set to 0."/>
+    <Part7  value = "###"   mask = "RESERVED" name = "Reserved (000)" description = "Not used - set to 0."/>
+    <Part8  value = "###"   mask = "RESERVED" name = "Reserved (000)" description = "Not used - set to 0."/>
+    <Part9  value = "###"   mask = "DATA" name = "Card Return Flag" description = "Tells the terminal when the card should be returned to the cardholder:\r\n000 - eject the card immediately\r\n001 - return the card as specified by a Transaction Reply message."/>
+    <Part10 value = "###"   mask = "STATE_ERROR" name = "No FIT Match Next State Number" description = "This is the state executed if the FIT check fails.\r\nThe executed state may be a Close state, or a return to another C-Exit state which places the chip data in the read buffers before calling another Smart FIT Check state. If FITs are not used, this entry must be 000."/>
+  </State>
+  <State name = "m" extended = "3">
+    <Part1  value = "###"   mask = "NUMBER" name = "State number" description = "State number"/>
+    <Part2  value = "#"     mask = "TYPE"   name = "Type" description = "PIN and Language Select State"/>
+    <Part3  value = "###"   mask = "SCREEN_DISPLAY" name = "Screen Number" description = "Display screen that prompts the cardholder to enter the PIN and select a language for the first time. This screen, which is displayed on entering the PIN and Language Select state, must leave the cursor at the start of the PIN Entry display area. An asterisk (*) is displayed for each key pressed."/> 
+    <Part4  value = "###"   mask = "STATE_TIME_OUT" name = "Time-Out Next State Number" description = "State number to which the terminal goes if the cardholder does  not enter the PIN within the permitted time limit. If the time-out function is not required, enter state number 255."/>
+    <Part5  value = "###"   mask = "STATE_CANCEL" name = "Cancel Next State Number" description = "State number to which the terminal goes if the cardholder presses the Cancel key before the maximum number of digits specified for the PIN have been entered."/>
+    <Part6  value = "###"   mask = "STATE_EXTENSION" name = "Next State Options Extension State Number" description = "State number of Extension state containing the PIN options; the Next State numbers that the terminal enters after the PIN is entered; and the FDKs 'Enter' Key Mask."/>
+    <Part7  value = "###"   mask = "STATE_EXTENSION" name = "Operation Codes Extension State Number" description = "This entry is the same as State ‘Y’, table entry 6. State number of the Extension state containing assigned operation codes for the eight FDKs or touch areas. If there is no Extension state, enter 255."/>
+    <Part8  value = "###"   mask = "DATA" name = "Buffer Positions" description = "This entry is the same as State ‘Y’, table entry 7. If there is no Extension state, this defines the Operation Code buffer position to be edited by a value in the range '000' to '007'.  If there is an Extension state, this specifies three bytes of the Operation Code buffer to be set to the values specified in the Extension state. Three numeric values, each in the range '0' to '7', are specified to define three positions in the 8 byte Operation Code buffer to be edited. These three values must be ordered to correspond with the edit characters in the Extension state. If no buffer positions or fewer than three buffer positions are to be edited, this is specified in the Extension state. Values greater than 7 will be ignored."/>
+    <Part9  value = "###"   mask = "DATA" name = "FDKs Active Mask" description = "This entry is the same as State ‘Y’, table entry 8. Specifies the FDKs or touch areas that are active during this state. Each bit relates to an FDK or touch area. Bit 0 relates to FDK 'A' (or FDK 'A' touch area); bit 7 relates to FDK 'I' (or FDK 'I' touch area). If a bit is '1' the relative FDK or touch area is active. If a bit is '0' the relative FDK or touch area is inactive. Values above 255 will be accepted, but only bits 0 - 7 will be used. See Table Note 24."/>
+    <Part10 value = "###"   mask = "STATE_EXTENSION" name = "Multi-Language Screens Selection Extension State Number" description = "This entry is the same as State ‘Y’, table entry 9. If the state selects the multi-language screen base, this contains the Extension state number. If there is no Extension state, enter 000 or 255."/>
+
+    <Part11 value = "###"   mask = "STATE_EXTENDED" name = "State extended" description = "State extended"/>
+    <Part12 value = "#"     mask = "TYPE"   name = "Type" description = "Extension1 to State m"/>
+    <Part13 value = "###"   mask = "STATE_ERROR" name = "No PIN Entered Next State Numbe" description = "State number to which the terminal goes if the cardholder does not enter a PIN, but selects a language from an active FDK or touch area. The terminal normally enters the PIN Entry State (state 'B' or 'M') if this occurs."/>
+    <Part14 value = "###"   mask = "STATE_OK" name = "Local PIN Check-Good PIN Next State Number" description = "This entry is the same as State ‘B’, table entry 5. State number to which the terminal goes after verification of a correct PIN entry."/>
+    <Part15 value = "###"   mask = "STATE_ERROR" name = "Local PIN Check-Maximum Bad PINs" description = "This entry is the same as State ‘B’, table entry 6. State number to which the terminal goes if the correct PIN has not been entered after the number of attempts allowed by table entry 7. The terminal normally enters a Close state if this occurs. See Table Note 25."/>
+    <Part16 value = "###"   mask = "STATE_ERROR" name = "Local PIN Check Error Next State Number" description = "State number to which the terminal goes if an incorrect PIN is entered. The terminal normally enters the PIN Entry State (state 'B' or 'M') in the language selected from this state as you cannot go back to the 'm' state, since there is no error screen for bad PIN entry. This state type should match the state type identified in table entry 8 below."/>
+    <Part17 value = "###"   mask = "STATE_ERROR" name = "Remote PIN Check Next State Number" description = "This entry is the same as State ‘B’, table entry 8. State number to which the terminal goes when local PIN verification is not performed."/>
+    <Part18 value = "###"   mask = "STATE_ERROR" name = "Local PIN Check Maximum PIN Retries" description = "This entry is the same as State ‘B’, table entry 9. Maximum number of incorrect PIN entries allowed before the terminal enters the state determined by table entry 4. See Table Note 25."/>
+    <Part19 value = "###"   mask = "STATE_ERROR" name = "State 'B' or 'M' Option" description = "Specifies whether to use Track 3 retries on the card or from the state table. Enter '000' if PIN Entry State B functionality is needed. Enter '001' if Enhanced PIN Entry State M functionality is needed."/>
+    <Part20 value = "###"   mask = "STATE_ERROR" name = "FDK Enter Key Default Mask" description = "Specifies the FDK or touch area that is the default language if the 'Enter' key on the key pad is pressed instead of an FDK. Each bit relates to an FDK or touch area. Bit 0 relates to FDK 'A' (or FDK 'A' touch area); bit 7 relates to FDK 'I' (or FDK 'I' touch area). Set the bit to a '1' to make that FDK the default 'Enter' key value. The mapped FDK will be set even if the FDK is inactive. Only one bit should be set to '1'; all other bits should be '0'. If all bits are set to '0', the 'Enter' key will not be active."/>
+
+    <Part21 value = "###"   mask = "STATE_EXTENDED" name = "State extended" description = "State extended"/>
+    <Part22 value = "#"     mask = "TYPE"   name = "Type" description = "Extension2 to State m"/>
+    <Part23 value = "###"   mask = "DATA" name = "Operation Code stored if FDK\r\n 'A' or FDK 'A' touch area pressed" description = "Each table entry contains the Operation Code characters to be written to the Operation Code buffer if the specified FDK or touch area is pressed.\r\nThree characters are specified for each code, which must be in the range 'A' - 'I'. They are written, in order, to the three positions specified in the associated Eight FDK Selection Function State table (table entry 7). Enter '@' if no character is to be written to a specified position in the buffer.\r\nNote: If specifying characters in the range 'A' to 'I' and '@' causes difficulties with the state table editor, you can use values '1' to '9' and '0' instead."/> 
+    <Part24 value = "###"   mask = "DATA" name = "Operation Code stored if FDK\r\n 'B' or FDK 'B' touch area pressed" description = "Each table entry contains the Operation Code characters to be written to the Operation Code buffer if the specified FDK or touch area is pressed.\r\nThree characters are specified for each code, which must be in the range 'A' - 'I'. They are written, in order, to the three positions specified in the associated Eight FDK Selection Function State table (table entry 7). Enter '@' if no character is to be written to a specified position in the buffer.\r\nNote: If specifying characters in the range 'A' to 'I' and '@' causes difficulties with the state table editor, you can use values '1' to '9' and '0' instead."/>
+    <Part25 value = "###"   mask = "DATA" name = "Operation Code stored if FDK\r\n 'C' or FDK 'C' touch area pressed" description = "Each table entry contains the Operation Code characters to be written to the Operation Code buffer if the specified FDK or touch area is pressed.\r\nThree characters are specified for each code, which must be in the range 'A' - 'I'. They are written, in order, to the three positions specified in the associated Eight FDK Selection Function State table (table entry 7). Enter '@' if no character is to be written to a specified position in the buffer.\r\nNote: If specifying characters in the range 'A' to 'I' and '@' causes difficulties with the state table editor, you can use values '1' to '9' and '0' instead."/>
+    <Part26 value = "###"   mask = "DATA" name = "Operation Code stored if FDK\r\n 'D' or FDK 'D' touch area pressed" description = "Each table entry contains the Operation Code characters to be written to the Operation Code buffer if the specified FDK or touch area is pressed.\r\nThree characters are specified for each code, which must be in the range 'A' - 'I'. They are written, in order, to the three positions specified in the associated Eight FDK Selection Function State table (table entry 7). Enter '@' if no character is to be written to a specified position in the buffer.\r\nNote: If specifying characters in the range 'A' to 'I' and '@' causes difficulties with the state table editor, you can use values '1' to '9' and '0' instead."/>
+    <Part27 value = "###"   mask = "DATA" name = "Operation Code stored if FDK\r\n 'F' or FDK 'F' touch area pressed" description = "Each table entry contains the Operation Code characters to be written to the Operation Code buffer if the specified FDK or touch area is pressed.\r\nThree characters are specified for each code, which must be in the range 'A' - 'I'. They are written, in order, to the three positions specified in the associated Eight FDK Selection Function State table (table entry 7). Enter '@' if no character is to be written to a specified position in the buffer.\r\nNote: If specifying characters in the range 'A' to 'I' and '@' causes difficulties with the state table editor, you can use values '1' to '9' and '0' instead."/>
+    <Part28 value = "###"   mask = "DATA" name = "Operation Code stored if FDK\r\n 'G' or FDK 'G' touch area pressed" description = "Each table entry contains the Operation Code characters to be written to the Operation Code buffer if the specified FDK or touch area is pressed.\r\nThree characters are specified for each code, which must be in the range 'A' - 'I'. They are written, in order, to the three positions specified in the associated Eight FDK Selection Function State table (table entry 7). Enter '@' if no character is to be written to a specified position in the buffer.\r\nNote: If specifying characters in the range 'A' to 'I' and '@' causes difficulties with the state table editor, you can use values '1' to '9' and '0' instead."/>
+    <Part29 value = "###"   mask = "DATA" name = "Operation Code stored if FDK\r\n 'H' or FDK 'H' touch area pressed" description = "Each table entry contains the Operation Code characters to be written to the Operation Code buffer if the specified FDK or touch area is pressed.\r\nThree characters are specified for each code, which must be in the range 'A' - 'I'. They are written, in order, to the three positions specified in the associated Eight FDK Selection Function State table (table entry 7). Enter '@' if no character is to be written to a specified position in the buffer.\r\nNote: If specifying characters in the range 'A' to 'I' and '@' causes difficulties with the state table editor, you can use values '1' to '9' and '0' instead."/>
+    <Part30 value = "###"   mask = "DATA" name = "Operation Code stored if FDK\r\n 'I' or FDK 'I' touch area pressed" description = "Each table entry contains the Operation Code characters to be written to the Operation Code buffer if the specified FDK or touch area is pressed.\r\nThree characters are specified for each code, which must be in the range 'A' - 'I'. They are written, in order, to the three positions specified in the associated Eight FDK Selection Function State table (table entry 7). Enter '@' if no character is to be written to a specified position in the buffer.\r\nNote: If specifying characters in the range 'A' to 'I' and '@' causes difficulties with the state table editor, you can use values '1' to '9' and '0' instead."/>
+    
+    <Part31 value = "###"   mask = "STATE_EXTENDED" name = "State extended" description = "State extended"/>
+    <Part32 value = "#"     mask = "TYPE"   name = "Type" description = "Extension3 to State m"/>
+    <Part33 value = "###"   mask = "SCREEN_DISPLAY" name = "Screen Base if FDK 'A'\r\n or FDK 'A' touch area is pressed" description = "Each table entry contains the screen number of the first screen of each language group. The initial base is 000, and all unused fields should contain this value. See Table Note 26"/>
+    <Part34 value = "###"   mask = "SCREEN_DISPLAY" name = "Screen Base if FDK 'B'\r\n or FDK 'B' touch area is pressed" description = "Each table entry contains the screen number of the first screen of each language group. The initial base is 000, and all unused fields should contain this value. See Table Note 26"/>
+    <Part35 value = "###"   mask = "SCREEN_DISPLAY" name = "Screen Base if FDK 'C'\r\n or FDK 'C' touch area is pressed" description = "Each table entry contains the screen number of the first screen of each language group. The initial base is 000, and all unused fields should contain this value. See Table Note 26"/>
+    <Part36 value = "###"   mask = "SCREEN_DISPLAY" name = "Screen Base if FDK 'D'\r\n or FDK 'D' touch area is pressed" description = "Each table entry contains the screen number of the first screen of each language group. The initial base is 000, and all unused fields should contain this value. See Table Note 26"/>
+    <Part37 value = "###"   mask = "SCREEN_DISPLAY" name = "Screen Base if FDK 'F'\r\n or FDK 'F' touch area is pressed" description = "Each table entry contains the screen number of the first screen of each language group. The initial base is 000, and all unused fields should contain this value. See Table Note 26"/>
+    <Part38 value = "###"   mask = "SCREEN_DISPLAY" name = "Screen Base if FDK 'G'\r\n or FDK 'G' touch area is pressed" description = "Each table entry contains the screen number of the first screen of each language group. The initial base is 000, and all unused fields should contain this value. See Table Note 26"/>
+    <Part39 value = "###"   mask = "SCREEN_DISPLAY" name = "Screen Base if FDK 'H'\r\n or FDK 'H' touch area is pressed" description = "Each table entry contains the screen number of the first screen of each language group. The initial base is 000, and all unused fields should contain this value. See Table Note 26"/>
+    <Part40 value = "###"   mask = "SCREEN_DISPLAY" name = "Screen Base if FDK 'I'\r\n or FDK 'I' touch area is pressed" description = "Each table entry contains the screen number of the first screen of each language group. The initial base is 000, and all unused fields should contain this value. See Table Note 26"/>
+  </State>
+  <State name = ">" extended = "3">
+    <Part1  value = "###"   mask = "NUMBER" name = "State number" description = "State number"/>
+    <Part2  value = "#"     mask = "TYPE"   name = "Type" description = "Cash Accept State"/>
+    <Part3  value = "###"   mask = "DATA" name = "Cancel Key Mask" description = "Specifies the Cancel FDK which is active when the 'Please Enter Notes' screen is displayed. See Table Note 27 and Table Note 28."/>
+    <Part4  value = "###"   mask = "DATA" name = "Deposit Key Mask" description = "Specifies the Deposit FDK which is active when the Confirmation screen or Escrow Full screen is displayed. See Table Note 27 and Table Note 29"/>
+    <Part5  value = "###"   mask = "DATA" name = "Add More Key Mask" description = "Specifies the Add More FDK which is active when the Confirmation screen is displayed. See Table Note 27."/>
+    <Part6  value = "###"   mask = "DATA" name = "Refund Key Mask" description = "Specifies the Refund FDK which is active when the Confirmation screen or Escrow Full screen is displayed. See Table Note 27."/>
+    <Part7  value = "###"   mask = "STATE_EXTENSION" name = "Extension State 1" description = "State number for extension 1."/>
+    <Part8  value = "###"   mask = "STATE_EXTENSION" name = "Extension State 2" description = "State number for extension 2."/>
+    <Part9  value = "###"   mask = "STATE_EXTENSION" name = "Extension State 3" description = "State number for extension 3."/>
+    <Part10 value = "###"   mask = "RESERVED" name = "Reserved (000)" description = "Reserved for future use."/>
+
+    <Part11 value = "###"   mask = "STATE_EXTENDED" name = "State extended" description = "State extended"/>
+    <Part12 value = "#"     mask = "TYPE"   name = "Type" description = "Extension1 to State >"/>
+    <Part13 value = "###"   mask = "SCREEN_DISPLAY" name = "Please Enter Notes Screen" description = "This screen is displayed when the BNA has been successfully enabled (or re-enabled), to accept a cash deposit from the cardholder. See Table Note 30"/>
+    <Part14 value = "###"   mask = "SCREEN_DISPLAY" name = "Please Remove Notes Screen" description = "This screen is displayed when the BNA has refunded or rejected notes to the cardholder until the notes are removed, or timer 78 expires and the retract option is enabled. See Table Note 31"/>
+    <Part15 value = "###"   mask = "SCREEN_DISPLAY" name = "Confirmation Screen" description = "This screen is displayed when all the notes are at the escrow and are valid. The screen shows the number of notes of each denomination held at the escrow, and prompts the cardholder to add more notes, deposit the notes in the escrow, or request a refund. See “Confirmation Screens” on page 2-83"/>
+    <Part16 value = "###"   mask = "SCREEN_DISPLAY" name = "Hardware Error Screen" description = "This screen is displayed for 15 seconds when a hardware error (for example a note jam) occurs, so that the transaction cannot continue. See Table Note 32"/>
+    <Part17 value = "###"   mask = "SCREEN_DISPLAY" name = "Escrow Full Screen" description = "This screen is displayed when the maximum number of notes which can be held in the escrow is reached. See Table Note 33"/>
+    <Part18 value = "###"   mask = "SCREEN_DISPLAY" name = "Processing Notes Screen" description = "This screen is displayed while a bunch of notes is being processed after entry to the BNA."/>
+    <Part19 value = "###"   mask = "SCREEN_DISPLAY" name = "Please Remove More than 90 Notes Screen" description = "This screen is displayed when the BNA refunds notes to the cardholder because the number notes in the escrow exceeds the set capacity."/>
+    <Part20 value = "###"   mask = "RESERVED" name = "Reserved (000)" description = "Reserved for future use."/>
+
+    <Part21 value = "###"   mask = "STATE_EXTENDED" name = "State extended" description = "State extended"/>
+    <Part22 value = "#"     mask = "TYPE"   name = "Type" description = "Extension2 to State >"/>
+    <Part23 value = "###"   mask = "STATE_OK" name = "Good Next State Number" description = "State number the terminal proceeds to when the Deposit function has been selected."/>
+    <Part24 value = "###"   mask = "STATE_CANCEL" name = "Cancel Next State Number" description = "State number the terminal proceeds to if the cardholder presses the Cancel key to stop the Cash Deposit transaction."/>
+    <Part25 value = "###"   mask = "STATE_ERROR" name = "Device Error Next State Number" description = "State number the terminal proceeds to if an exception has occurred which may require subsequent action by Central. See Table Note 34 and Table Note 35"/>
+    <Part26 value = "###"   mask = "STATE_TIME_OUT" name = "Timeout Next State Number" description = "State number the terminal proceeds to if the cardholder fails to enter notes into the BNA before timer 77 expires, or fails to respond to the prompts on the Confirmation screen, and does not want more time."/>
+    <Part27 value = "###"   mask = "STATE_ERROR" name = "Notes at Refund Slot Next State Number" description = "State number the terminal proceeds to if the notes remain at the refund slot after timer 78 expires. Executed only if the retract option is not configured."/>
+    <Part28 value = "###"   mask = "RESERVED" name = "Reserved (000)" description = "Reserved for future use."/>
+    <Part29 value = "###"   mask = "RESERVED" name = "Reserved (000)" description = "Reserved for future use."/>
+    <Part30 value = "###"   mask = "RESERVED" name = "Reserved (000)" description = "Reserved for future use."/>
+
+    <Part31 value = "###"   mask = "STATE_EXTENDED" name = "State extended" description = "State extended"/>
+    <Part32 value = "#"     mask = "TYPE"   name = "Type" description = "Extension3 to State >"/>
+    <Part33 value = "###"   mask = "DATA" name = "Set denominations 1 - 12" description = "The three ASCII characters represent 4 bit nibble Hex values. These give three bitmaps, starting from the rightmost character. The individual bits set the denominations to active or inactive. For example, sending Hex values '10E' would set denominations 2, 3, 4 and 9 to active. All other denominations from 1 to 12 inclusive would be inactive. Active denomination type notes would then be accepted by the BNA.\r\nSee Table Note 36, Table Note 37 and Table Note 38\r\nHex values '10E' are broken down to binary as follows:\r\n 1 0 E\r\n0001 0000 1110\r\nTaking index 1 as the right most digit and index 12 as the left most digit, the active notes set will be notes indexed 2, 3, 4 and 9. See Table Note 39"/>
+    <Part34 value = "###"   mask = "DATA" name = "Set denominations 13 - 24" description = "The three ASCII  characters represent three bitmaps, starting from the rightmost character. The individual bits set the denominations to active or inactive. Bits 12 to 23 map to denominations 13 to 24 respectively. See Table Note 38"/>
+    <Part35 value = "###"   mask = "DATA" name = "Set denominations 25 - 36" description = "The three ASCII characters represent three bitmaps, starting from the rightmost character. The individual bits set the denominations to active or inactive. Bits 24 to 35 map to denominations 25 to 36 respectively. See Table Note 38"/>
+    <Part36 value = "###"   mask = "DATA" name = "Set denominations 37 - 48" description = "The three ASCII characters represent three bitmaps, starting from the rightmost character. The individual bits set the denominations to active or inactive. Bits 36 to 47 map to denominations 37 to 48 respectively. See Table Note 38"/>
+    <Part37 value = "###"   mask = "DATA" name = "Set denominations 49 - 50" description = "The three ASCII characters represent three bitmaps, starting from the rightmost character. The individual bits set the denominations to active or inactive. Bits 48 to 49 map to denominations 49 to 50 respectively. See Table Note 38"/>
+    <Part38 value = "###"   mask = "RESERVED" name = "Reserved (000)" description = "Reserved for future use."/>
+    <Part39 value = "###"   mask = "RESERVED" name = "Reserved (000)" description = "Reserved for future use."/>
+    <Part40 value = "###"   mask = "RESERVED" name = "Reserved (000)" description = "Reserved for future use."/>
+   </State>
+  <State name = "w" extended = "2">
+    <Part1  value = "###"   mask = "NUMBER" name = "State number" description = "State number"/>
+    <Part2  value = "#"     mask = "TYPE"   name = "Type" description = "Cheque Accept State"/>
+    <Part3  value = "###"   mask = "RESERVED" name = "Reserved (000)" description = "Reserved for future use"/>
+    <Part4  value = "###"   mask = "DATA" name = "Leave/Capture Option" description = "This entry defines the action to take if a physically unacceptable or jammed cheque is presented for return, but not taken:\r\n000 - Leave at throat\r\n001 - Capture unacceptable cheque to bin 1\r\nIf the returned cheque is unacceptable because it is too short and the table entry is set to capture the returned cheque, a jam may occur in the rear transport."/>
+    <Part5  value = "###"   mask = "DATA" name = "Cheque Entry Retries" description = "Represents the number of cheque entry retries the cardholder is allowed during the execution of the state. Retries may be allowed if a physically unacceptable or incorrectly orientated cheque is detected:\r\n000 - Do not allow cardholder retries\r\n001 - Allow one further retry following initial rejection\r\n002 - Allow two further retries\r\n003 - Allow three further retries\r\nAfter all permissible retries have failed, the CPM accepts a physically acceptable cheque and continues to process it, even if the codeline cannot be read. For example, if this entry is set to 003 the cardholder is allowed four attempts to correctly enter the cheque. If on the last attempt the codeline is not found, the cheque is accepted as valid, but no codeline read is done."/>
+    <Part6  value = "###"   mask = "DATA" name = "Image Lift" description = "Specifies whether a front and/or rear image is to be lifted, if hardware capabilities allow.\r\n000 - No cheque images are lifted\r\n001 - An image of the front of the cheque is lifted\r\n002 - An image of the rear of the cheque is lifted\r\n003 - An image of the front and rear of the cheque is lifted\r\nBy default the front image of the cheque is displayed. Screen C07 can be modified to display the rear image. Lifted front and rear images are deleted from the system during the Close State. See Table Note 40."/>
+    <Part7  value = "###"   mask = "STATE_EXTENSION" name = "Extension State 1" description = "State number for extension state 1. See “Extension 1 to State w” on page 2-87 If a value of 255 is used for this entry, this indicates there is no extension state 1."/>
+    <Part8  value = "###"   mask = "STATE_EXTENSION" name = "Extension State 2" description = "State number for extension state 2.See “Extension 2 to State w” on page 2-89 If a value of 255 is used for this entry, this indicates there is no extension state 2."/>
+    <Part9  value = "###"   mask = "DATA" name = "Cancel Key Mask" description = "Specifies the Cancel FDK which is active when the Please Insert Cheque and Further Processing screens are displayed. Each bit relates to an FDK, as follows:\r\nBit 0 - FDK A\r\nBit 1 - FDK B\r\n\r\nBit 2 - FDK C\r\nBit 3 - FDK D\r\nBit 4 - FDK F\r\nBit 5 - FDK G\r\nBit 6 - FDK H\r\nBit 7 - FDK I\r\nIf a bit is set to 1, the relevant Cancel FDK is active. If a bit is set to 0, the relevant FDK is inactive."/>
+    <Part10 value = "###"   mask = "DATA" name = "Deposit Key Mask" description = "Specifies the Deposit FDK which is active when the Further Processing screen is displayed. Each bit relates to an FDK, as follows:\r\nBit 0 - FDK A\r\nBit 1 - FDK B\r\nBit 2 - FDK C\r\nBit 3 - FDK D\r\nBit 4 - FDK F\r\nBit 5 - FDK G\r\nBit 6 - FDK H\r\nBit 7 - FDK I\r\nIf a bit is set to 1, the relevant Deposit FDK is active. If a bit is set to 0, the relevant FDK is inactive."/>
+
+    <Part11 value = "###"   mask = "STATE_EXTENDED" name = "State extended" description = "State extended"/>
+    <Part12 value = "#"     mask = "TYPE"   name = "Type" description = "Extension1 to State w"/>
+    <Part13 value = "###"   mask = "SCREEN_OK" name = "Please Insert Cheque Screen" description = "This screen is displayed when the CPM has been successfully enabled (or re-enabled) to accept a customer’s cheque.\r\nSee Table Note 41"/>
+    <Part14 value = "###"   mask = "SCREEN_OK" name = "Processing Cheque Screen" description = "This screen is displayed when the cheque has been successfully entered into the CPM."/>
+    <Part15 value = "###"   mask = "SCREEN_ERROR" name = "Unacceptable Cheque Screen" description = "This screen is displayed when a cheque cannot be accepted by the CPM.\r\n See Table Note 42"/>
+    <Part16 value = "###"   mask = "SCREEN_ERROR" name = "Incorrect Orientation Screen" description = "This screen is displayed when an incorrectly orientated cheque has been entered and retries still remain."/>
+    <Part17 value = "###"   mask = "SCREEN_DISPLAY" name = "Further Processing Screen" description = "This screen is displayed after the Processing Cheque screen, and may be used to display the lifted images."/>
+    <Part18 value = "###"   mask = "SCREEN_ERROR" name = "Cheque Captured Screen" description = "This screen is displayed when a cheque has been captured. Typically a cheque is captured if it is returned to the cardholder but not taken. This screen is displayed for the period defined by timer 87. See Table Note 43"/>
+    <Part19 value = "###"   mask = "SCREEN_ERROR" name = "Device Error Screen" description = "This screen is displayed when a hardware error such as a cheque jam condition occurs, preventing the transaction from being continued.\r\nThis screen is displayed for a fixed time of 15 seconds."/>
+    <Part20 value = "###"   mask = "SCREEN_DISPLAY" name = "Please Remove Cheque Screen" description = "This screen is displayed when the cheque is returned, and is waiting to be taken by the cardholder."/>
+
+    <Part21 value = "###"   mask = "STATE_EXTENDED" name = "State extended" description = "State extended"/>
+    <Part22 value = "#"     mask = "TYPE"   name = "Type" description = "Extension2 to State w"/>
+    <Part23 value = "###"   mask = "STATE_OK" name = "Cheque Already Present Next State Exit" description = "This exit is taken if a cheque is detected as already present in the CPM. The recommended next state is the Close state, to perform error recovery."/>
+    <Part24 value = "###"   mask = "STATE_ERROR" name = "No Exception Next State Exit" description = "This exit is taken if the cheque is accepted and processed without error, although the codeline may not have been read. The recommended next state is an Information Entry state, which prompts the cardholder to enter the amount on the cheque, and optionally displays the image lifted from the cheque.\r\nSee Table Note 42"/>
+    <Part25 value = "###"   mask = "STATE_EXCEPTION" name = "Exception Next State Exit" description = "This exit is taken when an exception has occurred (that is, a device failure occurs in the CPM). The recommended next state is the Close state, to perform error recovery.\r\nSee Table Note 44"/>
+    <Part26 value = "###"   mask = "STATE_CANCEL" name = "Customer Cancel/Timeout Next State Exit" description = "This exit is taken when the cardholder fails to insert a physically acceptable cheque within the required time or number of retries. The recommended next state is the 4 or 8 FDK Selection Function state from which the Cheque Deposit transaction was selected.\r\nSee Table Note 45."/>
+    <Part27 value = "###"   mask = "STATE_CAPTURED" name = "Cheque Captured Exit" description = "This exit is taken when the cardholder fails to take a returned cheque, which is then cleared to the CPM reject bin.\r\nSee Table Note 46"/>
+    <Part28 value = "###"   mask = "RESERVED" name = "Reserved (000)" description = "Reserved for future use."/>
+    <Part29 value = "###"   mask = "RESERVED" name = "Reserved (000)" description = "Reserved for future use."/>
+    <Part30 value = "###"   mask = "RESERVED" name = "Reserved (000)" description = "Reserved for future use."/>
+  </State>
+  <State name = "AND" extended = "2">
+    <Part1  value = "###"   mask = "NUMBER" name = "State number" description = "State number"/>
+    <Part2  value = "#"     mask = "TYPE"   name = "Type" description = "Barcode Read State"/>
+    <Part3  value = "###"   mask = "SCREEN_DISPLAY" name = "Screen Number" description = "Display screen prompting the cardholder to scan a barcode."/>
+    <Part4  value = "###"   mask = "STATE_OK" name = "Good barcode Read State Number" description = "State number the terminal goes to if a barcode has successfully been read and no Barcode Filter matches, or there is no exit defined for the Barcode Filter Index in the Extension States."/>
+    <Part5  value = "###"   mask = "STATE_CANCEL" name = "Cancel Next State Number" description = "State number that the terminal goes to if the barcode scan was cancelled by the customer. See Table Note 47"/>
+    <Part6  value = "###"   mask = "STATE_ERROR" name = "Error Next State Number" description = "State number that the terminal goes to if there is a problem reading the barcode, for example a barcode reader hardware or barcode reader configuration error. See Table Note 48"/>
+    <Part7  value = "###"   mask = "STATE_TIME_OUT" name = "Timeout Next State Number" description = "State number that the terminal goes to if the barcode scan times out. See Table Note 49"/>
+    <Part8  value = "###"   mask = "DATA" name = "Barcode Data Destination" description = "Destination buffer for barcode data\r\n0 Track3 buffer (default) (max 106 bytes)\r\n1 Track1 buffer (max 78 bytes)\r\n2 Track2 buffer (max 39 bytes)\r\n3 General Purpose buffers A and B (max 64 bytes)\r\n4 General Purpose buffers B and C (max 64 bytes)\r\n5 General Purpose buffers C and A (max 64 bytes)\r\n6 Barcode reader buffer identified by the character ‘e’ (max size limited by message size)\r\n7 Amount buffer (max 8 or 12 bytes, depending on configuration).See Table Note 50, Table Note 51, and Table Note 52."/>
+    <Part9  value = "###"   mask = "DATA" name = "Active Cancel FDK key mask" description = "The FDK keys(s) enabled to cancel the barcode scanning process. The Cancel key on the pinpad will always be enabled if there is a Cancel Exit defined."/>
+    <Part10 value = "###"   mask = "STATE_EXTENSION" name = "Extension State 1" description = "Extension State 1allows additional parameters to be added in the future, as all parameters in extension states 2 to N contain the Barcode Filter exit values."/>
+
+    <Part11 value = "###"   mask = "STATE_EXTENDED" name = "State extended" description = "State extended"/>
+    <Part12 value = "#"     mask = "TYPE"   name = "Type" description = "Extension to State 1 AND"/>
+    <Part13 value = "###"   mask = "RESERVED" name = "Reserved" description = "Must be ‘000’"/>
+    <Part14 value = "###"   mask = "RESERVED" name = "Reserved" description = "Must be ‘000’"/>
+    <Part15 value = "###"   mask = "RESERVED" name = "Reserved" description = "Must be ‘000’"/>
+    <Part16 value = "###"   mask = "RESERVED" name = "Reserved" description = "Must be ‘000’"/>
+    <Part17 value = "###"   mask = "RESERVED" name = "Reserved" description = "Must be ‘000’"/>
+    <Part18 value = "###"   mask = "RESERVED" name = "Reserved" description = "Must be ‘000’"/>
+    <Part19 value = "###"   mask = "RESERVED" name = "Reserved" description = "Must be ‘000’"/>
+    <Part20 value = "###"   mask = "STATE_EXTENSION" name = "Extension State 2" description = "Extension State, ‘000’ if there is no extension state."/>
+
+    <Part21 value = "###"   mask = "STATE_EXTENDED" name = "State extended" description = "State extended"/>
+    <Part22 value = "#"     mask = "TYPE"   name = "Type" description = "Extension to State 2 AND"/>
+    <Part23 value = "###"   mask = "STATE_OK" name = "Next State for a Barcode Filter match with index = ((Extension State n - 2)*7)." description = "State number that the terminal goes to if the Barcode matches the Barcode Filter with index equal to ((Extension State n - 2)*7). If this value is ‘000’ the Good Barcode Read Next State Exit is taken when the filter matches."/>
+    <Part24 value = "###"   mask = "STATE_OK" name = "Next State for a Barcode Filter match with index = ((Extension State n - 2)*7)+1." description = "State number that the terminal goes to if the Barcode matches the Barcode Filter with index equal to ((Extension State n - 2)*7)+1. If this value is ‘000’ the Good Barcode Read Next State Exit is taken when the filter matches."/>
+    <Part25 value = "###"   mask = "STATE_OK" name = "Next State for a Barcode Filter match with index = ((Extension State n - 2)*7)+2." description = "State number that the terminal goes to if the Barcode matches the Barcode Filter with index equal to ((Extension State n - 2)*7)+2. If this value is ‘000’ the Good Barcode Read Next State Exit is taken when the filter matches."/>
+    <Part26 value = "###"   mask = "STATE_OK" name = "Next State for a Barcode Filter match with index = ((Extension State n - 2)*7)+3." description = "State number that the terminal goes to if the Barcode matches the Barcode Filter with index equal to ((Extension State n - 2)*7)+3. If this value is ‘000’ the Good Barcode Read Next State Exit is taken when the filter matches."/>
+    <Part27 value = "###"   mask = "STATE_OK" name = "Next State for a Barcode Filter match with index = ((Extension State n - 2)*7)+4." description = "State number that the terminal goes to if the Barcode matches the Barcode Filter with index equal to ((Extension State n - 2)*7)+4. If this value is ‘000’ the Good Barcode Read Next State Exit is taken when the filter matches."/>
+    <Part28 value = "###"   mask = "STATE_OK" name = "Next State for a Barcode Filter match with index = ((Extension State n - 2)*7)+5." description = "State number that the terminal goes to if the Barcode matches the Barcode Filter with index equal to ((Extension State n - 2)*7)+5. If this value is ‘000’ the Good Barcode Read Next State Exit is taken when the filter matches."/>
+    <Part29 value = "###"   mask = "STATE_OK" name = "Next State for a Barcode Filter match with index = ((Extension State n - 2)*7)+6." description = "State number that the terminal goes to if the Barcode matches the Barcode Filter with index equal to ((Extension State n - 2)*7)+6. If this value is ‘000’ the Good Barcode Read Next State Exit is taken when the filter matches."/>
+    <Part30 value = "###"   mask = "STATE_EXTENSION" name = "Extension State 3" description = "Extension State, ‘000’ if there is no extension state."/>
+  </State>
+</STATES>
+<!--
+    <State name = "" extended = "">
+      <Part1  value = "###"   mask = "NUMBER" name = "State number" description = "State number"/>
+      <Part2  value = "#"     mask = "TYPE"   name = "Type" description = ""/>
+      <Part3  value = "###"   mask = "" name = "" description = ""/>
+      <Part4  value = "###"   mask = "" name = "" description = ""/>
+      <Part5  value = "###"   mask = "" name = "" description = ""/>
+      <Part6  value = "###"   mask = "" name = "" description = ""/>
+      <Part7  value = "###"   mask = "" name = "" description = ""/>
+      <Part8  value = "###"   mask = "" name = "" description = ""/>
+      <Part9  value = "###"   mask = "" name = "" description = ""/>
+      <Part10 value = "###"   mask = "" name = "" description = ""/>
+      
+      
+      <Part11 value = "###"   mask = "STATE_EXTENDED" name = "State extended" description = "State extended"/>
+      <Part12 value = "#"     mask = "TYPE"   name = "Type" description = "Extension to State"/>
+      <Part13 value = "###"   mask = "" name = "" description = ""/>
+      <Part14 value = "###"   mask = "" name = "" description = ""/>
+      <Part15 value = "###"   mask = "" name = "" description = ""/>
+      <Part16 value = "###"   mask = "" name = "" description = ""/>
+      <Part17 value = "###"   mask = "" name = "" description = ""/>
+      <Part18 value = "###"   mask = "" name = "" description = ""/>
+      <Part19 value = "###"   mask = "" name = "" description = ""/>
+      <Part20 value = "###"   mask = "" name = "" description = ""/>
+    </State>
+-->

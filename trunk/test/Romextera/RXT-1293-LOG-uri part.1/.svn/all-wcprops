@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/44/trunk/test/Romextera/RXT-1293-LOG-uri%20part.1
+END
+State.log
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/44/trunk/test/Romextera/RXT-1293-LOG-uri%20part.1/State.log
+END
+Debug.log
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/44/trunk/test/Romextera/RXT-1293-LOG-uri%20part.1/Debug.log
+END
+Messagein.log
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/44/trunk/test/Romextera/RXT-1293-LOG-uri%20part.1/Messagein.log
+END
+MessageOut.log
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/44/trunk/test/Romextera/RXT-1293-LOG-uri%20part.1/MessageOut.log
+END

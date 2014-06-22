@@ -1,0 +1,1384 @@
+Applica.. 13:56:23.834  
+Applica.. 13:56:23.834 [000] [A] Card Read
+Applica.. 13:56:23.834       Screen Number           [085]
+Applica.. 13:56:23.854       Good Read Next State    [500]
+Applica.. 13:56:23.854       Error Misread Screen No [053]
+Applica.. 13:56:23.854       Read Condition 1        [010]
+Applica.. 13:56:23.854       Read Condition 2        [008]
+Applica.. 13:56:23.864       Read Condition 3        [002]
+Applica.. 13:56:23.864       Card Return Flag        [001]
+Applica.. 13:56:23.864       No FIT Match Next State [520]
+Applica.. 13:56:47.057  
+Applica.. 13:56:47.057 [500] [+] Begin ICC Initialisation
+Applica.. 13:56:47.057       Started Next State      [503]
+Applica.. 13:56:47.057       Not Started Next State  [087]
+Applica.. 13:56:47.057       ICC Init Requirement    [001]
+Applica.. 13:56:47.057       ICC App Selection Flag  [001]
+Applica.. 13:56:47.057       App Label Validation    [000]
+Applica.. 13:56:47.057       Cardholder Confirmation [000]
+Applica.. 13:56:47.067       Reserved (000)          [000]
+Applica.. 13:56:47.067       Reserved (000)          [000]
+Applica.. 13:56:47.077   Exit State
+Applica.. 13:56:47.117  
+Applica.. 13:56:47.117 [503] [/] Complete ICC Application Selection and Initialisation
+Applica.. 13:56:47.127       Please Wait Screen      [190]
+Applica.. 13:56:47.127       Name Template Screen No.[191]
+Applica.. 13:56:47.127       Name Screen Number      [000]
+Applica.. 13:56:47.137       Exit Paths Extens State [513]
+Applica.. 13:56:47.137       Reserved (000)          [000]
+Applica.. 13:56:47.137       Reserved (000)          [000]
+Applica.. 13:56:47.147       Reserved (000)          [000]
+Applica.. 13:56:47.147       Reserved (000)          [000]
+Applica.. 13:56:47.147 Exit Paths Extension State 1
+Applica.. 13:56:47.147       Select and Init Success [504]
+Applica.. 13:56:47.157       Card Not Smart Nxt State[087]
+Applica.. 13:56:47.157       ICC App Not Usable      [087]
+Applica.. 13:56:47.157       ICC App Not Suitable    [087]
+Applica.. 13:56:47.167       ICC App Level Err State [087]
+Applica.. 13:56:47.167       ICC HW Level Error State[087]
+Applica.. 13:56:47.167       Processing Not Performed[087]
+Applica.. 13:56:47.177       Reserved (000)          [000]
+Applica.. 13:56:47.177    Extension State - Pos [1]
+Applica.. 13:56:47.177       1  2  3  4  5  6  7  8  9
+Applica.. 13:56:47.187       Z504087087087087087087000
+Applica.. 13:56:47.207   Exit State
+Applica.. 13:56:51.523  
+Applica.. 13:56:51.523 [504] [k] Smart FIT Check State
+Applica.. 13:56:51.523       Reserved                [000]
+Applica.. 13:56:51.523       Good Read Next State    [087]
+Applica.. 13:56:51.523       Error Misread Screen No [000]
+Applica.. 13:56:51.523       Read Condition 1        [000]
+Applica.. 13:56:51.523       Read Condition 2        [000]
+Applica.. 13:56:51.523       Read Condition 3        [000]
+Applica.. 13:56:51.533       Card Return Flag        [001]
+Applica.. 13:56:51.533       No FIT Match Next State [027]
+Applica.. 13:56:51.633  
+Applica.. 13:56:51.633 [087] [D] Preset Op. Code Buffer
+Applica.. 13:56:51.633       Next State #            [003]
+Applica.. 13:56:51.633       Clear Mask              [000]
+Applica.. 13:56:51.633       'A' Pre-Set Mask        [000]
+Applica.. 13:56:51.633       'B' Pre-Set Mask        [000]
+Applica.. 13:56:51.633       'C' Pre-Set Mask        [000]
+Applica.. 13:56:51.633       'D' Pre-Set Mask        [000]
+Applica.. 13:56:51.633       Reserved                [000]
+Applica.. 13:56:51.644       Extension State         [000]
+Applica.. 13:56:51.664  
+Applica.. 13:56:51.664 [003] [Y] 8 FDK Selection
+Applica.. 13:56:51.664       Screen Number           [008]
+Applica.. 13:56:51.664       Timeout Next State No   [226]
+Applica.. 13:56:51.664       Cancel Next State No    [226]
+Applica.. 13:56:51.664       FDK Next State No       [002]
+Applica.. 13:56:51.674       Extension State No      [255]
+Applica.. 13:56:51.674       Buffer Position         [004]
+Applica.. 13:56:51.674       FDK Active Mask         [007]
+Applica.. 13:56:51.674       Multi Language Screens  [173]
+Applica.. 13:56:51.674    Extension State - Pos [2]
+Applica.. 13:56:51.674       1  2  3  4  5  6  7  8  9
+Applica.. 13:56:51.674       Z200400000000000000000000
+Applica.. 13:56:54.277  
+Applica.. 13:56:54.277 [002] [K] FIT Switch
+Applica.. 13:56:54.277       Index 0 Next State No   [001]
+Applica.. 13:56:54.287       Index 1 Next State No   [001]
+Applica.. 13:56:54.287       Index 2 Next State No   [089]
+Applica.. 13:56:54.287       Index 3 Next State No   [001]
+Applica.. 13:56:54.287       Index 4 Next State No   [001]
+Applica.. 13:56:54.287       Index 5 Next State No   [001]
+Applica.. 13:56:54.287       Index 6 Next State No   [001]
+Applica.. 13:56:54.287       Index 7 Next State No   [001]
+Applica.. 13:56:54.327  
+Applica.. 13:56:54.327 [089] [B] PIN Entry
+Applica.. 13:56:54.327       Screen Number           [009]
+Applica.. 13:56:54.337       Timeout Next State      [226]
+Applica.. 13:56:54.337       Cancel Next State       [226]
+Applica.. 13:56:54.337       PIN Check Good Next     [088]
+Applica.. 13:56:54.347       Check Max Bad Pins Next [226]
+Applica.. 13:56:54.347       PIN Check Error Screen  [009]
+Applica.. 13:56:54.347       Remote PIN Next State   [015]
+Applica.. 13:56:54.357       Local PIN Max PIN Retry [003]
+Applica.. 13:56:59.765  
+Applica.. 13:56:59.765 [015] [K] FIT Switch
+Applica.. 13:56:59.765       Index 0 Next State No   [101]
+Applica.. 13:56:59.765       Index 1 Next State No   [106]
+Applica.. 13:56:59.765       Index 2 Next State No   [105]
+Applica.. 13:56:59.785       Index 3 Next State No   [105]
+Applica.. 13:56:59.785       Index 4 Next State No   [101]
+Applica.. 13:56:59.785       Index 5 Next State No   [106]
+Applica.. 13:56:59.785       Index 6 Next State No   [103]
+Applica.. 13:56:59.805       Index 7 Next State No   [107]
+Applica.. 13:56:59.845  
+Applica.. 13:56:59.875 [105] [X] FDK Info Entry
+Applica.. 13:56:59.875       Screen Number           [064]
+Applica.. 13:56:59.875       Timeout Next State No   [226]
+Applica.. 13:56:59.875       Cancel Next State No    [226]
+Applica.. 13:56:59.875       FDK Next State No       [133]
+Applica.. 13:56:59.885       Extension State No      [104]
+Applica.. 13:56:59.885       Buffer Position         [031]
+Applica.. 13:56:59.885       FDK Active Mask         [255]
+Applica.. 13:56:59.885       Multi Language Screens  [000]
+Applica.. 13:56:59.885    Extension State - Pos [1]
+Applica.. 13:56:59.885       1  2  3  4  5  6  7  8  9
+Applica.. 13:56:59.885       Z005010000000000040020015
+Applica.. 13:57:01.498  
+Applica.. 13:57:01.508 [133] [W] FDK Switch
+Applica.. 13:57:01.508       FDK 'A' Next State No   [436]
+Applica.. 13:57:01.518       FDK 'B' Next State No   [436]
+Applica.. 13:57:01.518       FDK 'C' Next State No   [437]
+Applica.. 13:57:01.518       FDK 'D' Next State No   [449]
+Applica.. 13:57:01.528       FDK 'F' Next State No   [226]
+Applica.. 13:57:01.528       FDK 'G' Next State No   [436]
+Applica.. 13:57:01.528       FDK 'H' Next State No   [436]
+Applica.. 13:57:01.538       FDK 'I' Next State No   [436]
+Applica.. 13:57:01.558  
+Applica.. 13:57:01.558 [449] [?] Set ICC Transaction Data
+Applica.. 13:57:01.568       Next State              [149]
+Applica.. 13:57:01.568       Currency Type           [001]
+Applica.. 13:57:01.568       Transaction Type        [031]
+Applica.. 13:57:01.578       Amount Authorised Source[040]
+Applica.. 13:57:01.578       Reserved (000)          [000]
+Applica.. 13:57:01.588       Reserved (000)          [000]
+Applica.. 13:57:01.588       Reserved (000)          [000]
+Applica.. 13:57:01.588       Reserved (000)          [000]
+Applica.. 13:57:01.608   Exit State
+Applica.. 13:57:01.618  
+Applica.. 13:57:01.628 [149] [D] Preset Op. Code Buffer
+Applica.. 13:57:01.628       Next State #            [181]
+Applica.. 13:57:01.628       Clear Mask              [255]
+Applica.. 13:57:01.638       'A' Pre-Set Mask        [000]
+Applica.. 13:57:01.638       'B' Pre-Set Mask        [002]
+Applica.. 13:57:01.638       'C' Pre-Set Mask        [001]
+Applica.. 13:57:01.648       'D' Pre-Set Mask        [000]
+Applica.. 13:57:01.648       Reserved                [000]
+Applica.. 13:57:01.648       Extension State         [000]
+Applica.. 13:57:01.668  
+Applica.. 13:57:01.678 [181] [E] 4 FDK Selection
+Applica.. 13:57:01.678       Screen #                [096]
+Applica.. 13:57:01.688       Timeout Next State #    [226]
+Applica.. 13:57:01.688       Cancel Next State #     [088]
+Applica.. 13:57:01.698       FDK A (or I) Next State [128]
+Applica.. 13:57:01.698       FDK B (or H) Next State [182]
+Applica.. 13:57:01.698       FDK C (or G) Next State [255]
+Applica.. 13:57:01.708       FDK D (or F) Next State [255]
+Applica.. 13:57:01.708       Buffer Location         [006]
+Applica.. 13:57:02.980  
+Applica.. 13:57:02.980 [128] [K] FIT Switch
+Applica.. 13:57:02.990       Index 0 Next State No   [175]
+Applica.. 13:57:02.990       Index 1 Next State No   [175]
+Applica.. 13:57:02.990       Index 2 Next State No   [176]
+Applica.. 13:57:02.990       Index 3 Next State No   [202]
+Applica.. 13:57:02.990       Index 4 Next State No   [201]
+Applica.. 13:57:02.990       Index 5 Next State No   [201]
+Applica.. 13:57:02.990       Index 6 Next State No   [175]
+Applica.. 13:57:02.990       Index 7 Next State No   [175]
+Applica.. 13:57:03.070  
+Applica.. 13:57:03.070 [176] [D] Preset Op. Code Buffer
+Applica.. 13:57:03.070       Next State #            [182]
+Applica.. 13:57:03.080       Clear Mask              [255]
+Applica.. 13:57:03.080       'A' Pre-Set Mask        [000]
+Applica.. 13:57:03.080       'B' Pre-Set Mask        [032]
+Applica.. 13:57:03.080       'C' Pre-Set Mask        [000]
+Applica.. 13:57:03.090       'D' Pre-Set Mask        [000]
+Applica.. 13:57:03.090       Reserved                [000]
+Applica.. 13:57:03.090       Extension State         [000]
+Applica.. 13:57:03.150  
+Applica.. 13:57:03.150 [182] [K] FIT Switch
+Applica.. 13:57:03.150       Index 0 Next State No   [183]
+Applica.. 13:57:03.160       Index 1 Next State No   [183]
+Applica.. 13:57:03.160       Index 2 Next State No   [184]
+Applica.. 13:57:03.170       Index 3 Next State No   [203]
+Applica.. 13:57:03.170       Index 4 Next State No   [183]
+Applica.. 13:57:03.180       Index 5 Next State No   [183]
+Applica.. 13:57:03.190       Index 6 Next State No   [183]
+Applica.. 13:57:03.190       Index 7 Next State No   [183]
+Applica.. 13:57:03.220  
+Applica.. 13:57:03.220 [184] [D] Preset Op. Code Buffer
+Applica.. 13:57:03.220       Next State #            [125]
+Applica.. 13:57:03.230       Clear Mask              [255]
+Applica.. 13:57:03.240       'A' Pre-Set Mask        [000]
+Applica.. 13:57:03.240       'B' Pre-Set Mask        [064]
+Applica.. 13:57:03.250       'C' Pre-Set Mask        [000]
+Applica.. 13:57:03.250       'D' Pre-Set Mask        [000]
+Applica.. 13:57:03.250       Reserved                [   ]
+Applica.. 13:57:03.260       Extension State         [   ]
+Applica.. 13:57:03.290  
+Applica.. 13:57:03.290 [125] [K] FIT Switch
+Applica.. 13:57:03.300       Index 0 Next State No   [160]
+Applica.. 13:57:03.300       Index 1 Next State No   [160]
+Applica.. 13:57:03.310       Index 2 Next State No   [160]
+Applica.. 13:57:03.310       Index 3 Next State No   [160]
+Applica.. 13:57:03.320       Index 4 Next State No   [160]
+Applica.. 13:57:03.320       Index 5 Next State No   [160]
+Applica.. 13:57:03.320       Index 6 Next State No   [160]
+Applica.. 13:57:03.330       Index 7 Next State No   [160]
+Applica.. 13:57:03.360  
+Applica.. 13:57:03.360 [160] [I] Transaction Request
+Applica.. 13:57:03.360       Screen Number           [088]
+Applica.. 13:57:03.370       Response Timeout State #[023]
+Applica.. 13:57:03.370       Send Track 2 Data       [001]
+Applica.. 13:57:03.380       Send Track 1 and/or 3   [000]
+Applica.. 13:57:03.380       Send Operation Code     [001]
+Applica.. 13:57:03.380       Send Amount Data        [001]
+Applica.. 13:57:03.390       Send PIN Buffer         [129]
+Applica.. 13:57:03.390       Send General Buff (or X)[159]
+Applica.. 13:57:03.390    Extension State - Pos [1]
+Applica.. 13:57:03.390       1  2  3  4  5  6  7  8  9
+Applica.. 13:57:03.390       Z001000000000000000001000
+Applica.. 13:57:18.742  
+Applica.. 13:57:18.742 [018] [X] FDK Info Entry
+Applica.. 13:57:18.752       Screen Number           [036]
+Applica.. 13:57:18.752       Timeout Next State No   [226]
+Applica.. 13:57:18.762       Cancel Next State No    [226]
+Applica.. 13:57:18.762       FDK Next State No       [097]
+Applica.. 13:57:18.773       Extension State No      [099]
+Applica.. 13:57:18.773       Buffer Position         [030]
+Applica.. 13:57:18.773       FDK Active Mask         [006]
+Applica.. 13:57:18.783       Multi Language Screens  [000]
+Applica.. 13:57:18.783    Extension State - Pos [1]
+Applica.. 13:57:18.793       1  2  3  4  5  6  7  8  9
+Applica.. 13:57:18.793       Z000000000000000000000000
+Applica.. 13:57:20.735  
+Applica.. 13:57:20.745 [097] [W] FDK Switch
+Applica.. 13:57:20.745       FDK 'A' Next State No   [255]
+Applica.. 13:57:20.745       FDK 'B' Next State No   [088]
+Applica.. 13:57:20.755       FDK 'C' Next State No   [226]
+Applica.. 13:57:20.755       FDK 'D' Next State No   [255]
+Applica.. 13:57:20.765       FDK 'F' Next State No   [255]
+Applica.. 13:57:20.765       FDK 'G' Next State No   [255]
+Applica.. 13:57:20.775       FDK 'H' Next State No   [255]
+Applica.. 13:57:20.775       FDK 'I' Next State No   [255]
+Applica.. 13:57:20.805  
+Applica.. 13:57:20.805 [088] [D] Preset Op. Code Buffer
+Applica.. 13:57:20.815       Next State #            [015]
+Applica.. 13:57:20.815       Clear Mask              [016]
+Applica.. 13:57:20.825       'A' Pre-Set Mask        [000]
+Applica.. 13:57:20.825       'B' Pre-Set Mask        [000]
+Applica.. 13:57:20.825       'C' Pre-Set Mask        [000]
+Applica.. 13:57:20.835       'D' Pre-Set Mask        [000]
+Applica.. 13:57:20.835       Reserved                [000]
+Applica.. 13:57:20.845       Extension State         [000]
+Applica.. 13:57:20.866  
+Applica.. 13:57:20.876 [015] [K] FIT Switch
+Applica.. 13:57:20.876       Index 0 Next State No   [101]
+Applica.. 13:57:20.886       Index 1 Next State No   [106]
+Applica.. 13:57:20.886       Index 2 Next State No   [105]
+Applica.. 13:57:20.896       Index 3 Next State No   [105]
+Applica.. 13:57:20.896       Index 4 Next State No   [101]
+Applica.. 13:57:20.906       Index 5 Next State No   [106]
+Applica.. 13:57:20.906       Index 6 Next State No   [103]
+Applica.. 13:57:20.906       Index 7 Next State No   [107]
+Applica.. 13:57:20.926  
+Applica.. 13:57:20.926 [105] [X] FDK Info Entry
+Applica.. 13:57:20.936       Screen Number           [064]
+Applica.. 13:57:20.936       Timeout Next State No   [226]
+Applica.. 13:57:20.936       Cancel Next State No    [226]
+Applica.. 13:57:20.936       FDK Next State No       [133]
+Applica.. 13:57:20.936       Extension State No      [104]
+Applica.. 13:57:20.946       Buffer Position         [031]
+Applica.. 13:57:20.946       FDK Active Mask         [255]
+Applica.. 13:57:20.946       Multi Language Screens  [000]
+Applica.. 13:57:20.946    Extension State - Pos [1]
+Applica.. 13:57:20.956       1  2  3  4  5  6  7  8  9
+Applica.. 13:57:20.956       Z005010000000000040020015
+Applica.. 13:57:23.159  
+Applica.. 13:57:23.159 [133] [W] FDK Switch
+Applica.. 13:57:23.169       FDK 'A' Next State No   [436]
+Applica.. 13:57:23.169       FDK 'B' Next State No   [436]
+Applica.. 13:57:23.179       FDK 'C' Next State No   [437]
+Applica.. 13:57:23.179       FDK 'D' Next State No   [449]
+Applica.. 13:57:23.189       FDK 'F' Next State No   [226]
+Applica.. 13:57:23.189       FDK 'G' Next State No   [436]
+Applica.. 13:57:23.199       FDK 'H' Next State No   [436]
+Applica.. 13:57:23.199       FDK 'I' Next State No   [436]
+Applica.. 13:57:23.229  
+Applica.. 13:57:23.229 [437] [?] Set ICC Transaction Data
+Applica.. 13:57:23.239       Next State              [137]
+Applica.. 13:57:23.239       Currency Type           [000]
+Applica.. 13:57:23.239       Transaction Type        [001]
+Applica.. 13:57:23.239       Amount Authorised Source[000]
+Applica.. 13:57:23.249       Reserved (000)          [000]
+Applica.. 13:57:23.249       Reserved (000)          [000]
+Applica.. 13:57:23.249       Reserved (000)          [000]
+Applica.. 13:57:23.249       Reserved (000)          [000]
+Applica.. 13:57:23.329   Exit State
+Applica.. 13:57:23.339  
+Applica.. 13:57:23.349 [137] [D] Preset Op. Code Buffer
+Applica.. 13:57:23.349       Next State #            [013]
+Applica.. 13:57:23.349       Clear Mask              [255]
+Applica.. 13:57:23.359       'A' Pre-Set Mask        [003]
+Applica.. 13:57:23.369       'B' Pre-Set Mask        [000]
+Applica.. 13:57:23.379       'C' Pre-Set Mask        [000]
+Applica.. 13:57:23.379       'D' Pre-Set Mask        [000]
+Applica.. 13:57:23.389       Reserved                [000]
+Applica.. 13:57:23.389       Extension State         [000]
+Applica.. 13:57:23.409  
+Applica.. 13:57:23.409 [013] [F] Amount Entry
+Applica.. 13:57:23.409       Screen #                [084]
+Applica.. 13:57:23.419       Timeout Next State #    [226]
+Applica.. 13:57:23.419       Cancel Next State #     [088]
+Applica.. 13:57:23.419       FDK A (or I) Next State [255]
+Applica.. 13:57:23.419       FDK B (or H) Next State [255]
+Applica.. 13:57:23.429       FDK C (or G) Next State [466]
+Applica.. 13:57:23.429       FDK D (or F) Next State [013]
+Applica.. 13:57:23.429       Amount Display Screen # [010]
+Applica.. 13:57:26.193  
+Applica.. 13:57:26.203 [466] [?] Set ICC Transaction Data
+Applica.. 13:57:26.203       Next State              [166]
+Applica.. 13:57:26.213       Currency Type           [001]
+Applica.. 13:57:26.223       Transaction Type        [001]
+Applica.. 13:57:26.223       Amount Authorised Source[031]
+Applica.. 13:57:26.233       Reserved (000)          [000]
+Applica.. 13:57:26.233       Reserved (000)          [000]
+Applica.. 13:57:26.243       Reserved (000)          [000]
+Applica.. 13:57:26.243       Reserved (000)          [000]
+Applica.. 13:57:26.273   Exit State
+Applica.. 13:57:26.283  
+Applica.. 13:57:26.293 [166] [Y] 8 FDK Selection
+Applica.. 13:57:26.293       Screen Number           [016]
+Applica.. 13:57:26.303       Timeout Next State No   [226]
+Applica.. 13:57:26.303       Cancel Next State No    [226]
+Applica.. 13:57:26.313       FDK Next State No       [167]
+Applica.. 13:57:26.323       Extension State No      [255]
+Applica.. 13:57:26.323       Buffer Position         [005]
+Applica.. 13:57:26.333       FDK Active Mask         [003]
+Applica.. 13:57:26.333       Multi Language Screens  [255]
+Applica.. 13:57:27.595  
+Applica.. 13:57:27.615 [167] [W] FDK Switch
+Applica.. 13:57:27.615       FDK 'A' Next State No   [164]
+Applica.. 13:57:27.615       FDK 'B' Next State No   [165]
+Applica.. 13:57:27.615       FDK 'C' Next State No   [255]
+Applica.. 13:57:27.615       FDK 'D' Next State No   [255]
+Applica.. 13:57:27.625       FDK 'F' Next State No   [255]
+Applica.. 13:57:27.625       FDK 'G' Next State No   [255]
+Applica.. 13:57:27.625       FDK 'H' Next State No   [255]
+Applica.. 13:57:27.625       FDK 'I' Next State No   [255]
+Applica.. 13:57:27.675  
+Applica.. 13:57:27.685 [164] [D] Preset Op. Code Buffer
+Applica.. 13:57:27.685       Next State #            [128]
+Applica.. 13:57:27.695       Clear Mask              [255]
+Applica.. 13:57:27.695       'A' Pre-Set Mask        [000]
+Applica.. 13:57:27.705       'B' Pre-Set Mask        [000]
+Applica.. 13:57:27.705       'C' Pre-Set Mask        [000]
+Applica.. 13:57:27.715       'D' Pre-Set Mask        [000]
+Applica.. 13:57:27.725       Reserved                [   ]
+Applica.. 13:57:27.725       Extension State         [   ]
+Applica.. 13:57:27.745  
+Applica.. 13:57:27.755 [128] [K] FIT Switch
+Applica.. 13:57:27.765       Index 0 Next State No   [175]
+Applica.. 13:57:27.765       Index 1 Next State No   [175]
+Applica.. 13:57:27.775       Index 2 Next State No   [176]
+Applica.. 13:57:27.775       Index 3 Next State No   [202]
+Applica.. 13:57:27.785       Index 4 Next State No   [201]
+Applica.. 13:57:27.785       Index 5 Next State No   [201]
+Applica.. 13:57:27.795       Index 6 Next State No   [175]
+Applica.. 13:57:27.795       Index 7 Next State No   [175]
+Applica.. 13:57:27.826  
+Applica.. 13:57:27.826 [176] [D] Preset Op. Code Buffer
+Applica.. 13:57:27.836       Next State #            [182]
+Applica.. 13:57:27.836       Clear Mask              [255]
+Applica.. 13:57:27.846       'A' Pre-Set Mask        [000]
+Applica.. 13:57:27.846       'B' Pre-Set Mask        [032]
+Applica.. 13:57:27.856       'C' Pre-Set Mask        [000]
+Applica.. 13:57:27.856       'D' Pre-Set Mask        [000]
+Applica.. 13:57:27.866       Reserved                [000]
+Applica.. 13:57:27.866       Extension State         [000]
+Applica.. 13:57:27.896  
+Applica.. 13:57:27.906 [182] [K] FIT Switch
+Applica.. 13:57:27.906       Index 0 Next State No   [183]
+Applica.. 13:57:27.916       Index 1 Next State No   [183]
+Applica.. 13:57:27.916       Index 2 Next State No   [184]
+Applica.. 13:57:27.926       Index 3 Next State No   [203]
+Applica.. 13:57:27.926       Index 4 Next State No   [183]
+Applica.. 13:57:27.926       Index 5 Next State No   [183]
+Applica.. 13:57:27.926       Index 6 Next State No   [183]
+Applica.. 13:57:27.926       Index 7 Next State No   [183]
+Applica.. 13:57:27.966  
+Applica.. 13:57:27.976 [184] [D] Preset Op. Code Buffer
+Applica.. 13:57:27.976       Next State #            [125]
+Applica.. 13:57:27.986       Clear Mask              [255]
+Applica.. 13:57:27.986       'A' Pre-Set Mask        [000]
+Applica.. 13:57:27.996       'B' Pre-Set Mask        [064]
+Applica.. 13:57:27.996       'C' Pre-Set Mask        [000]
+Applica.. 13:57:28.006       'D' Pre-Set Mask        [000]
+Applica.. 13:57:28.006       Reserved                [   ]
+Applica.. 13:57:28.016       Extension State         [   ]
+Applica.. 13:57:28.036  
+Applica.. 13:57:28.046 [125] [K] FIT Switch
+Applica.. 13:57:28.056       Index 0 Next State No   [160]
+Applica.. 13:57:28.056       Index 1 Next State No   [160]
+Applica.. 13:57:28.066       Index 2 Next State No   [160]
+Applica.. 13:57:28.066       Index 3 Next State No   [160]
+Applica.. 13:57:28.076       Index 4 Next State No   [160]
+Applica.. 13:57:28.076       Index 5 Next State No   [160]
+Applica.. 13:57:28.076       Index 6 Next State No   [160]
+Applica.. 13:57:28.076       Index 7 Next State No   [160]
+Applica.. 13:57:28.106  
+Applica.. 13:57:28.106 [160] [I] Transaction Request
+Applica.. 13:57:28.126       Screen Number           [088]
+Applica.. 13:57:28.126       Response Timeout State #[023]
+Applica.. 13:57:28.136       Send Track 2 Data       [001]
+Applica.. 13:57:28.136       Send Track 1 and/or 3   [000]
+Applica.. 13:57:28.146       Send Operation Code     [001]
+Applica.. 13:57:28.156       Send Amount Data        [001]
+Applica.. 13:57:28.156       Send PIN Buffer         [129]
+Applica.. 13:57:28.166       Send General Buff (or X)[159]
+Applica.. 13:57:28.166    Extension State - Pos [1]
+Applica.. 13:57:28.166       1  2  3  4  5  6  7  8  9
+Applica.. 13:57:28.166       Z001000000000000000001000
+Applica.. 13:58:04.799  
+Applica.. 13:58:04.809 [026] [J] Close
+Applica.. 13:58:04.809       Receipt Delivered Screen[199]
+Applica.. 13:58:04.809       Next State Number       [000]
+Applica.. 13:58:04.809       No Receipt Delivered Scr[199]
+Applica.. 13:58:04.819       Card Retained Screen    [199]
+Applica.. 13:58:04.819       Statement Delivered Scr [000]
+Applica.. 13:58:04.819       Must Be 000 (Reserved)  [000]
+Applica.. 13:58:04.819       DPM Doc Captured Scr    [000]
+Applica.. 13:58:04.819       Extension State         [000]
+Applica.. 13:58:11.428  
+Applica.. 13:58:11.428 [000] [A] Card Read
+Applica.. 13:58:11.428       Screen Number           [085]
+Applica.. 13:58:11.448       Good Read Next State    [500]
+Applica.. 13:58:11.448       Error Misread Screen No [053]
+Applica.. 13:58:11.448       Read Condition 1        [010]
+Applica.. 13:58:11.448       Read Condition 2        [008]
+Applica.. 13:58:11.458       Read Condition 3        [002]
+Applica.. 13:58:11.458       Card Return Flag        [001]
+Applica.. 13:58:11.458       No FIT Match Next State [520]
+Applica.. 13:58:30.115  
+Applica.. 13:58:30.115 [500] [+] Begin ICC Initialisation
+Applica.. 13:58:30.125       Started Next State      [503]
+Applica.. 13:58:30.135       Not Started Next State  [087]
+Applica.. 13:58:30.145       ICC Init Requirement    [001]
+Applica.. 13:58:30.145       ICC App Selection Flag  [001]
+Applica.. 13:58:30.155       App Label Validation    [000]
+Applica.. 13:58:30.155       Cardholder Confirmation [000]
+Applica.. 13:58:30.165       Reserved (000)          [000]
+Applica.. 13:58:30.175       Reserved (000)          [000]
+Applica.. 13:58:30.185   Exit State
+Applica.. 13:58:30.205  
+Applica.. 13:58:30.205 [087] [D] Preset Op. Code Buffer
+Applica.. 13:58:30.215       Next State #            [003]
+Applica.. 13:58:30.215       Clear Mask              [000]
+Applica.. 13:58:30.225       'A' Pre-Set Mask        [000]
+Applica.. 13:58:30.235       'B' Pre-Set Mask        [000]
+Applica.. 13:58:30.235       'C' Pre-Set Mask        [000]
+Applica.. 13:58:30.245       'D' Pre-Set Mask        [000]
+Applica.. 13:58:30.245       Reserved                [000]
+Applica.. 13:58:30.255       Extension State         [000]
+Applica.. 13:58:30.275  
+Applica.. 13:58:30.285 [003] [Y] 8 FDK Selection
+Applica.. 13:58:30.295       Screen Number           [008]
+Applica.. 13:58:30.295       Timeout Next State No   [226]
+Applica.. 13:58:30.305       Cancel Next State No    [226]
+Applica.. 13:58:30.305       FDK Next State No       [002]
+Applica.. 13:58:30.315       Extension State No      [255]
+Applica.. 13:58:30.325       Buffer Position         [004]
+Applica.. 13:58:30.325       FDK Active Mask         [007]
+Applica.. 13:58:30.335       Multi Language Screens  [173]
+Applica.. 13:58:30.345    Extension State - Pos [2]
+Applica.. 13:58:30.345       1  2  3  4  5  6  7  8  9
+Applica.. 13:58:30.355       Z200400000000000000000000
+Applica.. 13:58:31.507  
+Applica.. 13:58:31.517 [002] [K] FIT Switch
+Applica.. 13:58:31.517       Index 0 Next State No   [001]
+Applica.. 13:58:31.527       Index 1 Next State No   [001]
+Applica.. 13:58:31.537       Index 2 Next State No   [089]
+Applica.. 13:58:31.537       Index 3 Next State No   [001]
+Applica.. 13:58:31.547       Index 4 Next State No   [001]
+Applica.. 13:58:31.557       Index 5 Next State No   [001]
+Applica.. 13:58:31.557       Index 6 Next State No   [001]
+Applica.. 13:58:31.567       Index 7 Next State No   [001]
+Applica.. 13:58:31.587  
+Applica.. 13:58:31.587 [001] [B] PIN Entry
+Applica.. 13:58:31.597       Screen Number           [012]
+Applica.. 13:58:31.597       Timeout Next State      [226]
+Applica.. 13:58:31.597       Cancel Next State       [226]
+Applica.. 13:58:31.597       PIN Check Good Next     [088]
+Applica.. 13:58:31.597       Check Max Bad Pins Next [226]
+Applica.. 13:58:31.607       PIN Check Error Screen  [012]
+Applica.. 13:58:31.607       Remote PIN Next State   [088]
+Applica.. 13:58:31.607       Local PIN Max PIN Retry [003]
+Applica.. 13:58:34.662  
+Applica.. 13:58:34.662 [088] [D] Preset Op. Code Buffer
+Applica.. 13:58:34.682       Next State #            [015]
+Applica.. 13:58:34.682       Clear Mask              [016]
+Applica.. 13:58:34.682       'A' Pre-Set Mask        [000]
+Applica.. 13:58:34.682       'B' Pre-Set Mask        [000]
+Applica.. 13:58:34.702       'C' Pre-Set Mask        [000]
+Applica.. 13:58:34.702       'D' Pre-Set Mask        [000]
+Applica.. 13:58:34.702       Reserved                [000]
+Applica.. 13:58:34.702       Extension State         [000]
+Applica.. 13:58:34.722  
+Applica.. 13:58:34.722 [015] [K] FIT Switch
+Applica.. 13:58:34.722       Index 0 Next State No   [101]
+Applica.. 13:58:34.732       Index 1 Next State No   [106]
+Applica.. 13:58:34.732       Index 2 Next State No   [105]
+Applica.. 13:58:34.732       Index 3 Next State No   [105]
+Applica.. 13:58:34.732       Index 4 Next State No   [101]
+Applica.. 13:58:34.742       Index 5 Next State No   [106]
+Applica.. 13:58:34.742       Index 6 Next State No   [103]
+Applica.. 13:58:34.742       Index 7 Next State No   [107]
+Applica.. 13:58:34.852  
+Applica.. 13:58:34.852 [101] [Y] 8 FDK Selection
+Applica.. 13:58:34.862       Screen Number           [060]
+Applica.. 13:58:34.872       Timeout Next State No   [226]
+Applica.. 13:58:34.872       Cancel Next State No    [226]
+Applica.. 13:58:34.882       FDK Next State No       [131]
+Applica.. 13:58:34.882       Extension State No      [255]
+Applica.. 13:58:34.892       Buffer Position         [000]
+Applica.. 13:58:34.902       FDK Active Mask         [195]
+Applica.. 13:58:34.902       Multi Language Screens  [255]
+Applica.. 13:58:37.896  
+Applica.. 13:58:37.896 [131] [W] FDK Switch
+Applica.. 13:58:37.906       FDK 'A' Next State No   [102]
+Applica.. 13:58:37.906       FDK 'B' Next State No   [481]
+Applica.. 13:58:37.916       FDK 'C' Next State No   [255]
+Applica.. 13:58:37.926       FDK 'D' Next State No   [255]
+Applica.. 13:58:37.926       FDK 'F' Next State No   [255]
+Applica.. 13:58:37.936       FDK 'G' Next State No   [255]
+Applica.. 13:58:37.946       FDK 'H' Next State No   [428]
+Applica.. 13:58:37.946       FDK 'I' Next State No   [416]
+Applica.. 13:58:37.976  
+Applica.. 13:58:37.986 [481] [?] Set ICC Transaction Data
+Applica.. 13:58:37.986       Next State              [181]
+Applica.. 13:58:37.996       Currency Type           [001]
+Applica.. 13:58:38.006       Transaction Type        [031]
+Applica.. 13:58:38.016       Amount Authorised Source[040]
+Applica.. 13:58:38.016       Reserved (000)          [000]
+Applica.. 13:58:38.016       Reserved (000)          [000]
+Applica.. 13:58:38.016       Reserved (000)          [000]
+Applica.. 13:58:38.026       Reserved (000)          [000]
+Applica.. 13:58:38.057   Exit State
+Applica.. 13:58:38.067  
+Applica.. 13:58:38.077 [181] [E] 4 FDK Selection
+Applica.. 13:58:38.087       Screen #                [096]
+Applica.. 13:58:38.087       Timeout Next State #    [226]
+Applica.. 13:58:38.097       Cancel Next State #     [088]
+Applica.. 13:58:38.107       FDK A (or I) Next State [128]
+Applica.. 13:58:38.107       FDK B (or H) Next State [182]
+Applica.. 13:58:38.117       FDK C (or G) Next State [255]
+Applica.. 13:58:38.127       FDK D (or F) Next State [255]
+Applica.. 13:58:38.127       Buffer Location         [006]
+Applica.. 13:58:39.208  
+Applica.. 13:58:39.218 [128] [K] FIT Switch
+Applica.. 13:58:39.228       Index 0 Next State No   [175]
+Applica.. 13:58:39.228       Index 1 Next State No   [175]
+Applica.. 13:58:39.238       Index 2 Next State No   [176]
+Applica.. 13:58:39.248       Index 3 Next State No   [202]
+Applica.. 13:58:39.248       Index 4 Next State No   [201]
+Applica.. 13:58:39.258       Index 5 Next State No   [201]
+Applica.. 13:58:39.268       Index 6 Next State No   [175]
+Applica.. 13:58:39.268       Index 7 Next State No   [175]
+Applica.. 13:58:39.308  
+Applica.. 13:58:39.308 [175] [D] Preset Op. Code Buffer
+Applica.. 13:58:39.318       Next State #            [182]
+Applica.. 13:58:39.318       Clear Mask              [255]
+Applica.. 13:58:39.318       'A' Pre-Set Mask        [032]
+Applica.. 13:58:39.318       'B' Pre-Set Mask        [000]
+Applica.. 13:58:39.318       'C' Pre-Set Mask        [000]
+Applica.. 13:58:39.328       'D' Pre-Set Mask        [000]
+Applica.. 13:58:39.328       Reserved                [000]
+Applica.. 13:58:39.328       Extension State         [000]
+Applica.. 13:58:39.428  
+Applica.. 13:58:39.439 [182] [K] FIT Switch
+Applica.. 13:58:39.449       Index 0 Next State No   [183]
+Applica.. 13:58:39.449       Index 1 Next State No   [183]
+Applica.. 13:58:39.459       Index 2 Next State No   [184]
+Applica.. 13:58:39.459       Index 3 Next State No   [203]
+Applica.. 13:58:39.459       Index 4 Next State No   [183]
+Applica.. 13:58:39.459       Index 5 Next State No   [183]
+Applica.. 13:58:39.469       Index 6 Next State No   [183]
+Applica.. 13:58:39.469       Index 7 Next State No   [183]
+Applica.. 13:58:39.529  
+Applica.. 13:58:39.529 [183] [D] Preset Op. Code Buffer
+Applica.. 13:58:39.539       Next State #            [125]
+Applica.. 13:58:39.549       Clear Mask              [255]
+Applica.. 13:58:39.559       'A' Pre-Set Mask        [064]
+Applica.. 13:58:39.569       'B' Pre-Set Mask        [000]
+Applica.. 13:58:39.569       'C' Pre-Set Mask        [000]
+Applica.. 13:58:39.579       'D' Pre-Set Mask        [000]
+Applica.. 13:58:39.589       Reserved                [000]
+Applica.. 13:58:39.589       Extension State         [000]
+Applica.. 13:58:39.619  
+Applica.. 13:58:39.629 [125] [K] FIT Switch
+Applica.. 13:58:39.639       Index 0 Next State No   [160]
+Applica.. 13:58:39.639       Index 1 Next State No   [160]
+Applica.. 13:58:39.649       Index 2 Next State No   [160]
+Applica.. 13:58:39.659       Index 3 Next State No   [160]
+Applica.. 13:58:39.669       Index 4 Next State No   [160]
+Applica.. 13:58:39.669       Index 5 Next State No   [160]
+Applica.. 13:58:39.679       Index 6 Next State No   [160]
+Applica.. 13:58:39.689       Index 7 Next State No   [160]
+Applica.. 13:58:39.709  
+Applica.. 13:58:39.709 [160] [I] Transaction Request
+Applica.. 13:58:39.729       Screen Number           [088]
+Applica.. 13:58:39.729       Response Timeout State #[023]
+Applica.. 13:58:39.729       Send Track 2 Data       [001]
+Applica.. 13:58:39.729       Send Track 1 and/or 3   [000]
+Applica.. 13:58:39.729       Send Operation Code     [001]
+Applica.. 13:58:39.739       Send Amount Data        [001]
+Applica.. 13:58:39.739       Send PIN Buffer         [129]
+Applica.. 13:58:39.739       Send General Buff (or X)[159]
+Applica.. 13:58:39.739    Extension State - Pos [1]
+Applica.. 13:58:39.739       1  2  3  4  5  6  7  8  9
+Applica.. 13:58:39.739       Z001000000000000000001000
+Applica.. 13:58:52.367  
+Applica.. 13:58:52.377 [018] [X] FDK Info Entry
+Applica.. 13:58:52.377       Screen Number           [036]
+Applica.. 13:58:52.397       Timeout Next State No   [226]
+Applica.. 13:58:52.397       Cancel Next State No    [226]
+Applica.. 13:58:52.407       FDK Next State No       [097]
+Applica.. 13:58:52.417       Extension State No      [099]
+Applica.. 13:58:52.417       Buffer Position         [030]
+Applica.. 13:58:52.437       FDK Active Mask         [006]
+Applica.. 13:58:52.437       Multi Language Screens  [000]
+Applica.. 13:58:52.447    Extension State - Pos [1]
+Applica.. 13:58:52.457       1  2  3  4  5  6  7  8  9
+Applica.. 13:58:52.457       Z000000000000000000000000
+Applica.. 13:58:53.759  
+Applica.. 13:58:53.759 [097] [W] FDK Switch
+Applica.. 13:58:53.769       FDK 'A' Next State No   [255]
+Applica.. 13:58:53.779       FDK 'B' Next State No   [088]
+Applica.. 13:58:53.779       FDK 'C' Next State No   [226]
+Applica.. 13:58:53.789       FDK 'D' Next State No   [255]
+Applica.. 13:58:53.799       FDK 'F' Next State No   [255]
+Applica.. 13:58:53.809       FDK 'G' Next State No   [255]
+Applica.. 13:58:53.809       FDK 'H' Next State No   [255]
+Applica.. 13:58:53.819       FDK 'I' Next State No   [255]
+Applica.. 13:58:53.849  
+Applica.. 13:58:53.849 [226] [J] Close
+Applica.. 13:58:53.859       Receipt Delivered Screen[099]
+Applica.. 13:58:53.869       Next State Number       [000]
+Applica.. 13:58:53.879       No Receipt Delivered Scr[099]
+Applica.. 13:58:53.879       Card Retained Screen    [099]
+Applica.. 13:58:53.889       Statement Delivered Scr [000]
+Applica.. 13:58:53.899       Must Be 000 (Reserved)  [000]
+Applica.. 13:58:53.899       DPM Doc Captured Scr    [000]
+Applica.. 13:58:53.909       Extension State         [000]
+Applica.. 13:59:02.442  
+Applica.. 13:59:02.472 [000] [A] Card Read
+Applica.. 13:59:02.472       Screen Number           [085]
+Applica.. 13:59:02.472       Good Read Next State    [500]
+Applica.. 13:59:02.472       Error Misread Screen No [053]
+Applica.. 13:59:02.492       Read Condition 1        [010]
+Applica.. 13:59:02.492       Read Condition 2        [008]
+Applica.. 13:59:02.492       Read Condition 3        [002]
+Applica.. 13:59:02.492       Card Return Flag        [001]
+Applica.. 13:59:02.492       No FIT Match Next State [520]
+Applica.. 13:59:05.967  
+Applica.. 13:59:05.967 [500] [+] Begin ICC Initialisation
+Applica.. 13:59:05.977       Started Next State      [503]
+Applica.. 13:59:05.987       Not Started Next State  [087]
+Applica.. 13:59:05.997       ICC Init Requirement    [001]
+Applica.. 13:59:05.997       ICC App Selection Flag  [001]
+Applica.. 13:59:06.007       App Label Validation    [000]
+Applica.. 13:59:06.017       Cardholder Confirmation [000]
+Applica.. 13:59:06.027       Reserved (000)          [000]
+Applica.. 13:59:06.037       Reserved (000)          [000]
+Applica.. 13:59:06.047   Exit State
+Applica.. 13:59:06.067  
+Applica.. 13:59:06.067 [087] [D] Preset Op. Code Buffer
+Applica.. 13:59:06.077       Next State #            [003]
+Applica.. 13:59:06.087       Clear Mask              [000]
+Applica.. 13:59:06.097       'A' Pre-Set Mask        [000]
+Applica.. 13:59:06.107       'B' Pre-Set Mask        [000]
+Applica.. 13:59:06.117       'C' Pre-Set Mask        [000]
+Applica.. 13:59:06.117       'D' Pre-Set Mask        [000]
+Applica.. 13:59:06.127       Reserved                [000]
+Applica.. 13:59:06.137       Extension State         [000]
+Applica.. 13:59:06.157  
+Applica.. 13:59:06.167 [003] [Y] 8 FDK Selection
+Applica.. 13:59:06.177       Screen Number           [008]
+Applica.. 13:59:06.177       Timeout Next State No   [226]
+Applica.. 13:59:06.187       Cancel Next State No    [226]
+Applica.. 13:59:06.197       FDK Next State No       [002]
+Applica.. 13:59:06.207       Extension State No      [255]
+Applica.. 13:59:06.207       Buffer Position         [004]
+Applica.. 13:59:06.217       FDK Active Mask         [007]
+Applica.. 13:59:06.227       Multi Language Screens  [173]
+Applica.. 13:59:06.237    Extension State - Pos [2]
+Applica.. 13:59:06.247       1  2  3  4  5  6  7  8  9
+Applica.. 13:59:06.247       Z200400000000000000000000
+Applica.. 13:59:08.801  
+Applica.. 13:59:08.811 [002] [K] FIT Switch
+Applica.. 13:59:08.821       Index 0 Next State No   [001]
+Applica.. 13:59:08.831       Index 1 Next State No   [001]
+Applica.. 13:59:08.831       Index 2 Next State No   [089]
+Applica.. 13:59:08.841       Index 3 Next State No   [001]
+Applica.. 13:59:08.851       Index 4 Next State No   [001]
+Applica.. 13:59:08.861       Index 5 Next State No   [001]
+Applica.. 13:59:08.861       Index 6 Next State No   [001]
+Applica.. 13:59:08.871       Index 7 Next State No   [001]
+Applica.. 13:59:08.901  
+Applica.. 13:59:08.901 [001] [B] PIN Entry
+Applica.. 13:59:08.911       Screen Number           [012]
+Applica.. 13:59:08.911       Timeout Next State      [226]
+Applica.. 13:59:08.911       Cancel Next State       [226]
+Applica.. 13:59:08.911       PIN Check Good Next     [088]
+Applica.. 13:59:08.911       Check Max Bad Pins Next [226]
+Applica.. 13:59:08.921       PIN Check Error Screen  [012]
+Applica.. 13:59:08.921       Remote PIN Next State   [088]
+Applica.. 13:59:08.921       Local PIN Max PIN Retry [003]
+Applica.. 13:59:14.148  
+Applica.. 13:59:14.148 [088] [D] Preset Op. Code Buffer
+Applica.. 13:59:14.148       Next State #            [015]
+Applica.. 13:59:14.168       Clear Mask              [016]
+Applica.. 13:59:14.168       'A' Pre-Set Mask        [000]
+Applica.. 13:59:14.168       'B' Pre-Set Mask        [000]
+Applica.. 13:59:14.168       'C' Pre-Set Mask        [000]
+Applica.. 13:59:14.168       'D' Pre-Set Mask        [000]
+Applica.. 13:59:14.188       Reserved                [000]
+Applica.. 13:59:14.188       Extension State         [000]
+Applica.. 13:59:14.259  
+Applica.. 13:59:14.259 [015] [K] FIT Switch
+Applica.. 13:59:14.259       Index 0 Next State No   [101]
+Applica.. 13:59:14.259       Index 1 Next State No   [106]
+Applica.. 13:59:14.279       Index 2 Next State No   [105]
+Applica.. 13:59:14.279       Index 3 Next State No   [105]
+Applica.. 13:59:14.279       Index 4 Next State No   [101]
+Applica.. 13:59:14.279       Index 5 Next State No   [106]
+Applica.. 13:59:14.299       Index 6 Next State No   [103]
+Applica.. 13:59:14.299       Index 7 Next State No   [107]
+Applica.. 13:59:14.469  
+Applica.. 13:59:14.469 [101] [Y] 8 FDK Selection
+Applica.. 13:59:14.469       Screen Number           [060]
+Applica.. 13:59:14.469       Timeout Next State No   [226]
+Applica.. 13:59:14.469       Cancel Next State No    [226]
+Applica.. 13:59:14.479       FDK Next State No       [131]
+Applica.. 13:59:14.479       Extension State No      [255]
+Applica.. 13:59:14.479       Buffer Position         [000]
+Applica.. 13:59:14.479       FDK Active Mask         [195]
+Applica.. 13:59:14.489       Multi Language Screens  [255]
+Applica.. 13:59:16.402  
+Applica.. 13:59:16.402 [131] [W] FDK Switch
+Applica.. 13:59:16.412       FDK 'A' Next State No   [102]
+Applica.. 13:59:16.422       FDK 'B' Next State No   [481]
+Applica.. 13:59:16.432       FDK 'C' Next State No   [255]
+Applica.. 13:59:16.442       FDK 'D' Next State No   [255]
+Applica.. 13:59:16.452       FDK 'F' Next State No   [255]
+Applica.. 13:59:16.452       FDK 'G' Next State No   [255]
+Applica.. 13:59:16.462       FDK 'H' Next State No   [428]
+Applica.. 13:59:16.472       FDK 'I' Next State No   [416]
+Applica.. 13:59:16.492  
+Applica.. 13:59:16.502 [102] [X] FDK Info Entry
+Applica.. 13:59:16.512       Screen Number           [061]
+Applica.. 13:59:16.522       Timeout Next State No   [226]
+Applica.. 13:59:16.532       Cancel Next State No    [088]
+Applica.. 13:59:16.542       FDK Next State No       [130]
+Applica.. 13:59:16.542       Extension State No      [100]
+Applica.. 13:59:16.552       Buffer Position         [031]
+Applica.. 13:59:16.562       FDK Active Mask         [255]
+Applica.. 13:59:16.572       Multi Language Screens  [000]
+Applica.. 13:59:16.582    Extension State - Pos [1]
+Applica.. 13:59:16.592       1  2  3  4  5  6  7  8  9
+Applica.. 13:59:16.592       Z002005010000000040020015
+Applica.. 13:59:18.955  
+Applica.. 13:59:18.965 [130] [W] FDK Switch
+Applica.. 13:59:18.975       FDK 'A' Next State No   [436]
+Applica.. 13:59:18.975       FDK 'B' Next State No   [436]
+Applica.. 13:59:18.975       FDK 'C' Next State No   [436]
+Applica.. 13:59:18.975       FDK 'D' Next State No   [437]
+Applica.. 13:59:18.975       FDK 'F' Next State No   [088]
+Applica.. 13:59:18.985       FDK 'G' Next State No   [436]
+Applica.. 13:59:18.985       FDK 'H' Next State No   [436]
+Applica.. 13:59:18.985       FDK 'I' Next State No   [436]
+Applica.. 13:59:19.065  
+Applica.. 13:59:19.076 [437] [?] Set ICC Transaction Data
+Applica.. 13:59:19.076       Next State              [137]
+Applica.. 13:59:19.086       Currency Type           [000]
+Applica.. 13:59:19.096       Transaction Type        [001]
+Applica.. 13:59:19.106       Amount Authorised Source[000]
+Applica.. 13:59:19.116       Reserved (000)          [000]
+Applica.. 13:59:19.116       Reserved (000)          [000]
+Applica.. 13:59:19.126       Reserved (000)          [000]
+Applica.. 13:59:19.136       Reserved (000)          [000]
+Applica.. 13:59:19.156   Exit State
+Applica.. 13:59:19.166  
+Applica.. 13:59:19.176 [137] [D] Preset Op. Code Buffer
+Applica.. 13:59:19.186       Next State #            [013]
+Applica.. 13:59:19.196       Clear Mask              [255]
+Applica.. 13:59:19.206       'A' Pre-Set Mask        [003]
+Applica.. 13:59:19.216       'B' Pre-Set Mask        [000]
+Applica.. 13:59:19.226       'C' Pre-Set Mask        [000]
+Applica.. 13:59:19.236       'D' Pre-Set Mask        [000]
+Applica.. 13:59:19.236       Reserved                [000]
+Applica.. 13:59:19.246       Extension State         [000]
+Applica.. 13:59:19.276  
+Applica.. 13:59:19.286 [013] [F] Amount Entry
+Applica.. 13:59:19.286       Screen #                [084]
+Applica.. 13:59:19.296       Timeout Next State #    [226]
+Applica.. 13:59:19.306       Cancel Next State #     [088]
+Applica.. 13:59:19.316       FDK A (or I) Next State [255]
+Applica.. 13:59:19.326       FDK B (or H) Next State [255]
+Applica.. 13:59:19.326       FDK C (or G) Next State [466]
+Applica.. 13:59:19.336       FDK D (or F) Next State [013]
+Applica.. 13:59:19.356       Amount Display Screen # [010]
+Applica.. 13:59:22.671  
+Applica.. 13:59:22.671 [466] [?] Set ICC Transaction Data
+Applica.. 13:59:22.691       Next State              [166]
+Applica.. 13:59:22.691       Currency Type           [001]
+Applica.. 13:59:22.701       Transaction Type        [001]
+Applica.. 13:59:22.711       Amount Authorised Source[031]
+Applica.. 13:59:22.721       Reserved (000)          [000]
+Applica.. 13:59:22.731       Reserved (000)          [000]
+Applica.. 13:59:22.741       Reserved (000)          [000]
+Applica.. 13:59:22.751       Reserved (000)          [000]
+Applica.. 13:59:22.771   Exit State
+Applica.. 13:59:22.791  
+Applica.. 13:59:22.791 [166] [Y] 8 FDK Selection
+Applica.. 13:59:22.791       Screen Number           [016]
+Applica.. 13:59:22.791       Timeout Next State No   [226]
+Applica.. 13:59:22.811       Cancel Next State No    [226]
+Applica.. 13:59:22.811       FDK Next State No       [167]
+Applica.. 13:59:22.811       Extension State No      [255]
+Applica.. 13:59:22.811       Buffer Position         [005]
+Applica.. 13:59:22.821       FDK Active Mask         [003]
+Applica.. 13:59:22.821       Multi Language Screens  [255]
+Applica.. 13:59:24.553  
+Applica.. 13:59:24.553 [167] [W] FDK Switch
+Applica.. 13:59:24.553       FDK 'A' Next State No   [164]
+Applica.. 13:59:24.573       FDK 'B' Next State No   [165]
+Applica.. 13:59:24.573       FDK 'C' Next State No   [255]
+Applica.. 13:59:24.573       FDK 'D' Next State No   [255]
+Applica.. 13:59:24.573       FDK 'F' Next State No   [255]
+Applica.. 13:59:24.583       FDK 'G' Next State No   [255]
+Applica.. 13:59:24.583       FDK 'H' Next State No   [255]
+Applica.. 13:59:24.583       FDK 'I' Next State No   [255]
+Applica.. 13:59:24.664  
+Applica.. 13:59:24.674 [165] [D] Preset Op. Code Buffer
+Applica.. 13:59:24.684       Next State #            [125]
+Applica.. 13:59:24.684       Clear Mask              [223]
+Applica.. 13:59:24.694       'A' Pre-Set Mask        [000]
+Applica.. 13:59:24.704       'B' Pre-Set Mask        [000]
+Applica.. 13:59:24.714       'C' Pre-Set Mask        [000]
+Applica.. 13:59:24.724       'D' Pre-Set Mask        [000]
+Applica.. 13:59:24.734       Reserved                [   ]
+Applica.. 13:59:24.744       Extension State         [   ]
+Applica.. 13:59:24.764  
+Applica.. 13:59:24.774 [125] [K] FIT Switch
+Applica.. 13:59:24.784       Index 0 Next State No   [160]
+Applica.. 13:59:24.794       Index 1 Next State No   [160]
+Applica.. 13:59:24.804       Index 2 Next State No   [160]
+Applica.. 13:59:24.814       Index 3 Next State No   [160]
+Applica.. 13:59:24.814       Index 4 Next State No   [160]
+Applica.. 13:59:24.824       Index 5 Next State No   [160]
+Applica.. 13:59:24.834       Index 6 Next State No   [160]
+Applica.. 13:59:24.844       Index 7 Next State No   [160]
+Applica.. 13:59:24.874  
+Applica.. 13:59:24.874 [160] [I] Transaction Request
+Applica.. 13:59:24.884       Screen Number           [088]
+Applica.. 13:59:24.894       Response Timeout State #[023]
+Applica.. 13:59:24.904       Send Track 2 Data       [001]
+Applica.. 13:59:24.914       Send Track 1 and/or 3   [000]
+Applica.. 13:59:24.924       Send Operation Code     [001]
+Applica.. 13:59:24.934       Send Amount Data        [001]
+Applica.. 13:59:24.944       Send PIN Buffer         [129]
+Applica.. 13:59:24.944       Send General Buff (or X)[159]
+Applica.. 13:59:24.954    Extension State - Pos [1]
+Applica.. 13:59:24.964       1  2  3  4  5  6  7  8  9
+Applica.. 13:59:24.974       Z001000000000000000001000
+Applica.. 13:59:50.190  
+Applica.. 13:59:50.190 [026] [J] Close
+Applica.. 13:59:50.200       Receipt Delivered Screen[199]
+Applica.. 13:59:50.210       Next State Number       [000]
+Applica.. 13:59:50.220       No Receipt Delivered Scr[199]
+Applica.. 13:59:50.230       Card Retained Screen    [199]
+Applica.. 13:59:50.240       Statement Delivered Scr [000]
+Applica.. 13:59:50.250       Must Be 000 (Reserved)  [000]
+Applica.. 13:59:50.260       DPM Doc Captured Scr    [000]
+Applica.. 13:59:50.270       Extension State         [000]
+Applica.. 13:59:56.860  
+Applica.. 13:59:56.860 [000] [A] Card Read
+Applica.. 13:59:56.860       Screen Number           [085]
+Applica.. 13:59:56.880       Good Read Next State    [500]
+Applica.. 13:59:56.880       Error Misread Screen No [053]
+Applica.. 13:59:56.880       Read Condition 1        [010]
+Applica.. 13:59:56.880       Read Condition 2        [008]
+Applica.. 13:59:56.900       Read Condition 3        [002]
+Applica.. 13:59:56.900       Card Return Flag        [001]
+Applica.. 13:59:56.900       No FIT Match Next State [520]
+Applica.. 13:59:59.994  
+Applica.. 13:59:59.994 [500] [+] Begin ICC Initialisation
+Applica.. 14:00:00.014       Started Next State      [503]
+Applica.. 14:00:00.024       Not Started Next State  [087]
+Applica.. 14:00:00.034       ICC Init Requirement    [001]
+Applica.. 14:00:00.044       ICC App Selection Flag  [001]
+Applica.. 14:00:00.054       App Label Validation    [000]
+Applica.. 14:00:00.064       Cardholder Confirmation [000]
+Applica.. 14:00:00.074       Reserved (000)          [000]
+Applica.. 14:00:00.084       Reserved (000)          [000]
+Applica.. 14:00:00.104   Exit State
+Applica.. 14:00:00.115  
+Applica.. 14:00:00.125 [087] [D] Preset Op. Code Buffer
+Applica.. 14:00:00.135       Next State #            [003]
+Applica.. 14:00:00.135       Clear Mask              [000]
+Applica.. 14:00:00.135       'A' Pre-Set Mask        [000]
+Applica.. 14:00:00.135       'B' Pre-Set Mask        [000]
+Applica.. 14:00:00.145       'C' Pre-Set Mask        [000]
+Applica.. 14:00:00.145       'D' Pre-Set Mask        [000]
+Applica.. 14:00:00.145       Reserved                [000]
+Applica.. 14:00:00.145       Extension State         [000]
+Applica.. 14:00:00.235  
+Applica.. 14:00:00.235 [003] [Y] 8 FDK Selection
+Applica.. 14:00:00.255       Screen Number           [008]
+Applica.. 14:00:00.265       Timeout Next State No   [226]
+Applica.. 14:00:00.275       Cancel Next State No    [226]
+Applica.. 14:00:00.285       FDK Next State No       [002]
+Applica.. 14:00:00.295       Extension State No      [255]
+Applica.. 14:00:00.305       Buffer Position         [004]
+Applica.. 14:00:00.315       FDK Active Mask         [007]
+Applica.. 14:00:00.325       Multi Language Screens  [173]
+Applica.. 14:00:00.335    Extension State - Pos [2]
+Applica.. 14:00:00.345       1  2  3  4  5  6  7  8  9
+Applica.. 14:00:00.355       Z200400000000000000000000
+Applica.. 14:00:01.326  
+Applica.. 14:00:01.336 [002] [K] FIT Switch
+Applica.. 14:00:01.336       Index 0 Next State No   [001]
+Applica.. 14:00:01.336       Index 1 Next State No   [001]
+Applica.. 14:00:01.346       Index 2 Next State No   [089]
+Applica.. 14:00:01.346       Index 3 Next State No   [001]
+Applica.. 14:00:01.346       Index 4 Next State No   [001]
+Applica.. 14:00:01.346       Index 5 Next State No   [001]
+Applica.. 14:00:01.346       Index 6 Next State No   [001]
+Applica.. 14:00:01.356       Index 7 Next State No   [001]
+Applica.. 14:00:01.436  
+Applica.. 14:00:01.446 [001] [B] PIN Entry
+Applica.. 14:00:01.456       Screen Number           [012]
+Applica.. 14:00:01.466       Timeout Next State      [226]
+Applica.. 14:00:01.476       Cancel Next State       [226]
+Applica.. 14:00:01.486       PIN Check Good Next     [088]
+Applica.. 14:00:01.496       Check Max Bad Pins Next [226]
+Applica.. 14:00:01.507       PIN Check Error Screen  [012]
+Applica.. 14:00:01.517       Remote PIN Next State   [088]
+Applica.. 14:00:01.527       Local PIN Max PIN Retry [003]
+Applica.. 14:00:05.252  
+Applica.. 14:00:05.272 [088] [D] Preset Op. Code Buffer
+Applica.. 14:00:05.272       Next State #            [015]
+Applica.. 14:00:05.272       Clear Mask              [016]
+Applica.. 14:00:05.272       'A' Pre-Set Mask        [000]
+Applica.. 14:00:05.272       'B' Pre-Set Mask        [000]
+Applica.. 14:00:05.292       'C' Pre-Set Mask        [000]
+Applica.. 14:00:05.292       'D' Pre-Set Mask        [000]
+Applica.. 14:00:05.292       Reserved                [000]
+Applica.. 14:00:05.292       Extension State         [000]
+Applica.. 14:00:05.332  
+Applica.. 14:00:05.332 [015] [K] FIT Switch
+Applica.. 14:00:05.332       Index 0 Next State No   [101]
+Applica.. 14:00:05.332       Index 1 Next State No   [106]
+Applica.. 14:00:05.332       Index 2 Next State No   [105]
+Applica.. 14:00:05.332       Index 3 Next State No   [105]
+Applica.. 14:00:05.332       Index 4 Next State No   [101]
+Applica.. 14:00:05.352       Index 5 Next State No   [106]
+Applica.. 14:00:05.352       Index 6 Next State No   [103]
+Applica.. 14:00:05.352       Index 7 Next State No   [107]
+Applica.. 14:00:05.532  
+Applica.. 14:00:05.542 [101] [Y] 8 FDK Selection
+Applica.. 14:00:05.552       Screen Number           [060]
+Applica.. 14:00:05.562       Timeout Next State No   [226]
+Applica.. 14:00:05.572       Cancel Next State No    [226]
+Applica.. 14:00:05.582       FDK Next State No       [131]
+Applica.. 14:00:05.582       Extension State No      [255]
+Applica.. 14:00:05.602       Buffer Position         [000]
+Applica.. 14:00:05.612       FDK Active Mask         [195]
+Applica.. 14:00:05.622       Multi Language Screens  [255]
+Applica.. 14:00:08.426  
+Applica.. 14:00:08.436 [131] [W] FDK Switch
+Applica.. 14:00:08.446       FDK 'A' Next State No   [102]
+Applica.. 14:00:08.457       FDK 'B' Next State No   [481]
+Applica.. 14:00:08.467       FDK 'C' Next State No   [255]
+Applica.. 14:00:08.477       FDK 'D' Next State No   [255]
+Applica.. 14:00:08.507       FDK 'F' Next State No   [255]
+Applica.. 14:00:08.517       FDK 'G' Next State No   [255]
+Applica.. 14:00:08.527       FDK 'H' Next State No   [428]
+Applica.. 14:00:08.547       FDK 'I' Next State No   [416]
+Applica.. 14:00:08.577  
+Applica.. 14:00:08.587 [102] [X] FDK Info Entry
+Applica.. 14:00:08.597       Screen Number           [061]
+Applica.. 14:00:08.607       Timeout Next State No   [226]
+Applica.. 14:00:08.617       Cancel Next State No    [088]
+Applica.. 14:00:08.627       FDK Next State No       [130]
+Applica.. 14:00:08.637       Extension State No      [100]
+Applica.. 14:00:08.647       Buffer Position         [031]
+Applica.. 14:00:08.657       FDK Active Mask         [255]
+Applica.. 14:00:08.667       Multi Language Screens  [000]
+Applica.. 14:00:08.677    Extension State - Pos [1]
+Applica.. 14:00:08.687       1  2  3  4  5  6  7  8  9
+Applica.. 14:00:08.697       Z002005010000000040020015
+Applica.. 14:00:10.449  
+Applica.. 14:00:10.449 [130] [W] FDK Switch
+Applica.. 14:00:10.449       FDK 'A' Next State No   [436]
+Applica.. 14:00:10.459       FDK 'B' Next State No   [436]
+Applica.. 14:00:10.459       FDK 'C' Next State No   [436]
+Applica.. 14:00:10.459       FDK 'D' Next State No   [437]
+Applica.. 14:00:10.459       FDK 'F' Next State No   [088]
+Applica.. 14:00:10.479       FDK 'G' Next State No   [436]
+Applica.. 14:00:10.479       FDK 'H' Next State No   [436]
+Applica.. 14:00:10.479       FDK 'I' Next State No   [436]
+Applica.. 14:00:10.570  
+Applica.. 14:00:10.580 [437] [?] Set ICC Transaction Data
+Applica.. 14:00:10.590       Next State              [137]
+Applica.. 14:00:10.600       Currency Type           [000]
+Applica.. 14:00:10.610       Transaction Type        [001]
+Applica.. 14:00:10.620       Amount Authorised Source[000]
+Applica.. 14:00:10.630       Reserved (000)          [000]
+Applica.. 14:00:10.640       Reserved (000)          [000]
+Applica.. 14:00:10.650       Reserved (000)          [000]
+Applica.. 14:00:10.660       Reserved (000)          [000]
+Applica.. 14:00:10.680   Exit State
+Applica.. 14:00:10.700  
+Applica.. 14:00:10.710 [137] [D] Preset Op. Code Buffer
+Applica.. 14:00:10.720       Next State #            [013]
+Applica.. 14:00:10.730       Clear Mask              [255]
+Applica.. 14:00:10.740       'A' Pre-Set Mask        [003]
+Applica.. 14:00:10.750       'B' Pre-Set Mask        [000]
+Applica.. 14:00:10.760       'C' Pre-Set Mask        [000]
+Applica.. 14:00:10.770       'D' Pre-Set Mask        [000]
+Applica.. 14:00:10.780       Reserved                [000]
+Applica.. 14:00:10.790       Extension State         [000]
+Applica.. 14:00:10.820  
+Applica.. 14:00:10.830 [013] [F] Amount Entry
+Applica.. 14:00:10.840       Screen #                [084]
+Applica.. 14:00:10.850       Timeout Next State #    [226]
+Applica.. 14:00:10.860       Cancel Next State #     [088]
+Applica.. 14:00:10.870       FDK A (or I) Next State [255]
+Applica.. 14:00:10.880       FDK B (or H) Next State [255]
+Applica.. 14:00:10.890       FDK C (or G) Next State [466]
+Applica.. 14:00:10.900       FDK D (or F) Next State [013]
+Applica.. 14:00:10.910       Amount Display Screen # [010]
+Applica.. 14:00:16.178  
+Applica.. 14:00:16.198 [466] [?] Set ICC Transaction Data
+Applica.. 14:00:16.208       Next State              [166]
+Applica.. 14:00:16.218       Currency Type           [001]
+Applica.. 14:00:16.228       Transaction Type        [001]
+Applica.. 14:00:16.238       Amount Authorised Source[031]
+Applica.. 14:00:16.248       Reserved (000)          [000]
+Applica.. 14:00:16.258       Reserved (000)          [000]
+Applica.. 14:00:16.268       Reserved (000)          [000]
+Applica.. 14:00:16.278       Reserved (000)          [000]
+Applica.. 14:00:16.298   Exit State
+Applica.. 14:00:16.318  
+Applica.. 14:00:16.328 [166] [Y] 8 FDK Selection
+Applica.. 14:00:16.338       Screen Number           [016]
+Applica.. 14:00:16.348       Timeout Next State No   [226]
+Applica.. 14:00:16.358       Cancel Next State No    [226]
+Applica.. 14:00:16.368       FDK Next State No       [167]
+Applica.. 14:00:16.378       Extension State No      [255]
+Applica.. 14:00:16.388       Buffer Position         [005]
+Applica.. 14:00:16.398       FDK Active Mask         [003]
+Applica.. 14:00:16.408       Multi Language Screens  [255]
+Applica.. 14:00:17.640  
+Applica.. 14:00:17.640 [167] [W] FDK Switch
+Applica.. 14:00:17.660       FDK 'A' Next State No   [164]
+Applica.. 14:00:17.660       FDK 'B' Next State No   [165]
+Applica.. 14:00:17.660       FDK 'C' Next State No   [255]
+Applica.. 14:00:17.660       FDK 'D' Next State No   [255]
+Applica.. 14:00:17.670       FDK 'F' Next State No   [255]
+Applica.. 14:00:17.670       FDK 'G' Next State No   [255]
+Applica.. 14:00:17.670       FDK 'H' Next State No   [255]
+Applica.. 14:00:17.670       FDK 'I' Next State No   [255]
+Applica.. 14:00:17.760  
+Applica.. 14:00:17.760 [165] [D] Preset Op. Code Buffer
+Applica.. 14:00:17.760       Next State #            [125]
+Applica.. 14:00:17.780       Clear Mask              [223]
+Applica.. 14:00:17.780       'A' Pre-Set Mask        [000]
+Applica.. 14:00:17.780       'B' Pre-Set Mask        [000]
+Applica.. 14:00:17.780       'C' Pre-Set Mask        [000]
+Applica.. 14:00:17.780       'D' Pre-Set Mask        [000]
+Applica.. 14:00:17.790       Reserved                [   ]
+Applica.. 14:00:17.790       Extension State         [   ]
+Applica.. 14:00:17.880  
+Applica.. 14:00:17.890 [125] [K] FIT Switch
+Applica.. 14:00:17.900       Index 0 Next State No   [160]
+Applica.. 14:00:17.910       Index 1 Next State No   [160]
+Applica.. 14:00:17.920       Index 2 Next State No   [160]
+Applica.. 14:00:17.930       Index 3 Next State No   [160]
+Applica.. 14:00:17.940       Index 4 Next State No   [160]
+Applica.. 14:00:17.950       Index 5 Next State No   [160]
+Applica.. 14:00:17.960       Index 6 Next State No   [160]
+Applica.. 14:00:17.980       Index 7 Next State No   [160]
+Applica.. 14:00:18.000  
+Applica.. 14:00:18.010 [160] [I] Transaction Request
+Applica.. 14:00:18.020       Screen Number           [088]
+Applica.. 14:00:18.030       Response Timeout State #[023]
+Applica.. 14:00:18.040       Send Track 2 Data       [001]
+Applica.. 14:00:18.050       Send Track 1 and/or 3   [000]
+Applica.. 14:00:18.060       Send Operation Code     [001]
+Applica.. 14:00:18.070       Send Amount Data        [001]
+Applica.. 14:00:18.080       Send PIN Buffer         [129]
+Applica.. 14:00:18.090       Send General Buff (or X)[159]
+Applica.. 14:00:18.100    Extension State - Pos [1]
+Applica.. 14:00:18.120       1  2  3  4  5  6  7  8  9
+Applica.. 14:00:18.130       Z001000000000000000001000
+Applica.. 14:00:43.297  
+Applica.. 14:00:43.307 [026] [J] Close
+Applica.. 14:00:43.317       Receipt Delivered Screen[199]
+Applica.. 14:00:43.327       Next State Number       [000]
+Applica.. 14:00:43.337       No Receipt Delivered Scr[199]
+Applica.. 14:00:43.347       Card Retained Screen    [199]
+Applica.. 14:00:43.357       Statement Delivered Scr [000]
+Applica.. 14:00:43.367       Must Be 000 (Reserved)  [000]
+Applica.. 14:00:43.377       DPM Doc Captured Scr    [000]
+Applica.. 14:00:43.387       Extension State         [000]
+Applica.. 14:00:50.096  
+Applica.. 14:00:50.096 [000] [A] Card Read
+Applica.. 14:00:50.096       Screen Number           [085]
+Applica.. 14:00:50.116       Good Read Next State    [500]
+Applica.. 14:00:50.116       Error Misread Screen No [053]
+Applica.. 14:00:50.116       Read Condition 1        [010]
+Applica.. 14:00:50.116       Read Condition 2        [008]
+Applica.. 14:00:50.136       Read Condition 3        [002]
+Applica.. 14:00:50.136       Card Return Flag        [001]
+Applica.. 14:00:50.136       No FIT Match Next State [520]
+Applica.. 14:01:01.573  
+Applica.. 14:01:01.593 [500] [+] Begin ICC Initialisation
+Applica.. 14:01:01.603       Started Next State      [503]
+Applica.. 14:01:01.613       Not Started Next State  [087]
+Applica.. 14:01:01.623       ICC Init Requirement    [001]
+Applica.. 14:01:01.633       ICC App Selection Flag  [001]
+Applica.. 14:01:01.643       App Label Validation    [000]
+Applica.. 14:01:01.653       Cardholder Confirmation [000]
+Applica.. 14:01:01.663       Reserved (000)          [000]
+Applica.. 14:01:01.673       Reserved (000)          [000]
+Applica.. 14:01:01.693   Exit State
+Applica.. 14:01:01.713  
+Applica.. 14:01:01.733 [087] [D] Preset Op. Code Buffer
+Applica.. 14:01:01.743       Next State #            [003]
+Applica.. 14:01:01.753       Clear Mask              [000]
+Applica.. 14:01:01.763       'A' Pre-Set Mask        [000]
+Applica.. 14:01:01.773       'B' Pre-Set Mask        [000]
+Applica.. 14:01:01.783       'C' Pre-Set Mask        [000]
+Applica.. 14:01:01.793       'D' Pre-Set Mask        [000]
+Applica.. 14:01:01.803       Reserved                [000]
+Applica.. 14:01:01.813       Extension State         [000]
+Applica.. 14:01:01.843  
+Applica.. 14:01:01.853 [003] [Y] 8 FDK Selection
+Applica.. 14:01:01.863       Screen Number           [008]
+Applica.. 14:01:01.873       Timeout Next State No   [226]
+Applica.. 14:01:01.883       Cancel Next State No    [226]
+Applica.. 14:01:01.893       FDK Next State No       [002]
+Applica.. 14:01:01.903       Extension State No      [255]
+Applica.. 14:01:01.913       Buffer Position         [004]
+Applica.. 14:01:01.923       FDK Active Mask         [007]
+Applica.. 14:01:01.933       Multi Language Screens  [173]
+Applica.. 14:01:01.943    Extension State - Pos [2]
+Applica.. 14:01:01.953       1  2  3  4  5  6  7  8  9
+Applica.. 14:01:01.963       Z200400000000000000000000
+Applica.. 14:01:03.145  
+Applica.. 14:01:03.145 [002] [K] FIT Switch
+Applica.. 14:01:03.165       Index 0 Next State No   [001]
+Applica.. 14:01:03.165       Index 1 Next State No   [001]
+Applica.. 14:01:03.165       Index 2 Next State No   [089]
+Applica.. 14:01:03.165       Index 3 Next State No   [001]
+Applica.. 14:01:03.175       Index 4 Next State No   [001]
+Applica.. 14:01:03.175       Index 5 Next State No   [001]
+Applica.. 14:01:03.175       Index 6 Next State No   [001]
+Applica.. 14:01:03.175       Index 7 Next State No   [001]
+Applica.. 14:01:03.285  
+Applica.. 14:01:03.285 [001] [B] PIN Entry
+Applica.. 14:01:03.285       Screen Number           [012]
+Applica.. 14:01:03.305       Timeout Next State      [226]
+Applica.. 14:01:03.305       Cancel Next State       [226]
+Applica.. 14:01:03.305       PIN Check Good Next     [088]
+Applica.. 14:01:03.305       Check Max Bad Pins Next [226]
+Applica.. 14:01:03.315       PIN Check Error Screen  [012]
+Applica.. 14:01:03.315       Remote PIN Next State   [088]
+Applica.. 14:01:03.315       Local PIN Max PIN Retry [003]
+Applica.. 14:01:06.590  
+Applica.. 14:01:06.610 [088] [D] Preset Op. Code Buffer
+Applica.. 14:01:06.610       Next State #            [015]
+Applica.. 14:01:06.610       Clear Mask              [016]
+Applica.. 14:01:06.610       'A' Pre-Set Mask        [000]
+Applica.. 14:01:06.610       'B' Pre-Set Mask        [000]
+Applica.. 14:01:06.630       'C' Pre-Set Mask        [000]
+Applica.. 14:01:06.630       'D' Pre-Set Mask        [000]
+Applica.. 14:01:06.630       Reserved                [000]
+Applica.. 14:01:06.630       Extension State         [000]
+Applica.. 14:01:06.670  
+Applica.. 14:01:06.670 [015] [K] FIT Switch
+Applica.. 14:01:06.670       Index 0 Next State No   [101]
+Applica.. 14:01:06.670       Index 1 Next State No   [106]
+Applica.. 14:01:06.690       Index 2 Next State No   [105]
+Applica.. 14:01:06.690       Index 3 Next State No   [105]
+Applica.. 14:01:06.690       Index 4 Next State No   [101]
+Applica.. 14:01:06.690       Index 5 Next State No   [106]
+Applica.. 14:01:06.690       Index 6 Next State No   [103]
+Applica.. 14:01:06.710       Index 7 Next State No   [107]
+Applica.. 14:01:06.891  
+Applica.. 14:01:06.901 [106] [Y] 8 FDK Selection
+Applica.. 14:01:06.901       Screen Number           [062]
+Applica.. 14:01:06.901       Timeout Next State No   [226]
+Applica.. 14:01:06.901       Cancel Next State No    [226]
+Applica.. 14:01:06.911       FDK Next State No       [139]
+Applica.. 14:01:06.911       Extension State No      [255]
+Applica.. 14:01:06.911       Buffer Position         [000]
+Applica.. 14:01:06.911       FDK Active Mask         [231]
+Applica.. 14:01:06.911       Multi Language Screens  [255]
+Applica.. 14:01:08.743  
+Applica.. 14:01:08.743 [139] [W] FDK Switch
+Applica.. 14:01:08.763       FDK 'A' Next State No   [102]
+Applica.. 14:01:08.773       FDK 'B' Next State No   [481]
+Applica.. 14:01:08.783       FDK 'C' Next State No   [460]
+Applica.. 14:01:08.793       FDK 'D' Next State No   [255]
+Applica.. 14:01:08.803       FDK 'F' Next State No   [255]
+Applica.. 14:01:08.823       FDK 'G' Next State No   [420]
+Applica.. 14:01:08.833       FDK 'H' Next State No   [428]
+Applica.. 14:01:08.843       FDK 'I' Next State No   [416]
+Applica.. 14:01:08.883  
+Applica.. 14:01:08.893 [416] [?] Set ICC Transaction Data
+Applica.. 14:01:08.903       Next State              [116]
+Applica.. 14:01:08.913       Currency Type           [000]
+Applica.. 14:01:08.923       Transaction Type        [050]
+Applica.. 14:01:08.943       Amount Authorised Source[000]
+Applica.. 14:01:08.953       Reserved (000)          [000]
+Applica.. 14:01:08.964       Reserved (000)          [000]
+Applica.. 14:01:08.974       Reserved (000)          [000]
+Applica.. 14:01:08.984       Reserved (000)          [000]
+Applica.. 14:01:09.014   Exit State
+Applica.. 14:01:09.034  
+Applica.. 14:01:09.034 [116] [D] Preset Op. Code Buffer
+Applica.. 14:01:09.054       Next State #            [328]
+Applica.. 14:01:09.054       Clear Mask              [255]
+Applica.. 14:01:09.054       'A' Pre-Set Mask        [128]
+Applica.. 14:01:09.054       'B' Pre-Set Mask        [000]
+Applica.. 14:01:09.064       'C' Pre-Set Mask        [000]
+Applica.. 14:01:09.064       'D' Pre-Set Mask        [000]
+Applica.. 14:01:09.064       Reserved                [000]
+Applica.. 14:01:09.064       Extension State         [000]
+Applica.. 14:01:09.164  
+Applica.. 14:01:09.164 [328] [K] FIT Switch
+Applica.. 14:01:09.164       Index 0 Next State No   [375]
+Applica.. 14:01:09.194       Index 1 Next State No   [375]
+Applica.. 14:01:09.194       Index 2 Next State No   [376]
+Applica.. 14:01:09.194       Index 3 Next State No   [302]
+Applica.. 14:01:09.194       Index 4 Next State No   [301]
+Applica.. 14:01:09.194       Index 5 Next State No   [301]
+Applica.. 14:01:09.214       Index 6 Next State No   [375]
+Applica.. 14:01:09.214       Index 7 Next State No   [375]
+Applica.. 14:01:09.324  
+Applica.. 14:01:09.334 [375] [D] Preset Op. Code Buffer
+Applica.. 14:01:09.344       Next State #            [382]
+Applica.. 14:01:09.354       Clear Mask              [255]
+Applica.. 14:01:09.364       'A' Pre-Set Mask        [032]
+Applica.. 14:01:09.374       'B' Pre-Set Mask        [000]
+Applica.. 14:01:09.384       'C' Pre-Set Mask        [000]
+Applica.. 14:01:09.394       'D' Pre-Set Mask        [000]
+Applica.. 14:01:09.414       Reserved                [000]
+Applica.. 14:01:09.424       Extension State         [000]
+Applica.. 14:01:09.454  
+Applica.. 14:01:09.464 [382] [K] FIT Switch
+Applica.. 14:01:09.474       Index 0 Next State No   [383]
+Applica.. 14:01:09.484       Index 1 Next State No   [383]
+Applica.. 14:01:09.504       Index 2 Next State No   [384]
+Applica.. 14:01:09.514       Index 3 Next State No   [303]
+Applica.. 14:01:09.524       Index 4 Next State No   [383]
+Applica.. 14:01:09.534       Index 5 Next State No   [383]
+Applica.. 14:01:09.544       Index 6 Next State No   [383]
+Applica.. 14:01:09.564       Index 7 Next State No   [383]
+Applica.. 14:01:09.584  
+Applica.. 14:01:09.594 [383] [D] Preset Op. Code Buffer
+Applica.. 14:01:09.614       Next State #            [325]
+Applica.. 14:01:09.624       Clear Mask              [255]
+Applica.. 14:01:09.634       'A' Pre-Set Mask        [064]
+Applica.. 14:01:09.644       'B' Pre-Set Mask        [000]
+Applica.. 14:01:09.655       'C' Pre-Set Mask        [000]
+Applica.. 14:01:09.675       'D' Pre-Set Mask        [000]
+Applica.. 14:01:09.685       Reserved                [000]
+Applica.. 14:01:09.695       Extension State         [000]
+Applica.. 14:01:09.725  
+Applica.. 14:01:09.735 [325] [K] FIT Switch
+Applica.. 14:01:09.745       Index 0 Next State No   [360]
+Applica.. 14:01:09.765       Index 1 Next State No   [360]
+Applica.. 14:01:09.775       Index 2 Next State No   [360]
+Applica.. 14:01:09.785       Index 3 Next State No   [360]
+Applica.. 14:01:09.795       Index 4 Next State No   [360]
+Applica.. 14:01:09.815       Index 5 Next State No   [360]
+Applica.. 14:01:09.825       Index 6 Next State No   [360]
+Applica.. 14:01:09.835       Index 7 Next State No   [360]
+Applica.. 14:01:09.865  
+Applica.. 14:01:09.875 [360] [I] Transaction Request
+Applica.. 14:01:09.885       Screen Number           [088]
+Applica.. 14:01:09.895       Response Timeout State #[023]
+Applica.. 14:01:09.905       Send Track 2 Data       [001]
+Applica.. 14:01:09.925       Send Track 1 and/or 3   [002]
+Applica.. 14:01:09.935       Send Operation Code     [001]
+Applica.. 14:01:09.945       Send Amount Data        [001]
+Applica.. 14:01:09.955       Send PIN Buffer         [129]
+Applica.. 14:01:09.965       Send General Buff (or X)[159]
+Applica.. 14:01:09.975    Extension State - Pos [1]
+Applica.. 14:01:09.995       1  2  3  4  5  6  7  8  9
+Applica.. 14:01:10.005       Z001000000000000000001000
+Applica.. 14:01:16.645  
+Applica.. 14:01:16.645 [016] [F] Amount Entry
+Applica.. 14:01:16.665       Screen #                [083]
+Applica.. 14:01:16.665       Timeout Next State #    [193]
+Applica.. 14:01:16.665       Cancel Next State #     [193]
+Applica.. 14:01:16.665       FDK A (or I) Next State [255]
+Applica.. 14:01:16.675       FDK B (or H) Next State [255]
+Applica.. 14:01:16.675       FDK C (or G) Next State [125]
+Applica.. 14:01:16.675       FDK D (or F) Next State [016]
+Applica.. 14:01:16.675       Amount Display Screen # [044]
+Applica.. 14:01:24.926  
+Applica.. 14:01:24.936 [125] [K] FIT Switch
+Applica.. 14:01:24.957       Index 0 Next State No   [160]
+Applica.. 14:01:24.967       Index 1 Next State No   [160]
+Applica.. 14:01:24.977       Index 2 Next State No   [160]
+Applica.. 14:01:24.987       Index 3 Next State No   [160]
+Applica.. 14:01:25.007       Index 4 Next State No   [160]
+Applica.. 14:01:25.017       Index 5 Next State No   [160]
+Applica.. 14:01:25.027       Index 6 Next State No   [160]
+Applica.. 14:01:25.037       Index 7 Next State No   [160]
+Applica.. 14:01:25.077  
+Applica.. 14:01:25.087 [160] [I] Transaction Request
+Applica.. 14:01:25.097       Screen Number           [088]
+Applica.. 14:01:25.117       Response Timeout State #[023]
+Applica.. 14:01:25.127       Send Track 2 Data       [001]
+Applica.. 14:01:25.137       Send Track 1 and/or 3   [000]
+Applica.. 14:01:25.147       Send Operation Code     [001]
+Applica.. 14:01:25.157       Send Amount Data        [001]
+Applica.. 14:01:25.177       Send PIN Buffer         [129]
+Applica.. 14:01:25.187       Send General Buff (or X)[159]
+Applica.. 14:01:25.197    Extension State - Pos [1]
+Applica.. 14:01:25.207       1  2  3  4  5  6  7  8  9
+Applica.. 14:01:25.227       Z001000000000000000001000
+Applica.. 14:01:37.124  
+Applica.. 14:01:37.144 [022] [X] FDK Info Entry
+Applica.. 14:01:37.154       Screen Number           [090]
+Applica.. 14:01:37.164       Timeout Next State No   [226]
+Applica.. 14:01:37.174       Cancel Next State No    [226]
+Applica.. 14:01:37.184       FDK Next State No       [096]
+Applica.. 14:01:37.194       Extension State No      [099]
+Applica.. 14:01:37.214       Buffer Position         [030]
+Applica.. 14:01:37.224       FDK Active Mask         [012]
+Applica.. 14:01:37.234       Multi Language Screens  [000]
+Applica.. 14:01:37.254    Extension State - Pos [1]
+Applica.. 14:01:37.264       1  2  3  4  5  6  7  8  9
+Applica.. 14:01:37.274       Z000000000000000000000000
+Applica.. 14:01:39.387  
+Applica.. 14:01:39.387 [096] [W] FDK Switch
+Applica.. 14:01:39.387       FDK 'A' Next State No   [255]
+Applica.. 14:01:39.417       FDK 'B' Next State No   [255]
+Applica.. 14:01:39.417       FDK 'C' Next State No   [530]
+Applica.. 14:01:39.417       FDK 'D' Next State No   [226]
+Applica.. 14:01:39.417       FDK 'F' Next State No   [255]
+Applica.. 14:01:39.437       FDK 'G' Next State No   [255]
+Applica.. 14:01:39.437       FDK 'H' Next State No   [255]
+Applica.. 14:01:39.437       FDK 'I' Next State No   [255]
+Applica.. 14:01:39.537  
+Applica.. 14:01:39.547 [226] [J] Close
+Applica.. 14:01:39.568       Receipt Delivered Screen[099]
+Applica.. 14:01:39.578       Next State Number       [000]
+Applica.. 14:01:39.588       No Receipt Delivered Scr[099]
+Applica.. 14:01:39.598       Card Retained Screen    [099]
+Applica.. 14:01:39.618       Statement Delivered Scr [000]
+Applica.. 14:01:39.628       Must Be 000 (Reserved)  [000]
+Applica.. 14:01:39.638       DPM Doc Captured Scr    [000]
+Applica.. 14:01:39.648       Extension State         [000]
+Applica.. 14:01:48.270  
+Applica.. 14:01:48.270 [000] [A] Card Read
+Applica.. 14:01:48.290       Screen Number           [085]
+Applica.. 14:01:48.290       Good Read Next State    [500]
+Applica.. 14:01:48.290       Error Misread Screen No [053]
+Applica.. 14:01:48.290       Read Condition 1        [010]
+Applica.. 14:01:48.310       Read Condition 2        [008]
+Applica.. 14:01:48.310       Read Condition 3        [002]
+Applica.. 14:01:48.310       Card Return Flag        [001]
+Applica.. 14:01:48.310       No FIT Match Next State [520]

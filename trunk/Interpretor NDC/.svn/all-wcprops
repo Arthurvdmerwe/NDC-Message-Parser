@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/120/trunk/Interpretor%20NDC
+END
+StateTablesLoad.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/120/trunk/Interpretor%20NDC/StateTablesLoad.cs
+END
+ConfigurationParametersLoad.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/24/trunk/Interpretor%20NDC/ConfigurationParametersLoad.cs
+END
+FITDataLoad.cs
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/24/trunk/Interpretor%20NDC/FITDataLoad.cs
+END
+CustomisationDataCommands.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/24/trunk/Interpretor%20NDC/CustomisationDataCommands.cs
+END
+Interpretor NDC.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/116/trunk/Interpretor%20NDC/Interpretor%20NDC.csproj
+END
+ConfigurationIDNumberLoad.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/24/trunk/Interpretor%20NDC/ConfigurationIDNumberLoad.cs
+END
+Mesaj.cs
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/24/trunk/Interpretor%20NDC/Mesaj.cs
+END
+Form1.resx
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/96/trunk/Interpretor%20NDC/Form1.resx
+END
+Utils.cs
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/94/trunk/Interpretor%20NDC/Utils.cs
+END
+EnhancedConfigurationParametersLoad.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/24/trunk/Interpretor%20NDC/EnhancedConfigurationParametersLoad.cs
+END
+ScreenKeyDataLoad.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/114/trunk/Interpretor%20NDC/ScreenKeyDataLoad.cs
+END
+Form1.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/118/trunk/Interpretor%20NDC/Form1.Designer.cs
+END
+Form1.cs
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/118/trunk/Interpretor%20NDC/Form1.cs
+END
+Program.cs
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/16/trunk/Interpretor%20NDC/Program.cs
+END

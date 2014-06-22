@@ -1,0 +1,3371 @@
+Supervi.. 12:18:33.359 _______________________________________________
+APTRA Advance NDC 02.06.06 (c)NCR 
+Supervisor 
+
+Supervisor Application : Waiting for AC call  
+<wid>0n3593dc126</wid>
+
+Applica.. 12:18:41.906 
+APTRA Advance NDC 02.06.02   
+
+ApplicationCore Started 05-11-08 12:18:41
+
+APTRA Promote v2.0
+CEN/XFS 2.0
+
+NOTE : This Version of Application core
+       Requires a separate SUPERVISOR Application.
+
+----------
+  
+<wid>0n3804dc128</wid>
+
+Applica.. 12:18:44.296 OtherVendor Encryptor INIT - Check MV/SV?  
+<wid>7n3817dc128</wid>
+
+Applica.. 12:18:44.812 CDU FONT DESIGNATORS [123456789:;<=>?@ABCDEF`abcdefghijklmnopqrst]
+Applica.. 12:18:46.937 
+
+INITIALISATION
+
+Configuration ID : 4501
+Last Mode        : 2
+Last Return Mode : 0
+Restart Option   : 2
+
+----------
+  
+<wid>6s576g96</wid>
+
+Applica.. 12:18:47.000 
+================================================================
+
+Applica.. 12:18:47.000      Microsoft Windows XP
+Applica.. 12:18:47.000      5.1
+Applica.. 12:18:47.000      Multiprocessor Free
+Applica.. 12:18:47.000      Service Pack 2
+Applica.. 12:18:47.015 
+     C:\7,985,228K free
+Applica.. 12:18:47.031 
+     UserDomain	= NCR1293
+Applica.. 12:18:47.031      UserName	= SSTAuto1
+Applica.. 12:18:47.031      ComputerName= NCR1293
+Applica.. 12:18:47.031 
+================================================================
+
+Applica.. 12:18:47.031 TIMERS
+
+00 - Card holder keyboard response time = 173
+01 - Card holder time out response = 173
+02 - Close state/Eject Failure CRT Scr. Disp Timout Interval = 4
+03 - Communication Message Timeout Interval = 305
+04 - Envelope / document insertion response time = 118
+05 - Cash Retract Timeout = 95
+06 - Communications Off-line Timeoue = 39
+07 - Present Timeout = 1
+08 - Night Safe Deposit Timeout = 118
+09 - Card holder Timeout interval before card capture attempt = 45
+10 - Diebold = 0
+82 - Camera Delay Period = 1
+83 - DCS File Deletion Period = 0
+86 - Rear settlement Timeout = 520
+87 - DPM Document Capture Screen Timer = 75
+88-90 Reserved
+91 - InService Supervisor Screen Display Time = 94
+92 - SOH Screen Display Time = 16
+93 - Manually selected SOH ScrC¢Ãwœ
+een Display Time = 118
+94 - Document / Envelope Eject Time-out = 118
+95 - Time taken by card holder to retract statement = 118
+96 - Transaction Reply Next State Timer = 118
+97 - Door Access Feature Timer = 96
+98 - Reserved Timer
+99 - Reserve
+Applica.. 12:18:47.031 
+77 - Cash Acceptance Timer (BNA) = 24
+78 - Cash Rejection Timer (BNA) = 24
+
+OPTION DIGITS 
+
+00 - Camera control = 1
+01 - Ready / Supply/ Amount buffer
+02 - Auto Voice = 1
+03 - Date Format for Supervisor/Journal Messages = 1
+04 - Roll Width = 36
+05 - Left Print Column = 2
+06 - Reserved
+07 - Track 1 Format = 1
+08 - Reserved
+09 - Diebold Status = N/A
+10 - TI Control = N/A
+11 - Extended Status Control = 1
+12 - Specific Command Reject = 1
+13 - Card Reader Error Threshold = 1
+14 - Track Write Error Threshold = N/A
+15 - Transaction Status Information = 1
+16 - Hardcopy Backup Hours = 0
+17 - Hardcopy Backup Records = 0
+18-20 Reserved
+21 - Ignore Optical MM Sensor = 0
+22 - Hardcopy Backup Log Tamper Reporting = N/A
+23 - Envelope Dispenser Messages SC¢Ãwœ
+ent = 0
+24 - Enhan. TI/Sensor Unsol Msg Sent = 0
+25 - Media Entry Ind. Flash Rate = 16
+26 - Touch Screen Reporting = 1
+27 - Remote Relay Active = 0
+28 - TPA Host informed of SM installation  = N/A
+30 - PAN included in data sent to the DCS = 
+Applica.. 12:18:47.031 
+
+----------------------------------
+  SINGLE VENDOR SYSTEM
+----------------------------------  
+<wid>4n3243dc125</wid>
+
+Applica.. 12:18:47.031 Configuring Journal...
+  Journal Fitness [-1]
+  Current Journal Mode [*]  
+<wid>88s686g213</wid>
+
+Applica.. 12:18:47.031   New Journal Mode: [3]  
+<wid>119s686g213</wid>
+
+Applica.. 12:18:47.046 Dialogs Enabled :   [0]
+Content Enabled :   [0]
+PCTimeout Enabled : [0]  
+<wid>10l1319y27</wid>
+
+Applica.. 12:18:47.046 Electronic Journal Configured  
+<wid>9n3646dc126</wid>
+
+Applica.. 12:18:47.062 
+ EJ Retry Threshold    = 0
+ EJ Ack Timeout        = 255
+ EJ BlockSize          = 200
+ Last Char THIS block  = 0
+ Last Char PREV block  = 0
+ Last Char Recvd       = 0
+ Pending EJ Flag       = 0
+ EJ Upload Msg         = 
+ EJ Command Code       = 
+ Pending EJ Command    =   
+<wid>1p709a23</wid>
+
+Applica.. 12:18:47.140 Already Created HostMessage CDI
+Applica.. 12:18:47.140 Already Created Status Info CDI
+Applica.. 12:18:47.140 Already Created PendingTC CDI
+Applica.. 12:18:47.140 Already Created PendingTR CDI
+Applica.. 12:18:47.140 Already Created MessageforHost CDI
+Applica.. 12:18:47.140 Already Created PendingTCMsgFlag CDI
+Applica.. 12:18:47.156 Already Created TranReplyExpected CDI
+Applica.. 12:18:47.156 Already created CurrencyMappingTable CDI
+Applica.. 12:18:47.156 Already created OOSReceived CDI
+Applica.. 12:18:47.156 Already Created Option34 CDI
+Applica.. 12:18:47.156 Already Created Option33 CDI
+Applica.. 12:18:47.171 Already Created MStatus35_InterlockDoorOpen_Rcvd CDI
+Applica.. 12:18:47.171 Already Created Option 47 CDI
+Applica.. 12:18:47.171 Already Created ACStatusBucket CDI
+Applica.. 12:18:47.171 Already Created TRPrintLineCount CDI
+Applica.. 12:18:47.171 Already Created TRPrintR01Len CDI
+Applica.. 12:18:47.171 Already Created TRPrintR01 CDI
+Applica.. 12:18:47.171 Already Created EncryptorVariant CDI
+Applica.. 12:18:47.187 Already Created MasterKeyLoaded CDI
+Applica.. 12:18:47.187 Already Created BKeyLoaded CDI
+Applica.. 12:18:47.187 Already Created MasterKey2Loaded CDI
+Applica.. 12:18:47.187 Already Created BKey2Loaded CDI
+Applica.. 12:18:47.187 Already Created CommsKey2Loaded CDI
+Applica.. 12:18:47.187 Already Created VMasterKeyLoaded CDI
+Applica.. 12:18:47.187 Already Created VMasterKey2Loaded CDI
+Applica.. 12:18:47.203 Already Created MAC2KeyLoaded CDI
+Applica.. 12:18:47.203 Already Created VMasterKeyLoaded CDI
+Applica.. 12:18:47.203 Already Created VPairA1KeyLoaded CDI
+Applica.. 12:18:47.203 Already Created VPairB1KeyLoaded CDI
+Applica.. 12:18:47.203 Already Created VPairA2KeyLoaded CDI
+Applica.. 12:18:47.203 Already Created VPairB2KeyLoaded CDI
+Applica.. 12:18:47.218 Already Created VPairA3KeyLoaded CDI
+Applica.. 12:18:47.250 Already Created VPairB3KeyLoaded CDI
+Applica.. 12:18:47.250 Already Created VPairA4KeyLoaded CDI
+Applica.. 12:18:47.250 Already Created VPairB4KeyLoaded CDI
+Applica.. 12:18:47.250 Already Created VPairA5KeyLoaded CDI
+Applica.. 12:18:47.250 Already Created VPairB5KeyLoaded CDI
+Applica.. 12:18:47.265 Already Created VPairA6KeyLoaded CDI
+Applica.. 12:18:47.265 Already Created VPairB6KeyLoaded CDI
+Applica.. 12:18:47.265 Already Created EncryptorMode CDI
+Applica.. 12:18:47.265 Already Created KeyA_Part1 CDI
+Applica.. 12:18:47.265 Already Created KeyB_Part1 CDI
+Applica.. 12:18:47.265 Already Created KeyV_Part1 CDI
+Applica.. 12:18:47.281 Already Created EIDMessage CDI
+Applica.. 12:18:47.281 Already Created CashHandlerVariant CDI
+Applica.. 12:18:47.281 Already Created BAPE_Emulation CDI
+Applica.. 12:18:47.281 Already Created T1Data CDI
+Applica.. 12:18:47.281 Already Created T2Data CDI
+Applica.. 12:18:47.281 Already Created T3Data CDI
+Applica.. 12:18:47.281 Already Created Timer68 CDI
+Applica.. 12:18:47.296 Already Created Timer69 CDI
+Applica.. 12:18:47.296 Already created CIBCDispenseUnsol CDI
+Applica.. 12:18:47.296 
+ EJ Retry Threshold    = 0
+ EJ Ack Timeout        = 255
+ EJ BlockSize          = 200
+ Last Char THIS block  = 0
+ Last Char PREV block  = 0
+ Last Char Recvd       = 0
+ Pending EJ Flag       = 0
+ EJ Upload Msg         = 
+ EJ Command Code       = 
+ Pending EJ Command    =   
+<wid>1p709a23</wid>
+
+Applica.. 12:18:47.296 Supervisor Boot Detected  
+<wid>0n3978dc128</wid>
+
+CustomJ.. 12:18:50.609 
+------------------------------------
+APTRA Advance NDC 02.06.06
+
+Customisation Layer Started 05-11-08 12:18:50
+
+APTRA Promote V2.5
+
+------------------------------------  
+<wid>4s686g213</wid>
+
+Applica.. 12:18:51.203 + Waiting For Supervisor Application to Start...
+  
+<wid>1n2307dc125</wid>
+
+Supervi.. 12:18:51.203 Supervisor Application : starting ooxfs init  
+<wid>1n3593dc126</wid>
+
+Supervi.. 12:18:52.656 
+-----------------------------------------------------------------------
+APTRA Advance NDC 
+
+Supervisor Application Started 05-11-08 12:18:52
+
+APTRA Promote v2.0
+
+-----------------------------------------------------------------------
+
+  
+<wid>7n2303dc125</wid>
+
+Applica.. 12:18:52.687 +
+Waiting For Customisation Layer to Start...
+  
+<wid>0s556g209</wid>
+
+Applica.. 12:18:52.687 <188265><abc><a00> CreateEvent SessionComplete
+Applica.. 12:18:52.687 <188265><abc><a00> WaitForSingleObject SessionComplete
+Supervi.. 12:18:52.718 Initialises Supervisor CDI stores 
+Supervi.. 12:18:52.734 Already Created PendSpvsrMsgEntry CDI
+Supervi.. 12:18:52.734 Already Created PendSpvsrMsgExit CDI
+Supervi.. 12:18:52.953 
+ SUPERVISOR APPLICATION
+ Media Device Init
+     MCRW          [0]
+     Cash Handler  [0]
+     Receipt       [0]
+     Statement     [-1]
+     Env Depository[-1]
+     Env Dispenser [-1]
+     Night Safe    [-1]
+     Smart Card    [-1]
+  
+<wid>11n2303dc125</wid>
+
+Supervi.. 12:18:53.968 Supervisor Application : WAITING....  
+<wid>15n2303dc125</wid>
+
+CustomJ.. 12:18:54.953 DEVICE INITIALISATION  
+<wid>61s686g213</wid>
+
+CustomJ.. 12:18:55.140 Configuring Journal...
+  Journal Fitness [-1]
+  Current Journal Mode [*]  
+<wid>88s686g213</wid>
+
+CustomJ.. 12:18:55.218   New Journal Mode: [3]  
+<wid>119s686g213</wid>
+
+CustomJ.. 12:18:55.218 + Receipt Printer Device Available  
+<wid>75s686g213</wid>
+
+CustomJ.. 12:18:55.218 - Statement Printer Device Not Present  
+<wid>81s686g213</wid>
+
+CustomJ.. 12:18:55.234 + MCRW Device Available Variant [81] Can Eject [1]  
+<wid>8n2206dc125</wid>
+
+CustomJ.. 12:18:55.296 - Envelope Depository Device Not Present  
+<wid>138s686g213</wid>
+
+CustomJ.. 12:18:55.296 - Envelope Dispenser Device Not Present  
+<wid>149s686g213</wid>
+
+CustomJ.. 12:18:55.328 + Cash Handler Device Available [variant = 1]  
+<wid>163s686g213</wid>
+
+CustomJ.. 12:18:55.406 - BNA Not Available
+BNA FITNESS = -1  
+<wid>0s778g215</wid>
+
+CustomJ.. 12:18:55.406 NDCReleaseAllDevices: the service state of DISP_TI_SERVICE is NULL
+CustomJ.. 12:18:55.406 NDCReleaseAllDevices: the service state of DEP_TI_SERVICE is NULL
+CustomJ.. 12:18:55.406 NDCReleaseAllDevices: the service state of MCRW_TI_SERVICE is NULL
+CustomJ.. 12:18:55.406 NDCReleaseAllDevices: the service state of ALARMS is NULL
+CustomJ.. 12:18:55.406 NDCReleaseAllDevices: the service state of TOUCH_SCREEN is NULL
+CustomJ.. 12:18:55.406 NDCReleaseAllDevices: the service state of SYSTEM_MONITOR is <0>
+CustomJ.. 12:18:55.406 NDCReleaseAllDevices: the service state of COMMUNICATIONS is NULL
+CustomJ.. 12:18:55.406 NDCReleaseAllDevices: the service state of MCRW is <0>
+CustomJ.. 12:18:55.406 NDCReleaseAllDevices: the service state of CASH_HANDLER is <0>
+CustomJ.. 12:18:55.406 NDCReleaseAllDevices: the service state of DEPOSITORY is NULL
+CustomJ.. 12:18:55.406 NDCReleaseAllDevices: the service state of RECEIPT_PRINTER is NULL
+CustomJ.. 12:18:55.406 NDCReleaseAllDevices: the service state of JOURNAL_PRINTER is NULL
+CustomJ.. 12:18:55.406 NDCReleaseAllDevices: the service state of NIGHT_SAFE is NULL
+CustomJ.. 12:18:55.406 NDCReleaseAllDevices: the service state of ENCRYPTOR is <0>
+CustomJ.. 12:18:55.406 NDCReleaseAllDevices: the service state of CAMERA is NULL
+CustomJ.. 12:18:55.406 NDCReleaseAllDevices: the service state of DOOR_ACCESS is NULL
+CustomJ.. 12:18:55.406 NDCReleaseAllDevices: the service state of ALPHA_KEYBOARD is NULL
+CustomJ.. 12:18:55.406 NDCReleaseAllDevices: the service state of STATEMENT_PRINTER is NULL
+CustomJ.. 12:18:55.421 NDCReleaseAllDevices: the service state of COIN_DISPENSER is NULL
+CustomJ.. 12:18:55.421 NDCReleaseAllDevices: the service state of ENV_DISPEN is NULL
+CustomJ.. 12:18:55.421 NDCReleaseAllDevices: the service state of OPERATOR_KEYBOARD is NULL
+CustomJ.. 12:18:55.421 NDCReleaseAllDevices: the service state of SYSTEM_DISPLAY is NULL
+CustomJ.. 12:18:55.421 NDCReleaseAllDevices: the service state of MEDIA_ENTRY_INDICATORS is NULL
+CustomJ.. 12:18:55.421 NDCReleaseAllDevices: the service state of DPM_SERVICE is NULL
+CustomJ.. 12:18:55.421 NDCReleaseAllDevices: the service state of DEP_TI_SERVICE is NULL
+CustomJ.. 12:18:55.421 NDCReleaseAllDevices: the service state of PASSBOOK_SERVICE is NULL
+CustomJ.. 12:18:55.437 Wrote Cash Handler Reg TCODE [OTHER]
+CustomJ.. 12:18:55.453 Dialogs Enabled :   [0]
+Content Enabled :   [0]
+PCTimeout Enabled : [0]  
+<wid>10l1319y27</wid>
+
+Applica.. 12:18:55.453 Started
++
+  
+<wid>1s556g209</wid>
+
+Applica.. 12:18:55.531 Supervisor Mode Required  
+<wid>38s598g96</wid>
+
+Applica.. 12:18:57.937 Op Keyboard Fitness: [-1]  
+<wid>1l995y17</wid>
+
+Applica.. 12:18:57.937 Smart Copy init last date. Copy from persistant: 11/05/08 to sharable: 11/05/08;  
+<wid>2c12ostin1</wid>
+
+Applica.. 12:18:58.187 Supervisor Boot - bypass the opening of comms  
+<wid>1n3978dc128</wid>
+
+Applica.. 12:18:58.375 - Mode Handler Started
+       Mode        [3]
+       Return Mode [2]  
+<wid>5s146g57</wid>
+
+Applica.. 12:18:58.390 Supervisor Mode Entered [3]
+  Return Mode [2]  
+<wid>1s146g57</wid>
+
+Applica.. 12:18:58.390 SUPERVISOR ENTRY TEST FOR BNA DEBUG
+BNA FITNESS = -1
+DENOM CONFIG 1 =  
+DENOM CONFIG 2 =  
+DENOM CONFIG 3 =  
+PROGRAMMED CURRENCY COUNT = 0  
+<wid>3a209s7</wid>
+
+Applica.. 12:18:58.390 Supervisor waiting on supervisor resource....  
+<wid>11j91v1</wid>
+
+Applica.. 12:18:58.406 ResAgent.RoleObtained <> RM_USER_OBTAINED
+Applica.. 12:18:58.406 **** SUPERVISOR RESOURCE ID UNAVAILABLE
+     WAITING UNTIL AVAILABLE  
+<wid>3s1586g219</wid>
+
+Applica.. 12:18:58.437 ResAgent_Established arrived
+Applica.. 12:18:58.468 Message Handler - awaiting incoming message...  
+<wid>8l194y12</wid>
+
+Supervi.. 12:18:58.484 Reconfiguring Journal Mode To [3]
+  
+<wid>3n3108dc125</wid>
+
+Supervi.. 12:18:58.484   New Journal Mode: [3]  
+<wid>10s658g98</wid>
+
+Supervi.. 12:18:58.796 Op Keyboard Fitness: [-1]  
+<wid>1l995y17</wid>
+
+Supervi.. 12:18:58.796 FACIA Enabled  
+<wid>2s375g95</wid>
+
+Supervi.. 12:18:58.812 Activating Supervisor Exit Executor
+  Current I/F [0]  
+<wid>2s556g209</wid>
+
+Supervi.. 12:18:58.875 Activating Pending Supervisor
+Entry Msg = 
+Exit Msg =   
+<wid>6r641ichl21</wid>
+
+Supervi.. 12:18:58.890 Pending Supervisor Msg Sent  
+<wid>3v1830m34</wid>
+
+Supervi.. 12:19:07.562 Activating Supervisor Exit Executor
+  Current Menu [0]
+  Current Fnct [7]
+  Current I/F  [0]
+  Next Menu    [0]
+  Next I/F     [0]
+  Host Menu    [0]
+  Host Fnct    [7]  
+<wid>3s556g209</wid>
+
+Supervi.. 12:19:07.578 SUPERVISOR : DIAGS [1]  
+<wid>4r644ichl21</wid>
+
+Supervi.. 12:19:07.578 SUPERVISOR :  Diagnostics Mode  
+<wid>26n2303dc125</wid>
+
+Applica.. 12:19:07.593 APPCORE : releasing consumer & entering Diagnostics  
+<wid>7n2302dc125</wid>
+
+Supervi.. 12:19:07.875 SUPERVISOR :  VDM Supported  
+<wid>4n1195dc6</wid>
+
+Applica.. 12:19:15.140 APPCORE waiting on consumer resource after Supervisor....  
+<wid>8n2302dc125</wid>
+
+Applica.. 12:19:15.171 ResAgent.RoleObtained = RM_USER_OBTAINED
+Supervi.. 12:19:15.343 Activating Pending Supervisor
+Entry Msg = 
+Exit Msg =   
+<wid>6r641ichl21</wid>
+
+Supervi.. 12:19:15.406 Pending Supervisor Msg Sent  
+<wid>3v1830m34</wid>
+
+Supervi.. 12:19:16.921 Activating Supervisor Exit Executor
+  Current Menu [0]
+  Current Fnct [9]
+  Current I/F  [0]
+  Next Menu    [0]
+  Next I/F     [0]
+  Host Menu    [0]
+  Host Fnct    [9]  
+<wid>3s556g209</wid>
+
+Supervi.. 12:19:36.781 Supervisor Application : exit from supervisor boot  
+<wid>31n2303dc125</wid>
+
+Supervi.. 12:19:36.859 Comms Connection
+  CLOSED
+Attempting To OPEN  
+<wid>10s617g97</wid>
+
+Supervi.. 12:19:36.984   OPENED  
+<wid>8s380g208</wid>
+
+Supervi.. 12:19:37.031 SUPERVISOR AUTO EXIT
+  RETURNING TO MODE [5]  
+<wid>2s146g57</wid>
+
+Supervi.. 12:19:37.031 Activating Supervisor Exit Executor
+  Return Mode [5]  
+<wid>0l881y15</wid>
+
+Supervi.. 12:19:37.046 Mode Change Called From Supervisor  
+<wid>2s24g85</wid>
+
+Applica.. 12:19:37.046 Try joining with MsgReceiver  
+<wid>0j155v1</wid>
+
+Supervi.. 12:19:37.046 Supervisor Application : WAITING....  
+<wid>15n2303dc125</wid>
+
+Applica.. 12:19:37.046 Joined  
+<wid>19j146v1</wid>
+
+Applica.. 12:19:37.078 Comms Connection
+  OPEN
+  
+<wid>6s617g97</wid>
+
+Applica.. 12:19:37.156 OFFLINE (5) Mode Entered At 12:19:37  
+<wid>43s834g101</wid>
+
+Applica.. 12:19:37.265 read [600] from [HKEY_LOCAL_MACHINE\SOFTWARE\NCR\Advance NDC\VPIComms\OfflineTimer]
+Applica.. 12:19:37.265 OFFLINE TIMER PERIOD = 600  
+<wid>8r2738r24</wid>
+
+Applica.. 12:19:42.281 COMMS Connection Established  
+<wid>4n4380dc128</wid>
+
+Applica.. 12:19:42.328   Returning to OOS  
+<wid>45s834g101</wid>
+
+Applica.. 12:19:42.328 ATTEMPTING TO SEND POWER UP STATUS: [12000B4501]  
+<wid>25s619g97</wid>
+
+Applica.. 12:19:42.468 Activating Pending Supervisor Messages
+Entry Message = 
+Exit Message =   
+<wid>4n625dc4</wid>
+
+Applica.. 12:19:42.500 Supervisor Pending Messages Complete
+On Exit Supervisor Entry Msg = 
+On Exit Supervisor Exit Msg =   
+<wid>3n625dc4</wid>
+
+Applica.. 12:19:42.531 - Mode Handler Started
+       Mode        [2]
+       Return Mode [5]  
+<wid>5s146g57</wid>
+
+Applica.. 12:19:42.593 Activating Pending Supervisor Messages
+Entry Message = 
+Exit Message =   
+<wid>4n625dc4</wid>
+
+Applica.. 12:19:42.656 Supervisor Pending Messages Complete
+On Exit Supervisor Entry Msg = 
+On Exit Supervisor Exit Msg =   
+<wid>3n625dc4</wid>
+
+Applica.. 12:19:42.671 Check for Pending EJ Messages
+Pending EJ Flag = 0  
+<wid>0p686a23</wid>
+
+Applica.. 12:19:42.687 Message Handler - awaiting incoming message...  
+<wid>8l194y12</wid>
+
+Applica.. 12:22:26.828 Supervisor Mode Entered [3]
+  Return Mode [2]  
+<wid>1s146g57</wid>
+
+Applica.. 12:22:26.828 SUPERVISOR ENTRY TEST FOR BNA DEBUG
+BNA FITNESS = -1
+DENOM CONFIG 1 =  
+DENOM CONFIG 2 =  
+DENOM CONFIG 3 =  
+PROGRAMMED CURRENCY COUNT = 0  
+<wid>3a209s7</wid>
+
+Applica.. 12:22:26.828 Supervisor waiting on supervisor resource....  
+<wid>11j91v1</wid>
+
+Applica.. 12:22:26.843 ResAgent.RoleObtained = RM_USER_OBTAINED
+Applica.. 12:22:26.875 Message Handler - awaiting incoming message...  
+<wid>8l194y12</wid>
+
+Supervi.. 12:22:27.093 Sensors Unsol: 12000P21  
+<wid>8l817y15</wid>
+
+Supervi.. 12:22:27.125 Storing Pending Supervisor Message
+Sensors Msg = 12000P21
+Pending Entry Msg =   
+<wid>5n625dc4</wid>
+
+Supervi.. 12:22:27.187 Op Keyboard Fitness: [-1]  
+<wid>1l995y17</wid>
+
+Supervi.. 12:22:27.187 FACIA Enabled  
+<wid>2s375g95</wid>
+
+Supervi.. 12:22:27.187 Activating Supervisor Exit Executor
+  Current I/F [0]  
+<wid>2s556g209</wid>
+
+Supervi.. 12:22:27.234 Activating Pending Supervisor
+Entry Msg = 12000P21
+Exit Msg =   
+<wid>6r641ichl21</wid>
+
+Supervi.. 12:22:27.250 Attempt to send Pending Supervisor Entry Message  
+<wid>22v1823m34</wid>
+
+Supervi.. 12:22:27.281 Supervisor Pending Complete  
+<wid>25v1823m34</wid>
+
+Supervi.. 12:22:30.312 Activating Pending Supervisor
+Entry Msg = 12000P21
+Exit Msg =   
+<wid>6r641ichl21</wid>
+
+Supervi.. 12:22:30.328 Attempt to send Pending Supervisor Entry Message  
+<wid>22v1823m34</wid>
+
+Supervi.. 12:22:30.359 Pending Supervisor Msg Sent  
+<wid>3v1830m34</wid>
+
+Supervi.. 12:22:31.843 Activating Supervisor Exit Executor
+  Current Menu [0]
+  Current Fnct [9]
+  Current I/F  [0]
+  Next Menu    [0]
+  Next I/F     [0]
+  Host Menu    [0]
+  Host Fnct    [9]  
+<wid>3s556g209</wid>
+
+Supervi.. 12:22:31.859 Activating Pending Supervisor Messages
+Entry Message = 
+Exit Message =   
+<wid>4n625dc4</wid>
+
+Supervi.. 12:22:50.484 SUPERVISOR AUTO EXIT
+  RETURNING TO MODE [2]  
+<wid>2s146g57</wid>
+
+Supervi.. 12:22:50.484 Activating Supervisor Exit Executor
+  Return Mode [2]  
+<wid>0l881y15</wid>
+
+Supervi.. 12:22:50.500 Mode Change Called From Supervisor  
+<wid>2s24g85</wid>
+
+Applica.. 12:22:50.515 Try joining with MsgReceiver  
+<wid>0j155v1</wid>
+
+Supervi.. 12:22:50.515 Sensors Unsol: 12000P20  
+<wid>8l817y15</wid>
+
+Supervi.. 12:22:50.562 Activating Pending Supervisor Messages
+Entry Message = 
+Exit Message =   
+<wid>4n625dc4</wid>
+
+Applica.. 12:22:50.562 Joined  
+<wid>19j146v1</wid>
+
+Applica.. 12:22:50.609 - Mode Handler Started
+       Mode        [2]
+       Return Mode [2]  
+<wid>5s146g57</wid>
+
+Applica.. 12:22:50.640 Activating Pending Supervisor Messages
+Entry Message = 
+Exit Message =   
+<wid>4n625dc4</wid>
+
+Supervi.. 12:22:50.687 Supervisor Application : WAITING....  
+<wid>15n2303dc125</wid>
+
+Applica.. 12:22:50.703 Supervisor Pending Messages Complete
+On Exit Supervisor Entry Msg = 
+On Exit Supervisor Exit Msg =   
+<wid>3n625dc4</wid>
+
+Applica.. 12:22:50.718 Check for Pending EJ Messages
+Pending EJ Flag = 0  
+<wid>0p686a23</wid>
+
+Applica.. 12:22:50.750 Message Handler - awaiting incoming message...  
+<wid>8l194y12</wid>
+
+Applica.. 12:27:53.171 [Message Handler Control OOS Started]  
+<wid>10l312b7</wid>
+
+Applica.. 12:27:53.187 Message Handler 1 - new message received: [102930007]  
+<wid>0n87dc7</wid>
+
+Applica.. 12:27:53.187 Processing Message - Terminal Command  
+<wid>13l194y12</wid>
+
+Applica.. 12:27:53.187 Validating message...  
+<wid>19l194y12</wid>
+
+Applica.. 12:27:53.187 Deformatting message...  
+<wid>3l195y12</wid>
+
+Applica.. 12:27:53.187 Configuration Information Request received  
+<wid>36l195y12</wid>
+
+Applica.. 12:27:53.640 [Message Handler Control] - Send Terminal Command Signal  
+<wid>3l290b7</wid>
+
+Applica.. 12:27:53.656 Message Handler - Terminal State response sent: [22000F145010000000000000000000000007F000801000180000000C7000001010200107F7F0000011011000000021110000000000011111]  
+<wid>24l195y12</wid>
+
+Applica.. 12:27:53.687 Message Handler - awaiting incoming message...  
+<wid>8l194y12</wid>
+
+Applica.. 12:27:57.140 [Message Handler Control OOS Started]  
+<wid>10l312b7</wid>
+
+Applica.. 12:27:57.156 Message Handler 1 - new message received: [102930001]  
+<wid>0n87dc7</wid>
+
+Applica.. 12:27:57.156 Processing Message - Terminal Command  
+<wid>13l194y12</wid>
+
+Applica.. 12:27:57.156 Validating message...  
+<wid>19l194y12</wid>
+
+Applica.. 12:27:57.156 Deformatting message...  
+<wid>3l195y12</wid>
+
+Applica.. 12:27:57.156 Go In Service Command received  
+<wid>30l195y12</wid>
+
+Applica.. 12:27:57.171 Message Handler - Ready response sent: [220009]  
+<wid>23l195y12</wid>
+
+Applica.. 12:27:57.187 Message Handler - Ready response sent: [220009]  
+<wid>23l195y12</wid>
+
+Applica.. 12:27:57.234 In Service Mode Entered - Mode [4]  
+<wid>0s146g57</wid>
+
+Applica.. 12:27:57.281   -- Custom Data Received [0]
+  -- Download Save Option [0]
+  -- Config ID [4501]  
+<wid>20l318b7</wid>
+
+Applica.. 12:27:57.296 Activating Pending Supervisor Messages
+Entry Message = 
+Exit Message =   
+<wid>4n625dc4</wid>
+
+Applica.. 12:27:57.343 Supervisor Pending Messages Complete
+On Exit Supervisor Entry Msg = 
+On Exit Supervisor Exit Msg =   
+<wid>3n625dc4</wid>
+
+Applica.. 12:27:57.359 Check for Pending EJ Messages
+Pending EJ Flag = 0  
+<wid>0p686a23</wid>
+
+Applica.. 12:27:57.359 Checking Customisation Layer Status [IDLE]  
+<wid>3n4843dc128</wid>
+
+Applica.. 12:27:57.375 Attempting to activate Customisation Layer...  
+<wid>2l194y12</wid>
+
+Applica.. 12:27:57.390 <732968><abc><ac0> OpenEvent sessionGranted
+Applica.. 12:27:57.390 <732968><abc><ac0> SetEvent sessionGranted
+Applica.. 12:27:57.406 <732984><abc><ac0> ResetEvent sessionGranted
+Applica.. 12:27:57.421 Message Handler - awaiting incoming message...  
+<wid>8l194y12</wid>
+
+Applica.. 12:27:57.437 <733015><abc><868> WaitForSingleObject SessionComplete
+CustomJ.. 12:27:57.500 TAR158437 - Reinitialise printers with K01  
+<wid>1n751dc5</wid>
+
+CustomJ.. 12:27:57.796 ResAgent.RoleObtained <> RM_USER_OBTAINED
+CustomJ.. 12:27:57.812 ResAgent_Established arrived
+CustomJ.. 12:27:57.812 Are we EJing?  
+<wid>5d379ma18</wid>
+
+CustomJ.. 12:27:57.812 Customisation Layer - EJ Status Processing Started [12:27:57]  
+<wid>0d357ma18</wid>
+
+Applica.. 12:27:57.828 Checking For EJ Status Messages  
+<wid>7d312ma18</wid>
+
+Applica.. 12:27:57.843 EJ Status Complete!  
+<wid>0d362ma18</wid>
+
+CustomJ.. 12:27:57.859 Customisation Layer - EJ Status Processing Complete - AC Signalled [12:27:57]  
+<wid>1n1055dc5</wid>
+
+Applica.. 12:27:59.500 Message Handler - new message received: [102930001]  
+<wid>1n87dc7</wid>
+
+Applica.. 12:27:59.515 Processing Message - Terminal Command  
+<wid>13l194y12</wid>
+
+Applica.. 12:27:59.515 Validating message...  
+<wid>19l194y12</wid>
+
+Applica.. 12:27:59.515 Deformatting message...  
+<wid>3l195y12</wid>
+
+Applica.. 12:27:59.515 Customisation Layer Status: [IDLE]  
+<wid>55l195y12</wid>
+
+Applica.. 12:27:59.515 Go In Service Command received  
+<wid>30l195y12</wid>
+
+Applica.. 12:27:59.515 Current Mode: [4]  
+<wid>3l332y13</wid>
+
+Applica.. 12:27:59.515 [Message Handler Control] - Ready 9 signal  
+<wid>1l290b7</wid>
+
+Applica.. 12:27:59.515 Message Handler - Ready response sent: [220009]  
+<wid>23l195y12</wid>
+
+Applica.. 12:27:59.531 Message Handler - processing complete  
+<wid>4l195y12</wid>
+
+Applica.. 12:27:59.531 Checking Customisation Layer Status [IDLE]  
+<wid>3n4843dc128</wid>
+
+Applica.. 12:27:59.562 Message Handler - awaiting incoming message...  
+<wid>8l194y12</wid>
+
+Applica.. 12:28:00.328 Message Handler - new message received: [102930002]  
+<wid>1n87dc7</wid>
+
+Applica.. 12:28:00.343 Processing Message - Terminal Command  
+<wid>13l194y12</wid>
+
+Applica.. 12:28:00.343 Validating message...  
+<wid>19l194y12</wid>
+
+Applica.. 12:28:00.343 Deformatting message...  
+<wid>3l195y12</wid>
+
+Applica.. 12:28:00.343 Customisation Layer Status: [IDLE]  
+<wid>55l195y12</wid>
+
+Applica.. 12:28:00.343 Go Out of Service Command received - signal sent from Control  
+<wid>30l312b7</wid>
+
+Applica.. 12:28:00.343 OOS Service Command received  
+<wid>1n3793dc128</wid>
+
+Applica.. 12:28:00.343 Current Mode: [4]  
+<wid>3l332y13</wid>
+
+Applica.. 12:28:00.359 <735937><abc><ac0> OpenEvent sessionRelease
+Applica.. 12:28:00.359 <735937><abc><ac0> SetEvent sessionRelease
+Applica.. 12:28:00.421 <736000><abc><ac0> ResetEvent sessionRelease
+Applica.. 12:28:00.468 Message Handler - Ready response sent: [220009]  
+<wid>23l195y12</wid>
+
+Applica.. 12:28:00.500 Message Handler - Ready response sent: [220009]  
+<wid>23l195y12</wid>
+
+Applica.. 12:28:00.531 MODE CHANGE DETECTED 2  
+<wid>1s949g101</wid>
+
+Applica.. 12:28:00.562 - Mode Handler Started
+       Mode        [2]
+       Return Mode [2]  
+<wid>5s146g57</wid>
+
+Applica.. 12:28:00.640 Activating Pending Supervisor Messages
+Entry Message = 
+Exit Message =   
+<wid>4n625dc4</wid>
+
+Applica.. 12:28:00.687 Supervisor Pending Messages Complete
+On Exit Supervisor Entry Msg = 
+On Exit Supervisor Exit Msg =   
+<wid>3n625dc4</wid>
+
+Applica.. 12:28:00.703 Check for Pending EJ Messages
+Pending EJ Flag = 0  
+<wid>0p686a23</wid>
+
+Applica.. 12:28:00.734 Message Handler - awaiting incoming message...  
+<wid>8l194y12</wid>
+
+Applica.. 12:28:01.031 [Message Handler Control OOS Started]  
+<wid>10l312b7</wid>
+
+Applica.. 12:28:01.031 Message Handler 1 - new message received: [102930004]  
+<wid>0n87dc7</wid>
+
+Applica.. 12:28:01.031 Processing Message - Terminal Command  
+<wid>13l194y12</wid>
+
+Applica.. 12:28:01.031 Validating message...  
+<wid>19l194y12</wid>
+
+Applica.. 12:28:01.031 Deformatting message...  
+<wid>3l195y12</wid>
+
+Applica.. 12:28:01.031 Counters Request received  
+<wid>33l195y12</wid>
+
+Applica.. 12:28:01.234 [Message Handler Control] - Add Terminal Data Signal  
+<wid>4l290b7</wid>
+
+Applica.. 12:28:01.250 Message Handler - Terminal State response sent: [22000F2023900000770009300260003050027100000000000000300001000760002900015000100000000000000000000000000000000000000000]  
+<wid>24l195y12</wid>
+
+Applica.. 12:28:01.296 Message Handler - awaiting incoming message...  
+<wid>8l194y12</wid>
+
+Applica.. 12:28:01.468 [Message Handler Control OOS Started]  
+<wid>10l312b7</wid>
+
+Applica.. 12:28:01.484 Message Handler 1 - new message received: [102930001]  
+<wid>0n87dc7</wid>
+
+Applica.. 12:28:01.484 Processing Message - Terminal Command  
+<wid>13l194y12</wid>
+
+Applica.. 12:28:01.484 Validating message...  
+<wid>19l194y12</wid>
+
+Applica.. 12:28:01.484 Deformatting message...  
+<wid>3l195y12</wid>
+
+Applica.. 12:28:01.484 Go In Service Command received  
+<wid>30l195y12</wid>
+
+Applica.. 12:28:01.500 Message Handler - Ready response sent: [220009]  
+<wid>23l195y12</wid>
+
+Applica.. 12:28:01.515 Message Handler - Ready response sent: [220009]  
+<wid>23l195y12</wid>
+
+Applica.. 12:28:01.546 In Service Mode Entered - Mode [4]  
+<wid>0s146g57</wid>
+
+Applica.. 12:28:01.640   -- Custom Data Received [0]
+  -- Download Save Option [0]
+  -- Config ID [4501]  
+<wid>20l318b7</wid>
+
+Applica.. 12:28:01.656 Activating Pending Supervisor Messages
+Entry Message = 
+Exit Message =   
+<wid>4n625dc4</wid>
+
+Applica.. 12:28:01.687 Supervisor Pending Messages Complete
+On Exit Supervisor Entry Msg = 
+On Exit Supervisor Exit Msg =   
+<wid>3n625dc4</wid>
+
+Applica.. 12:28:01.703 Check for Pending EJ Messages
+Pending EJ Flag = 0  
+<wid>0p686a23</wid>
+
+Applica.. 12:28:01.703 Checking Customisation Layer Status [IDLE]  
+<wid>3n4843dc128</wid>
+
+Applica.. 12:28:01.734 Attempting to activate Customisation Layer...  
+<wid>2l194y12</wid>
+
+Applica.. 12:28:01.734 <737312><abc><ac0> SetEvent sessionGranted
+Applica.. 12:28:01.750 <737328><abc><ac0> ResetEvent sessionGranted
+Applica.. 12:28:01.765 Message Handler - awaiting incoming message...  
+<wid>8l194y12</wid>
+
+Applica.. 12:28:01.781 <737359><abc><b3c> WaitForSingleObject SessionComplete
+CustomJ.. 12:28:01.796 TAR158437 - Reinitialise printers with K01  
+<wid>1n751dc5</wid>
+
+CustomJ.. 12:28:02.031 ResAgent.RoleObtained = RM_USER_OBTAINED
+CustomJ.. 12:28:16.531 condition1:2  
+<wid>7n6098dc129</wid>
+
+CustomJ.. 12:28:16.531 condition2:2  
+<wid>8n6098dc129</wid>
+
+CustomJ.. 12:28:16.531 condition3:8  
+<wid>9n6098dc129</wid>
+
+CustomJ.. 12:28:16.531 Track2 only  
+<wid>18n6098dc129</wid>
+
+CustomJ.. 12:28:17.031 Trigger  
+<wid>14n6098dc129</wid>
+
+CustomJ.. 12:28:17.046 TRACK 2  
+<wid>27s7pg1</wid>
+
+CustomJ.. 12:28:17.046 Table entry 9 = 314  
+<wid>2a16s1</wid>
+
+CustomJ.. 12:28:17.218   Eject Card Not Required
+CustomJ.. 12:28:18.859 ** ENTER PIN  
+<wid>0r774r10</wid>
+
+CustomJ.. 12:28:18.859   REMOTE PIN ENTRY  
+<wid>1r774r10</wid>
+
+CustomJ.. 12:28:18.875     PIN ENTRY INITIATE  
+<wid>4s1108g105</wid>
+
+Applica.. 12:28:20.234 String [X]
+Applica.. 12:28:20.640 String [X]
+Applica.. 12:28:21.015 String [X]
+Applica.. 12:28:21.406 String [X]
+CustomJ.. 12:28:22.125     PIN COLLECTED  
+<wid>0s1108g105</wid>
+
+CustomJ.. 12:28:22.125 Initialise From FIT  
+<wid>1r731r10</wid>
+
+CustomJ.. 12:28:22.156 Build PIN Block  
+<wid>8r774r10</wid>
+
+CustomJ.. 12:28:22.250 Are we EJing?  
+<wid>5d379ma18</wid>
+
+CustomJ.. 12:28:22.250 Customisation Layer - EJ Status Processing Started [12:28:22]  
+<wid>0d357ma18</wid>
+
+Applica.. 12:28:22.250 Checking For EJ Status Messages  
+<wid>7d312ma18</wid>
+
+Applica.. 12:28:22.250 EJ Status Complete!  
+<wid>0d362ma18</wid>
+
+CustomJ.. 12:28:22.265 Customisation Layer - EJ Status Processing Complete - AC Signalled [12:28:22]  
+<wid>1n1055dc5</wid>
+
+CustomJ.. 12:28:25.671 Reset Ready Flag 0  
+<wid>28d836ma34</wid>
+
+Applica.. 12:28:26.953 Message Handler - new message received: [402932402980000000002405029303MKB ROMEXTERRA BANK SA
+LOCATIA:1CLUJ NAPOCA            CLUJ NAPOCA    RO
+
+DATA/ORA205/11/08112:29:22
+
+ATM ID:4SEC NO:6AUTH:
+12938   240:000000    
+
+NUMAR CARD   :1414049XXXXXX4006
+
+TRANZACTIE :1INTEROGARE SOLD
+SUMA TRANZ :1          RON0.00
+SOLD DISP. :1          RON0.00
+
+6WWW.MKBROMEXTERRA.RO
+6INFOCARD:021-2223336
+3INFOCARD@MKBROMEXTERRA.RO
+
+:VA MULTUMIM!]  
+<wid>1n87dc7</wid>
+
+Applica.. 12:28:27.015 [Message Handler Control] - Trans Reply Expected
+                            Expected Count Now [0]  
+<wid>4s17gs10</wid>
+
+Applica.. 12:28:27.031 [Message Handler Control] - AppCore received acknowledgement from CustLayer  
+<wid>4n60dc6</wid>
+
+Applica.. 12:28:27.031 [Message Handler Control] - Processing Complete Signalled  
+<wid>22l290b7</wid>
+
+Applica.. 12:28:27.031 Message Handler - processing complete  
+<wid>4l195y12</wid>
+
+Applica.. 12:28:27.031 Checking Customisation Layer Status [TRANSACTION]  
+<wid>3n4843dc128</wid>
+
+Applica.. 12:28:27.062 Message Handler - awaiting incoming message...  
+<wid>8l194y12</wid>
+
+CustomJ.. 12:28:37.421 **********************************************************
+CALLING CLOSE STATE EXIT
+**********************************************************  
+<wid>2s1914g220</wid>
+
+CustomJ.. 12:28:38.531 Card ejected  
+<wid>9l1233y27</wid>
+
+CustomJ.. 12:28:38.531 Timer 9 started [12:28:38]  
+<wid>3l1293y27</wid>
+
+CustomJ.. 12:28:38.578 Starting Timer 2 [12:28:38]  
+<wid>10l1233y27</wid>
+
+CustomJ.. 12:28:39.828 Card taken  
+<wid>4l1235y27</wid>
+
+CustomJ.. 12:28:39.828 Card Ejected Flag - 1  
+<wid>1s1356g219</wid>
+
+CustomJ.. 12:28:39.828 Playing voice message X08  
+<wid>9l1234y27</wid>
+
+CustomJ.. 12:28:42.593 Timer 2 expired [12:28:42]  
+<wid>5l1233y27</wid>
+
+CustomJ.. 12:28:42.593 Waiting for statement tidy-up to complete...  
+<wid>10l1234y27</wid>
+
+CustomJ.. 12:28:42.593 Tar158425 - Check Dispenser. Envelope presented flag is 0 and the dispensed 0.  
+<wid>3d90ma2</wid>
+
+CustomJ.. 12:28:42.593 Tar158425 - No Envelope to retract.  
+<wid>5d90ma2</wid>
+
+CustomJ.. 12:28:42.593 Check For Jrnl Message To Print If Card Has Been Captured  
+<wid>9z6iy2</wid>
+
+CustomJ.. 12:28:42.625 Wrote Cash Handler Reg TCODE [OTHER]
+CustomJ.. 12:28:42.625 Exit from Close State
+Next State Number: [0]  
+<wid>1l1257y27</wid>
+
+CustomJ.. 12:28:42.625 Are we EJing?  
+<wid>5d379ma18</wid>
+
+CustomJ.. 12:28:42.625 Customisation Layer - EJ Status Processing Started [12:28:42]  
+<wid>0d357ma18</wid>
+
+Applica.. 12:28:42.640 Checking For EJ Status Messages  
+<wid>7d312ma18</wid>
+
+Applica.. 12:28:42.640 EJ Status Complete!  
+<wid>0d362ma18</wid>
+
+CustomJ.. 12:28:42.640 Customisation Layer - EJ Status Processing Complete - AC Signalled [12:28:42]  
+<wid>1n1055dc5</wid>
+
+Applica.. 12:28:42.890 Check for Pending EJ Messages
+Pending EJ Flag = 0  
+<wid>0p686a23</wid>
+
+Applica.. 12:28:42.906 Activating Pending Supervisor Messages
+Entry Message = 
+Exit Message =   
+<wid>4n625dc4</wid>
+
+Applica.. 12:28:42.953 Supervisor Pending Messages Complete
+On Exit Supervisor Entry Msg = 
+On Exit Supervisor Exit Msg =   
+<wid>3n625dc4</wid>
+
+Applica.. 12:28:42.953 Checking Customisation Layer Status [WAITING]  
+<wid>3n4843dc128</wid>
+
+Applica.. 12:28:42.968 Idle Processing Handler - processing complete  
+<wid>62l195y12</wid>
+
+Applica.. 12:28:42.968 Attempting to activate Customisation Layer...  
+<wid>2l194y12</wid>
+
+Applica.. 12:28:42.968 <778546><abc><ac0> SetEvent sessionGranted
+Applica.. 12:28:42.968 <778546><abc><ac0> ResetEvent sessionGranted
+Applica.. 12:28:42.968 <778546><abc><efc> WaitForSingleObject SessionComplete
+CustomJ.. 12:28:42.984 TAR158437 - Reinitialise printers with K01  
+<wid>1n751dc5</wid>
+
+CustomJ.. 12:28:43.234 ResAgent.RoleObtained = RM_USER_OBTAINED
+CustomJ.. 12:29:13.984 condition1:2  
+<wid>7n6098dc129</wid>
+
+CustomJ.. 12:29:13.984 condition2:2  
+<wid>8n6098dc129</wid>
+
+CustomJ.. 12:29:13.984 condition3:8  
+<wid>9n6098dc129</wid>
+
+CustomJ.. 12:29:13.984 Track2 only  
+<wid>18n6098dc129</wid>
+
+CustomJ.. 12:29:14.500 Trigger  
+<wid>14n6098dc129</wid>
+
+CustomJ.. 12:29:14.515 TRACK 2  
+<wid>27s7pg1</wid>
+
+CustomJ.. 12:29:14.515 Table entry 9 = 314  
+<wid>2a16s1</wid>
+
+CustomJ.. 12:29:14.546   Eject Card Not Required
+CustomJ.. 12:29:15.953 ** ENTER PIN  
+<wid>0r774r10</wid>
+
+CustomJ.. 12:29:15.968   REMOTE PIN ENTRY  
+<wid>1r774r10</wid>
+
+CustomJ.. 12:29:15.968     PIN ENTRY INITIATE  
+<wid>4s1108g105</wid>
+
+Applica.. 12:29:17.890 String [X]
+Applica.. 12:29:18.265 String [X]
+Applica.. 12:29:19.437 String [X]
+Applica.. 12:29:19.875 String [X]
+CustomJ.. 12:29:21.015     PIN COLLECTED  
+<wid>0s1108g105</wid>
+
+CustomJ.. 12:29:21.031 Initialise From FIT  
+<wid>1r731r10</wid>
+
+CustomJ.. 12:29:21.046 Build PIN Block  
+<wid>8r774r10</wid>
+
+CustomJ.. 12:29:21.171 Are we EJing?  
+<wid>5d379ma18</wid>
+
+CustomJ.. 12:29:21.171 Customisation Layer - EJ Status Processing Started [12:29:21]  
+<wid>0d357ma18</wid>
+
+Applica.. 12:29:21.171 Checking For EJ Status Messages  
+<wid>7d312ma18</wid>
+
+Applica.. 12:29:21.171 EJ Status Complete!  
+<wid>0d362ma18</wid>
+
+CustomJ.. 12:29:21.171 Customisation Layer - EJ Status Processing Complete - AC Signalled [12:29:21]  
+<wid>1n1055dc5</wid>
+
+CustomJ.. 12:29:25.296 **********************************************************
+CALLING CLOSE STATE EXIT
+**********************************************************  
+<wid>2s1914g220</wid>
+
+CustomJ.. 12:29:26.406 Card ejected  
+<wid>9l1233y27</wid>
+
+CustomJ.. 12:29:26.421 Timer 9 started [12:29:26]  
+<wid>3l1293y27</wid>
+
+CustomJ.. 12:29:26.468 Starting Timer 2 [12:29:26]  
+<wid>10l1233y27</wid>
+
+CustomJ.. 12:29:28.531 Card taken  
+<wid>4l1235y27</wid>
+
+CustomJ.. 12:29:28.531 Card Ejected Flag - 1  
+<wid>1s1356g219</wid>
+
+CustomJ.. 12:29:28.531 Playing voice message X08  
+<wid>9l1234y27</wid>
+
+CustomJ.. 12:29:30.468 Timer 2 expired [12:29:30]  
+<wid>5l1233y27</wid>
+
+CustomJ.. 12:29:30.468 Waiting for statement tidy-up to complete...  
+<wid>10l1234y27</wid>
+
+CustomJ.. 12:29:30.468 Tar158425 - Check Dispenser. Envelope presented flag is 0 and the dispensed 0.  
+<wid>3d90ma2</wid>
+
+CustomJ.. 12:29:30.468 Tar158425 - No Envelope to retract.  
+<wid>5d90ma2</wid>
+
+CustomJ.. 12:29:30.468 Check For Jrnl Message To Print If Card Has Been Captured  
+<wid>9z6iy2</wid>
+
+CustomJ.. 12:29:30.500 Wrote Cash Handler Reg TCODE [OTHER]
+CustomJ.. 12:29:30.500 Exit from Close State
+Next State Number: [0]  
+<wid>1l1257y27</wid>
+
+CustomJ.. 12:29:30.500 Are we EJing?  
+<wid>5d379ma18</wid>
+
+CustomJ.. 12:29:30.500 Customisation Layer - EJ Status Processing Started [12:29:30]  
+<wid>0d357ma18</wid>
+
+Applica.. 12:29:30.515 Checking For EJ Status Messages  
+<wid>7d312ma18</wid>
+
+Applica.. 12:29:30.515 EJ Status Complete!  
+<wid>0d362ma18</wid>
+
+CustomJ.. 12:29:30.531 Customisation Layer - EJ Status Processing Complete - AC Signalled [12:29:30]  
+<wid>1n1055dc5</wid>
+
+Applica.. 12:29:30.781 Check for Pending EJ Messages
+Pending EJ Flag = 0  
+<wid>0p686a23</wid>
+
+Applica.. 12:29:30.812 Activating Pending Supervisor Messages
+Entry Message = 
+Exit Message =   
+<wid>4n625dc4</wid>
+
+Applica.. 12:29:30.843 Supervisor Pending Messages Complete
+On Exit Supervisor Entry Msg = 
+On Exit Supervisor Exit Msg =   
+<wid>3n625dc4</wid>
+
+Applica.. 12:29:30.843 Checking Customisation Layer Status [WAITING]  
+<wid>3n4843dc128</wid>
+
+Applica.. 12:29:30.859 Idle Processing Handler - processing complete  
+<wid>62l195y12</wid>
+
+Applica.. 12:29:30.859 Attempting to activate Customisation Layer...  
+<wid>2l194y12</wid>
+
+Applica.. 12:29:30.859 <826437><abc><ac0> SetEvent sessionGranted
+Applica.. 12:29:30.859 <826437><abc><ac0> ResetEvent sessionGranted
+Applica.. 12:29:30.875 <826453><abc><6c0> WaitForSingleObject SessionComplete
+CustomJ.. 12:29:30.890 TAR158437 - Reinitialise printers with K01  
+<wid>1n751dc5</wid>
+
+CustomJ.. 12:29:31.125 ResAgent.RoleObtained = RM_USER_OBTAINED
+CustomJ.. 12:29:41.156 condition1:2  
+<wid>7n6098dc129</wid>
+
+CustomJ.. 12:29:41.156 condition2:2  
+<wid>8n6098dc129</wid>
+
+CustomJ.. 12:29:41.156 condition3:8  
+<wid>9n6098dc129</wid>
+
+CustomJ.. 12:29:41.156 Track2 only  
+<wid>18n6098dc129</wid>
+
+CustomJ.. 12:29:41.765 Trigger  
+<wid>14n6098dc129</wid>
+
+CustomJ.. 12:29:41.765 TRACK 2  
+<wid>27s7pg1</wid>
+
+CustomJ.. 12:29:41.781 Table entry 9 = 314  
+<wid>2a16s1</wid>
+
+CustomJ.. 12:29:41.812   Eject Card Not Required
+CustomJ.. 12:29:43.390 ** ENTER PIN  
+<wid>0r774r10</wid>
+
+CustomJ.. 12:29:43.390   REMOTE PIN ENTRY  
+<wid>1r774r10</wid>
+
+CustomJ.. 12:29:43.406     PIN ENTRY INITIATE  
+<wid>4s1108g105</wid>
+
+Applica.. 12:29:44.921 String [X]
+Applica.. 12:29:45.312 String [X]
+Applica.. 12:29:45.703 String [X]
+Applica.. 12:29:46.078 String [X]
+CustomJ.. 12:29:46.875     PIN COLLECTED  
+<wid>0s1108g105</wid>
+
+CustomJ.. 12:29:46.875 Initialise From FIT  
+<wid>1r731r10</wid>
+
+CustomJ.. 12:29:46.906 Build PIN Block  
+<wid>8r774r10</wid>
+
+CustomJ.. 12:29:47.015 Are we EJing?  
+<wid>5d379ma18</wid>
+
+CustomJ.. 12:29:47.015 Customisation Layer - EJ Status Processing Started [12:29:47]  
+<wid>0d357ma18</wid>
+
+Applica.. 12:29:47.015 Checking For EJ Status Messages  
+<wid>7d312ma18</wid>
+
+Applica.. 12:29:47.031 EJ Status Complete!  
+<wid>0d362ma18</wid>
+
+CustomJ.. 12:29:47.031 Customisation Layer - EJ Status Processing Complete - AC Signalled [12:29:47]  
+<wid>1n1055dc5</wid>
+
+CustomJ.. 12:29:50.562 Reset Ready Flag 0  
+<wid>28d836ma34</wid>
+
+Applica.. 12:29:52.671 Message Handler - new message received: [402932412980000000002415029503MKB ROMEXTERRA BANK SA
+LOCATIA:1CLUJ NAPOCA            CLUJ NAPOCA    RO
+
+DATA/ORA205/11/08112:30:47
+
+ATM ID:4SEC NO:6AUTH:
+12938   241:000000    
+
+NUMAR CARD   :1414049XXXXXX4006
+
+TRANZACTIE :1INTEROGARE SOLD
+SUMA TRANZ :1          RON0.00
+SOLD DISP. :1          RON0.00
+
+6WWW.MKBROMEXTERRA.RO
+6INFOCARD:021-2223336
+3INFOCARD@MKBROMEXTERRA.RO
+
+:VA MULTUMIM!]  
+<wid>1n87dc7</wid>
+
+Applica.. 12:29:52.718 [Message Handler Control] - Trans Reply Expected
+                            Expected Count Now [0]  
+<wid>4s17gs10</wid>
+
+Applica.. 12:29:52.750 [Message Handler Control] - AppCore received acknowledgement from CustLayer  
+<wid>4n60dc6</wid>
+
+Applica.. 12:29:52.750 [Message Handler Control] - Processing Complete Signalled  
+<wid>22l290b7</wid>
+
+Applica.. 12:29:52.750 Message Handler - processing complete  
+<wid>4l195y12</wid>
+
+Applica.. 12:29:52.750 Checking Customisation Layer Status [TRANSACTION]  
+<wid>3n4843dc128</wid>
+
+Applica.. 12:29:52.765 Message Handler - awaiting incoming message...  
+<wid>8l194y12</wid>
+
+CustomJ.. 12:30:04.281 Reset Ready Flag 0  
+<wid>28d836ma34</wid>
+
+Applica.. 12:30:11.171 Message Handler - new message received: [402932422980000000002425029601ERROR, NO RECEIPT DEFINED2MKB ROMEXTERRA BANK SA
+LOCATIA:1CLUJ NAPOCA            CLUJ NAPOCA    RO
+
+DATA/ORA205/11/08112:31:06
+
+ATM ID:4SEC NO:6AUTH:
+12938   242:000000    
+
+NUMAR CARD   :1414049XXXXXX4006
+
+TRANZACTIE :1INTEROGARE SOLD
+SUMA TRANZ :1          RON0.00
+SOLD DISP. :1          RON0.00
+
+6WWW.MKBROMEXTERRA.RO
+6INFOCARD:021-2223336
+3INFOCARD@MKBROMEXTERRA.RO
+
+:VA MULTUMIM!]  
+<wid>1n87dc7</wid>
+
+Applica.. 12:30:11.234 [Message Handler Control] - Trans Reply Expected
+                            Expected Count Now [0]  
+<wid>4s17gs10</wid>
+
+Applica.. 12:30:11.265 [Message Handler Control] - AppCore received acknowledgement from CustLayer  
+<wid>4n60dc6</wid>
+
+Applica.. 12:30:11.265 [Message Handler Control] - Processing Complete Signalled  
+<wid>22l290b7</wid>
+
+Applica.. 12:30:11.265 Message Handler - processing complete  
+<wid>4l195y12</wid>
+
+Applica.. 12:30:11.265 Checking Customisation Layer Status [TRANSACTION]  
+<wid>3n4843dc128</wid>
+
+Applica.. 12:30:11.296 Message Handler - awaiting incoming message...  
+<wid>8l194y12</wid>
+
+CustomJ.. 12:30:18.031 **********************************************************
+CALLING CLOSE STATE EXIT
+**********************************************************  
+<wid>2s1914g220</wid>
+
+CustomJ.. 12:30:19.140 Card ejected  
+<wid>9l1233y27</wid>
+
+CustomJ.. 12:30:19.140 Timer 9 started [12:30:19]  
+<wid>3l1293y27</wid>
+
+CustomJ.. 12:30:19.187 Starting Timer 2 [12:30:19]  
+<wid>10l1233y27</wid>
+
+CustomJ.. 12:30:20.093 Card taken  
+<wid>4l1235y27</wid>
+
+CustomJ.. 12:30:20.093 Card Ejected Flag - 1  
+<wid>1s1356g219</wid>
+
+CustomJ.. 12:30:20.125 Playing voice message X08  
+<wid>9l1234y27</wid>
+
+CustomJ.. 12:30:23.203 Timer 2 expired [12:30:23]  
+<wid>5l1233y27</wid>
+
+CustomJ.. 12:30:23.203 Waiting for statement tidy-up to complete...  
+<wid>10l1234y27</wid>
+
+CustomJ.. 12:30:23.203 Tar158425 - Check Dispenser. Envelope presented flag is 0 and the dispensed 0.  
+<wid>3d90ma2</wid>
+
+CustomJ.. 12:30:23.203 Tar158425 - No Envelope to retract.  
+<wid>5d90ma2</wid>
+
+CustomJ.. 12:30:23.203 Check For Jrnl Message To Print If Card Has Been Captured  
+<wid>9z6iy2</wid>
+
+CustomJ.. 12:30:23.234 Wrote Cash Handler Reg TCODE [OTHER]
+CustomJ.. 12:30:23.234 Exit from Close State
+Next State Number: [0]  
+<wid>1l1257y27</wid>
+
+CustomJ.. 12:30:23.234 Are we EJing?  
+<wid>5d379ma18</wid>
+
+CustomJ.. 12:30:23.234 Customisation Layer - EJ Status Processing Started [12:30:23]  
+<wid>0d357ma18</wid>
+
+Applica.. 12:30:23.250 Checking For EJ Status Messages  
+<wid>7d312ma18</wid>
+
+Applica.. 12:30:23.250 EJ Status Complete!  
+<wid>0d362ma18</wid>
+
+CustomJ.. 12:30:23.250 Customisation Layer - EJ Status Processing Complete - AC Signalled [12:30:23]  
+<wid>1n1055dc5</wid>
+
+Applica.. 12:30:23.500 Check for Pending EJ Messages
+Pending EJ Flag = 0  
+<wid>0p686a23</wid>
+
+Applica.. 12:30:23.515 Activating Pending Supervisor Messages
+Entry Message = 
+Exit Message =   
+<wid>4n625dc4</wid>
+
+Applica.. 12:30:23.562 Supervisor Pending Messages Complete
+On Exit Supervisor Entry Msg = 
+On Exit Supervisor Exit Msg =   
+<wid>3n625dc4</wid>
+
+Applica.. 12:30:23.562 Checking Customisation Layer Status [WAITING]  
+<wid>3n4843dc128</wid>
+
+Applica.. 12:30:23.578 Idle Processing Handler - processing complete  
+<wid>62l195y12</wid>
+
+Applica.. 12:30:23.578 Attempting to activate Customisation Layer...  
+<wid>2l194y12</wid>
+
+Applica.. 12:30:23.578 <879156><abc><ac0> SetEvent sessionGranted
+Applica.. 12:30:23.578 <879156><abc><ac0> ResetEvent sessionGranted
+Applica.. 12:30:23.578 <879156><abc><73c> WaitForSingleObject SessionComplete
+CustomJ.. 12:30:23.593 TAR158437 - Reinitialise printers with K01  
+<wid>1n751dc5</wid>
+
+CustomJ.. 12:30:23.843 ResAgent.RoleObtained = RM_USER_OBTAINED
+CustomJ.. 12:30:26.750 condition1:2  
+<wid>7n6098dc129</wid>
+
+CustomJ.. 12:30:26.750 condition2:2  
+<wid>8n6098dc129</wid>
+
+CustomJ.. 12:30:26.750 condition3:8  
+<wid>9n6098dc129</wid>
+
+CustomJ.. 12:30:26.750 Track2 only  
+<wid>18n6098dc129</wid>
+
+CustomJ.. 12:30:27.296 Trigger  
+<wid>14n6098dc129</wid>
+
+CustomJ.. 12:30:27.296 TRACK 2  
+<wid>27s7pg1</wid>
+
+CustomJ.. 12:30:27.296 Table entry 9 = 314  
+<wid>2a16s1</wid>
+
+CustomJ.. 12:30:27.390   Eject Card Not Required
+CustomJ.. 12:30:28.828 ** ENTER PIN  
+<wid>0r774r10</wid>
+
+CustomJ.. 12:30:28.828   REMOTE PIN ENTRY  
+<wid>1r774r10</wid>
+
+CustomJ.. 12:30:28.843     PIN ENTRY INITIATE  
+<wid>4s1108g105</wid>
+
+Applica.. 12:30:32.546 String [X]
+Applica.. 12:30:33.000 String [X]
+Applica.. 12:30:33.312 String [X]
+Applica.. 12:30:33.687 String [X]
+CustomJ.. 12:30:34.296     PIN COLLECTED  
+<wid>0s1108g105</wid>
+
+CustomJ.. 12:30:34.296 Initialise From FIT  
+<wid>1r731r10</wid>
+
+CustomJ.. 12:30:34.328 Build PIN Block  
+<wid>8r774r10</wid>
+
+CustomJ.. 12:30:34.453 Are we EJing?  
+<wid>5d379ma18</wid>
+
+CustomJ.. 12:30:34.453 Customisation Layer - EJ Status Processing Started [12:30:34]  
+<wid>0d357ma18</wid>
+
+Applica.. 12:30:34.453 Checking For EJ Status Messages  
+<wid>7d312ma18</wid>
+
+Applica.. 12:30:34.453 EJ Status Complete!  
+<wid>0d362ma18</wid>
+
+CustomJ.. 12:30:34.453 Customisation Layer - EJ Status Processing Complete - AC Signalled [12:30:34]  
+<wid>1n1055dc5</wid>
+
+CustomJ.. 12:30:49.312 Reset Ready Flag 0  
+<wid>28d836ma34</wid>
+
+Applica.. 12:30:49.796 Message Handler - new message received: [40293024322700000000024350377011
+**********
+129305/11/08612:31:464   243
+INQUIRY          
+CARD NO:528616XXXXXX0620
+TRACE NO:031183
+AMT REQ:1          RON0.00
+AMT ATH:1          RON0.00
+VOID:10073
+TRANSACTION NOT FOUND IN AUTH ]  
+<wid>1n87dc7</wid>
+
+Applica.. 12:30:49.843 [Message Handler Control] - Trans Reply Expected
+                            Expected Count Now [0]  
+<wid>4s17gs10</wid>
+
+Applica.. 12:30:49.875 [Message Handler Control] - AppCore received acknowledgement from CustLayer  
+<wid>4n60dc6</wid>
+
+Applica.. 12:30:49.875 [Message Handler Control] - Processing Complete Signalled  
+<wid>22l290b7</wid>
+
+Applica.. 12:30:49.875 Message Handler - processing complete  
+<wid>4l195y12</wid>
+
+Applica.. 12:30:49.875 Checking Customisation Layer Status [TRANSACTION]  
+<wid>3n4843dc128</wid>
+
+Applica.. 12:30:49.937 Message Handler - awaiting incoming message...  
+<wid>8l194y12</wid>
+
+CustomJ.. 12:30:50.375 **********************************************************
+CALLING CLOSE STATE EXIT
+**********************************************************  
+<wid>2s1914g220</wid>
+
+CustomJ.. 12:30:51.484 Card ejected  
+<wid>9l1233y27</wid>
+
+CustomJ.. 12:30:51.484 Timer 9 started [12:30:51]  
+<wid>3l1293y27</wid>
+
+CustomJ.. 12:30:51.515 Starting Timer 2 [12:30:51]  
+<wid>10l1233y27</wid>
+
+CustomJ.. 12:30:52.359 Card taken  
+<wid>4l1235y27</wid>
+
+CustomJ.. 12:30:52.359 Card Ejected Flag - 1  
+<wid>1s1356g219</wid>
+
+CustomJ.. 12:30:52.359 Playing voice message X08  
+<wid>9l1234y27</wid>
+
+CustomJ.. 12:30:55.531 Timer 2 expired [12:30:55]  
+<wid>5l1233y27</wid>
+
+CustomJ.. 12:30:55.625 Waiting for statement tidy-up to complete...  
+<wid>10l1234y27</wid>
+
+CustomJ.. 12:30:55.656 Tar158425 - Check Dispenser. Envelope presented flag is 0 and the dispensed 0.  
+<wid>3d90ma2</wid>
+
+CustomJ.. 12:30:55.656 Tar158425 - No Envelope to retract.  
+<wid>5d90ma2</wid>
+
+CustomJ.. 12:30:55.656 Check For Jrnl Message To Print If Card Has Been Captured  
+<wid>9z6iy2</wid>
+
+CustomJ.. 12:30:55.687 Wrote Cash Handler Reg TCODE [OTHER]
+CustomJ.. 12:30:55.687 Exit from Close State
+Next State Number: [0]  
+<wid>1l1257y27</wid>
+
+CustomJ.. 12:30:55.687 Are we EJing?  
+<wid>5d379ma18</wid>
+
+CustomJ.. 12:30:55.687 Customisation Layer - EJ Status Processing Started [12:30:55]  
+<wid>0d357ma18</wid>
+
+Applica.. 12:30:55.703 Checking For EJ Status Messages  
+<wid>7d312ma18</wid>
+
+Applica.. 12:30:55.703 EJ Status Complete!  
+<wid>0d362ma18</wid>
+
+CustomJ.. 12:30:55.703 Customisation Layer - EJ Status Processing Complete - AC Signalled [12:30:55]  
+<wid>1n1055dc5</wid>
+
+Applica.. 12:30:56.031 Check for Pending EJ Messages
+Pending EJ Flag = 0  
+<wid>0p686a23</wid>
+
+Applica.. 12:30:56.062 Activating Pending Supervisor Messages
+Entry Message = 
+Exit Message =   
+<wid>4n625dc4</wid>
+
+Applica.. 12:30:56.093 Supervisor Pending Messages Complete
+On Exit Supervisor Entry Msg = 
+On Exit Supervisor Exit Msg =   
+<wid>3n625dc4</wid>
+
+Applica.. 12:30:56.109 Checking Customisation Layer Status [WAITING]  
+<wid>3n4843dc128</wid>
+
+Applica.. 12:30:56.125 Idle Processing Handler - processing complete  
+<wid>62l195y12</wid>
+
+Applica.. 12:30:56.125 Attempting to activate Customisation Layer...  
+<wid>2l194y12</wid>
+
+Applica.. 12:30:56.125 <911703><abc><ac0> SetEvent sessionGranted
+Applica.. 12:30:56.125 <911703><abc><ac0> ResetEvent sessionGranted
+Applica.. 12:30:56.125 <911703><abc><d60> WaitForSingleObject SessionComplete
+CustomJ.. 12:30:56.140 TAR158437 - Reinitialise printers with K01  
+<wid>1n751dc5</wid>
+
+CustomJ.. 12:30:56.484 ResAgent.RoleObtained = RM_USER_OBTAINED
+CustomJ.. 12:30:58.984 condition1:2  
+<wid>7n6098dc129</wid>
+
+CustomJ.. 12:30:58.984 condition2:2  
+<wid>8n6098dc129</wid>
+
+CustomJ.. 12:30:58.984 condition3:8  
+<wid>9n6098dc129</wid>
+
+CustomJ.. 12:30:58.984 Track2 only  
+<wid>18n6098dc129</wid>
+
+CustomJ.. 12:30:59.265 Trigger  
+<wid>14n6098dc129</wid>
+
+CustomJ.. 12:30:59.265 TRACK 2  
+<wid>27s7pg1</wid>
+
+CustomJ.. 12:30:59.265 Table entry 9 = 314  
+<wid>2a16s1</wid>
+
+CustomJ.. 12:30:59.312   Eject Card Not Required
+CustomJ.. 12:31:01.093 ** ENTER PIN  
+<wid>0r774r10</wid>
+
+CustomJ.. 12:31:01.093   REMOTE PIN ENTRY  
+<wid>1r774r10</wid>
+
+CustomJ.. 12:31:01.093     PIN ENTRY INITIATE  
+<wid>4s1108g105</wid>
+
+Applica.. 12:31:21.328 String [X]
+Applica.. 12:31:21.781 String [X]
+Applica.. 12:31:22.234 String [X]
+Applica.. 12:31:22.546 String [X]
+CustomJ.. 12:31:23.062     PIN COLLECTED  
+<wid>0s1108g105</wid>
+
+CustomJ.. 12:31:23.062 Initialise From FIT  
+<wid>1r731r10</wid>
+
+CustomJ.. 12:31:23.093 Build PIN Block  
+<wid>8r774r10</wid>
+
+CustomJ.. 12:31:23.187 Are we EJing?  
+<wid>5d379ma18</wid>
+
+CustomJ.. 12:31:23.187 Customisation Layer - EJ Status Processing Started [12:31:23]  
+<wid>0d357ma18</wid>
+
+Applica.. 12:31:23.187 Checking For EJ Status Messages  
+<wid>7d312ma18</wid>
+
+Applica.. 12:31:23.187 EJ Status Complete!  
+<wid>0d362ma18</wid>
+
+CustomJ.. 12:31:23.187 Customisation Layer - EJ Status Processing Complete - AC Signalled [12:31:23]  
+<wid>1n1055dc5</wid>
+
+CustomJ.. 12:31:26.000 **********************************************************
+CALLING CLOSE STATE EXIT
+**********************************************************  
+<wid>2s1914g220</wid>
+
+CustomJ.. 12:31:27.078 Card ejected  
+<wid>9l1233y27</wid>
+
+CustomJ.. 12:31:27.093 Timer 9 started [12:31:27]  
+<wid>3l1293y27</wid>
+
+CustomJ.. 12:31:27.140 Starting Timer 2 [12:31:27]  
+<wid>10l1233y27</wid>
+
+CustomJ.. 12:31:27.984 Card taken  
+<wid>4l1235y27</wid>
+
+CustomJ.. 12:31:27.984 Card Ejected Flag - 1  
+<wid>1s1356g219</wid>
+
+CustomJ.. 12:31:27.984 Playing voice message X08  
+<wid>9l1234y27</wid>
+
+CustomJ.. 12:31:31.140 Timer 2 expired [12:31:31]  
+<wid>5l1233y27</wid>
+
+CustomJ.. 12:31:31.140 Waiting for statement tidy-up to complete...  
+<wid>10l1234y27</wid>
+
+CustomJ.. 12:31:31.140 Tar158425 - Check Dispenser. Envelope presented flag is 0 and the dispensed 0.  
+<wid>3d90ma2</wid>
+
+CustomJ.. 12:31:31.140 Tar158425 - No Envelope to retract.  
+<wid>5d90ma2</wid>
+
+CustomJ.. 12:31:31.140 Check For Jrnl Message To Print If Card Has Been Captured  
+<wid>9z6iy2</wid>
+
+CustomJ.. 12:31:31.171 Wrote Cash Handler Reg TCODE [OTHER]
+CustomJ.. 12:31:31.171 Exit from Close State
+Next State Number: [0]  
+<wid>1l1257y27</wid>
+
+CustomJ.. 12:31:31.171 Are we EJing?  
+<wid>5d379ma18</wid>
+
+CustomJ.. 12:31:31.171 Customisation Layer - EJ Status Processing Started [12:31:31]  
+<wid>0d357ma18</wid>
+
+Applica.. 12:31:31.171 Checking For EJ Status Messages  
+<wid>7d312ma18</wid>
+
+Applica.. 12:31:31.187 EJ Status Complete!  
+<wid>0d362ma18</wid>
+
+CustomJ.. 12:31:31.187 Customisation Layer - EJ Status Processing Complete - AC Signalled [12:31:31]  
+<wid>1n1055dc5</wid>
+
+Applica.. 12:31:31.437 Check for Pending EJ Messages
+Pending EJ Flag = 0  
+<wid>0p686a23</wid>
+
+Applica.. 12:31:31.453 Activating Pending Supervisor Messages
+Entry Message = 
+Exit Message =   
+<wid>4n625dc4</wid>
+
+Applica.. 12:31:31.500 Supervisor Pending Messages Complete
+On Exit Supervisor Entry Msg = 
+On Exit Supervisor Exit Msg =   
+<wid>3n625dc4</wid>
+
+Applica.. 12:31:31.500 Checking Customisation Layer Status [WAITING]  
+<wid>3n4843dc128</wid>
+
+Applica.. 12:31:31.515 Idle Processing Handler - processing complete  
+<wid>62l195y12</wid>
+
+Applica.. 12:31:31.515 Attempting to activate Customisation Layer...  
+<wid>2l194y12</wid>
+
+Applica.. 12:31:31.515 <947093><abc><ac0> SetEvent sessionGranted
+Applica.. 12:31:31.515 <947093><abc><ac0> ResetEvent sessionGranted
+Applica.. 12:31:31.515 <947093><abc><594> WaitForSingleObject SessionComplete
+CustomJ.. 12:31:31.531 TAR158437 - Reinitialise printers with K01  
+<wid>1n751dc5</wid>
+
+CustomJ.. 12:31:31.781 ResAgent.RoleObtained = RM_USER_OBTAINED
+CustomJ.. 12:31:33.265 condition1:2  
+<wid>7n6098dc129</wid>
+
+CustomJ.. 12:31:33.265 condition2:2  
+<wid>8n6098dc129</wid>
+
+CustomJ.. 12:31:33.265 condition3:8  
+<wid>9n6098dc129</wid>
+
+CustomJ.. 12:31:33.265 Track2 only  
+<wid>18n6098dc129</wid>
+
+CustomJ.. 12:31:33.875 Trigger  
+<wid>14n6098dc129</wid>
+
+CustomJ.. 12:31:33.890 TRACK 2  
+<wid>27s7pg1</wid>
+
+CustomJ.. 12:31:33.890 Table entry 9 = 314  
+<wid>2a16s1</wid>
+
+CustomJ.. 12:31:33.968   Eject Card Not Required
+CustomJ.. 12:31:35.171 ** ENTER PIN  
+<wid>0r774r10</wid>
+
+CustomJ.. 12:31:35.171   REMOTE PIN ENTRY  
+<wid>1r774r10</wid>
+
+CustomJ.. 12:31:35.171     PIN ENTRY INITIATE  
+<wid>4s1108g105</wid>
+
+Applica.. 12:31:37.046 String [X]
+Applica.. 12:31:37.421 String [X]
+Applica.. 12:31:37.796 String [X]
+Applica.. 12:31:38.109 String [X]
+CustomJ.. 12:31:38.781     PIN COLLECTED  
+<wid>0s1108g105</wid>
+
+CustomJ.. 12:31:38.781 Initialise From FIT  
+<wid>1r731r10</wid>
+
+CustomJ.. 12:31:38.812 Build PIN Block  
+<wid>8r774r10</wid>
+
+CustomJ.. 12:31:38.921 Are we EJing?  
+<wid>5d379ma18</wid>
+
+CustomJ.. 12:31:38.921 Customisation Layer - EJ Status Processing Started [12:31:38]  
+<wid>0d357ma18</wid>
+
+Applica.. 12:31:38.937 Checking For EJ Status Messages  
+<wid>7d312ma18</wid>
+
+Applica.. 12:31:38.937 EJ Status Complete!  
+<wid>0d362ma18</wid>
+
+CustomJ.. 12:31:38.937 Customisation Layer - EJ Status Processing Complete - AC Signalled [12:31:38]  
+<wid>1n1055dc5</wid>
+
+CustomJ.. 12:31:41.937 Reset Ready Flag 0  
+<wid>28d836ma34</wid>
+
+Applica.. 12:31:42.343 Message Handler - new message received: [40293024422700000000024450379011
+**********
+129305/11/08612:32:384   244
+INQUIRY          
+CARD NO:528616XXXXXX0620
+TRACE NO:031215
+AMT REQ:1          RON0.00
+AMT ATH:1          RON0.00
+VOID:10073
+TRANSACTION NOT FOUND IN AUTH ]  
+<wid>1n87dc7</wid>
+
+Applica.. 12:31:42.390 [Message Handler Control] - Trans Reply Expected
+                            Expected Count Now [0]  
+<wid>4s17gs10</wid>
+
+Applica.. 12:31:42.421 [Message Handler Control] - AppCore received acknowledgement from CustLayer  
+<wid>4n60dc6</wid>
+
+Applica.. 12:31:42.421 [Message Handler Control] - Processing Complete Signalled  
+<wid>22l290b7</wid>
+
+Applica.. 12:31:42.421 Message Handler - processing complete  
+<wid>4l195y12</wid>
+
+Applica.. 12:31:42.421 Checking Customisation Layer Status [TRANSACTION]  
+<wid>3n4843dc128</wid>
+
+Applica.. 12:31:42.453 Message Handler - awaiting incoming message...  
+<wid>8l194y12</wid>
+
+CustomJ.. 12:31:42.843 **********************************************************
+CALLING CLOSE STATE EXIT
+**********************************************************  
+<wid>2s1914g220</wid>
+
+CustomJ.. 12:31:43.937 Card ejected  
+<wid>9l1233y27</wid>
+
+CustomJ.. 12:31:43.937 Timer 9 started [12:31:43]  
+<wid>3l1293y27</wid>
+
+CustomJ.. 12:31:43.984 Starting Timer 2 [12:31:43]  
+<wid>10l1233y27</wid>
+
+CustomJ.. 12:31:44.437 Card taken  
+<wid>4l1235y27</wid>
+
+CustomJ.. 12:31:44.437 Card Ejected Flag - 1  
+<wid>1s1356g219</wid>
+
+CustomJ.. 12:31:44.437 Playing voice message X08  
+<wid>9l1234y27</wid>
+
+CustomJ.. 12:31:48.015 Timer 2 expired [12:31:48]  
+<wid>5l1233y27</wid>
+
+CustomJ.. 12:31:48.015 Waiting for statement tidy-up to complete...  
+<wid>10l1234y27</wid>
+
+CustomJ.. 12:31:48.015 Tar158425 - Check Dispenser. Envelope presented flag is 0 and the dispensed 0.  
+<wid>3d90ma2</wid>
+
+CustomJ.. 12:31:48.015 Tar158425 - No Envelope to retract.  
+<wid>5d90ma2</wid>
+
+CustomJ.. 12:31:48.015 Check For Jrnl Message To Print If Card Has Been Captured  
+<wid>9z6iy2</wid>
+
+CustomJ.. 12:31:48.046 Wrote Cash Handler Reg TCODE [OTHER]
+CustomJ.. 12:31:48.046 Exit from Close State
+Next State Number: [0]  
+<wid>1l1257y27</wid>
+
+CustomJ.. 12:31:48.046 Are we EJing?  
+<wid>5d379ma18</wid>
+
+CustomJ.. 12:31:48.046 Customisation Layer - EJ Status Processing Started [12:31:48]  
+<wid>0d357ma18</wid>
+
+Applica.. 12:31:48.046 Checking For EJ Status Messages  
+<wid>7d312ma18</wid>
+
+Applica.. 12:31:48.062 EJ Status Complete!  
+<wid>0d362ma18</wid>
+
+CustomJ.. 12:31:48.062 Customisation Layer - EJ Status Processing Complete - AC Signalled [12:31:48]  
+<wid>1n1055dc5</wid>
+
+Applica.. 12:31:48.312 Check for Pending EJ Messages
+Pending EJ Flag = 0  
+<wid>0p686a23</wid>
+
+Applica.. 12:31:48.343 Activating Pending Supervisor Messages
+Entry Message = 
+Exit Message =   
+<wid>4n625dc4</wid>
+
+Applica.. 12:31:48.375 Supervisor Pending Messages Complete
+On Exit Supervisor Entry Msg = 
+On Exit Supervisor Exit Msg =   
+<wid>3n625dc4</wid>
+
+Applica.. 12:31:48.375 Checking Customisation Layer Status [WAITING]  
+<wid>3n4843dc128</wid>
+
+Applica.. 12:31:48.390 Idle Processing Handler - processing complete  
+<wid>62l195y12</wid>
+
+Applica.. 12:31:48.390 Attempting to activate Customisation Layer...  
+<wid>2l194y12</wid>
+
+Applica.. 12:31:48.390 <963968><abc><ac0> SetEvent sessionGranted
+Applica.. 12:31:48.390 <963968><abc><ac0> ResetEvent sessionGranted
+Applica.. 12:31:48.390 <963968><abc><9cc> WaitForSingleObject SessionComplete
+CustomJ.. 12:31:48.421 TAR158437 - Reinitialise printers with K01  
+<wid>1n751dc5</wid>
+
+CustomJ.. 12:31:48.687 ResAgent.RoleObtained = RM_USER_OBTAINED
+CustomJ.. 12:31:50.843 condition1:2  
+<wid>7n6098dc129</wid>
+
+CustomJ.. 12:31:50.843 condition2:2  
+<wid>8n6098dc129</wid>
+
+CustomJ.. 12:31:50.843 condition3:8  
+<wid>9n6098dc129</wid>
+
+CustomJ.. 12:31:50.843 Track2 only  
+<wid>18n6098dc129</wid>
+
+CustomJ.. 12:31:51.453 Trigger  
+<wid>14n6098dc129</wid>
+
+CustomJ.. 12:31:51.468 TRACK 2  
+<wid>27s7pg1</wid>
+
+CustomJ.. 12:31:51.468 Table entry 9 = 314  
+<wid>2a16s1</wid>
+
+CustomJ.. 12:31:51.562   Eject Card Not Required
+CustomJ.. 12:31:53.125 ** ENTER PIN  
+<wid>0r774r10</wid>
+
+CustomJ.. 12:31:53.140   REMOTE PIN ENTRY  
+<wid>1r774r10</wid>
+
+CustomJ.. 12:31:53.140     PIN ENTRY INITIATE  
+<wid>4s1108g105</wid>
+
+Applica.. 12:31:57.890 String [X]
+Applica.. 12:31:58.265 String [X]
+Applica.. 12:31:58.578 String [X]
+Applica.. 12:31:58.890 String [X]
+CustomJ.. 12:31:59.359     PIN COLLECTED  
+<wid>0s1108g105</wid>
+
+CustomJ.. 12:31:59.359 Initialise From FIT  
+<wid>1r731r10</wid>
+
+CustomJ.. 12:31:59.375 Build PIN Block  
+<wid>8r774r10</wid>
+
+CustomJ.. 12:31:59.500 Are we EJing?  
+<wid>5d379ma18</wid>
+
+CustomJ.. 12:31:59.500 Customisation Layer - EJ Status Processing Started [12:31:59]  
+<wid>0d357ma18</wid>
+
+Applica.. 12:31:59.500 Checking For EJ Status Messages  
+<wid>7d312ma18</wid>
+
+Applica.. 12:31:59.500 EJ Status Complete!  
+<wid>0d362ma18</wid>
+
+CustomJ.. 12:31:59.500 Customisation Layer - EJ Status Processing Complete - AC Signalled [12:31:59]  
+<wid>1n1055dc5</wid>
+
+CustomJ.. 12:32:03.875 Reset Ready Flag 0  
+<wid>28d836ma34</wid>
+
+Applica.. 12:32:04.359 Message Handler - new message received: [4029302452270000000002455037:011
+**********
+129305/11/08612:33:004   245
+INQUIRY          
+CARD NO:676462XXXXXX1287
+TRACE NO:031229
+AMT REQ:1          RON0.00
+AMT ATH:1          RON0.00
+VOID:10073
+TRANSACTION NOT FOUND IN AUTH ]  
+<wid>1n87dc7</wid>
+
+Applica.. 12:32:04.406 [Message Handler Control] - Trans Reply Expected
+                            Expected Count Now [0]  
+<wid>4s17gs10</wid>
+
+Applica.. 12:32:04.437 [Message Handler Control] - AppCore received acknowledgement from CustLayer  
+<wid>4n60dc6</wid>
+
+Applica.. 12:32:04.437 [Message Handler Control] - Processing Complete Signalled  
+<wid>22l290b7</wid>
+
+Applica.. 12:32:04.437 Message Handler - processing complete  
+<wid>4l195y12</wid>
+
+Applica.. 12:32:04.437 Checking Customisation Layer Status [TRANSACTION]  
+<wid>3n4843dc128</wid>
+
+Applica.. 12:32:04.468 Message Handler - awaiting incoming message...  
+<wid>8l194y12</wid>
+
+CustomJ.. 12:32:04.828 **********************************************************
+CALLING CLOSE STATE EXIT
+**********************************************************  
+<wid>2s1914g220</wid>
+
+CustomJ.. 12:32:05.921 Card ejected  
+<wid>9l1233y27</wid>
+
+CustomJ.. 12:32:05.921 Timer 9 started [12:32:05]  
+<wid>3l1293y27</wid>
+
+CustomJ.. 12:32:05.968 Starting Timer 2 [12:32:05]  
+<wid>10l1233y27</wid>
+
+CustomJ.. 12:32:07.625 Card taken  
+<wid>4l1235y27</wid>
+
+CustomJ.. 12:32:07.625 Card Ejected Flag - 1  
+<wid>1s1356g219</wid>
+
+CustomJ.. 12:32:07.625 Playing voice message X08  
+<wid>9l1234y27</wid>
+
+CustomJ.. 12:32:09.968 Timer 2 expired [12:32:09]  
+<wid>5l1233y27</wid>
+
+CustomJ.. 12:32:09.968 Waiting for statement tidy-up to complete...  
+<wid>10l1234y27</wid>
+
+CustomJ.. 12:32:09.968 Tar158425 - Check Dispenser. Envelope presented flag is 0 and the dispensed 0.  
+<wid>3d90ma2</wid>
+
+CustomJ.. 12:32:09.968 Tar158425 - No Envelope to retract.  
+<wid>5d90ma2</wid>
+
+CustomJ.. 12:32:09.968 Check For Jrnl Message To Print If Card Has Been Captured  
+<wid>9z6iy2</wid>
+
+CustomJ.. 12:32:10.031 Wrote Cash Handler Reg TCODE [OTHER]
+CustomJ.. 12:32:10.031 Exit from Close State
+Next State Number: [0]  
+<wid>1l1257y27</wid>
+
+CustomJ.. 12:32:10.078 Are we EJing?  
+<wid>5d379ma18</wid>
+
+CustomJ.. 12:32:10.078 Customisation Layer - EJ Status Processing Started [12:32:10]  
+<wid>0d357ma18</wid>
+
+Applica.. 12:32:10.078 Checking For EJ Status Messages  
+<wid>7d312ma18</wid>
+
+Applica.. 12:32:10.078 EJ Status Complete!  
+<wid>0d362ma18</wid>
+
+CustomJ.. 12:32:10.078 Customisation Layer - EJ Status Processing Complete - AC Signalled [12:32:10]  
+<wid>1n1055dc5</wid>
+
+Applica.. 12:32:10.328 Check for Pending EJ Messages
+Pending EJ Flag = 0  
+<wid>0p686a23</wid>
+
+Applica.. 12:32:10.343 Activating Pending Supervisor Messages
+Entry Message = 
+Exit Message =   
+<wid>4n625dc4</wid>
+
+Applica.. 12:32:10.390 Supervisor Pending Messages Complete
+On Exit Supervisor Entry Msg = 
+On Exit Supervisor Exit Msg =   
+<wid>3n625dc4</wid>
+
+Applica.. 12:32:10.390 Checking Customisation Layer Status [WAITING]  
+<wid>3n4843dc128</wid>
+
+Applica.. 12:32:10.406 Idle Processing Handler - processing complete  
+<wid>62l195y12</wid>
+
+Applica.. 12:32:10.406 Attempting to activate Customisation Layer...  
+<wid>2l194y12</wid>
+
+Applica.. 12:32:10.406 <985984><abc><ac0> SetEvent sessionGranted
+Applica.. 12:32:10.406 <985984><abc><ac0> ResetEvent sessionGranted
+Applica.. 12:32:10.406 <985984><abc><c84> WaitForSingleObject SessionComplete
+CustomJ.. 12:32:10.421 TAR158437 - Reinitialise printers with K01  
+<wid>1n751dc5</wid>
+
+CustomJ.. 12:32:10.734 ResAgent.RoleObtained = RM_USER_OBTAINED
+CustomJ.. 12:32:15.875 condition1:2  
+<wid>7n6098dc129</wid>
+
+CustomJ.. 12:32:15.875 condition2:2  
+<wid>8n6098dc129</wid>
+
+CustomJ.. 12:32:15.875 condition3:8  
+<wid>9n6098dc129</wid>
+
+CustomJ.. 12:32:15.875 Track2 only  
+<wid>18n6098dc129</wid>
+
+CustomJ.. 12:32:16.406 Trigger  
+<wid>14n6098dc129</wid>
+
+CustomJ.. 12:32:16.406 TRACK 2  
+<wid>27s7pg1</wid>
+
+CustomJ.. 12:32:16.406 Table entry 9 = 314  
+<wid>2a16s1</wid>
+
+CustomJ.. 12:32:16.578   Eject Card Not Required
+CustomJ.. 12:32:17.796 ** ENTER PIN  
+<wid>0r774r10</wid>
+
+CustomJ.. 12:32:17.812   REMOTE PIN ENTRY  
+<wid>1r774r10</wid>
+
+CustomJ.. 12:32:17.812     PIN ENTRY INITIATE  
+<wid>4s1108g105</wid>
+
+Applica.. 12:32:31.140 String [X]
+Applica.. 12:32:31.531 String [X]
+Applica.. 12:32:31.828 String [X]
+Applica.. 12:32:32.140 String [X]
+CustomJ.. 12:32:32.671     PIN COLLECTED  
+<wid>0s1108g105</wid>
+
+CustomJ.. 12:32:32.671 Initialise From FIT  
+<wid>1r731r10</wid>
+
+CustomJ.. 12:32:32.687 Build PIN Block  
+<wid>8r774r10</wid>
+
+CustomJ.. 12:32:32.796 Are we EJing?  
+<wid>5d379ma18</wid>
+
+CustomJ.. 12:32:32.812 Customisation Layer - EJ Status Processing Started [12:32:32]  
+<wid>0d357ma18</wid>
+
+Applica.. 12:32:32.812 Checking For EJ Status Messages  
+<wid>7d312ma18</wid>
+
+Applica.. 12:32:32.812 EJ Status Complete!  
+<wid>0d362ma18</wid>
+
+CustomJ.. 12:32:32.812 Customisation Layer - EJ Status Processing Complete - AC Signalled [12:32:32]  
+<wid>1n1055dc5</wid>
+
+CustomJ.. 12:32:35.796 Reset Ready Flag 0  
+<wid>28d836ma34</wid>
+
+Applica.. 12:32:37.109 Message Handler - new message received: [402932462980000000002465029;01ERROR, NO RECEIPT DEFINED2MKB ROMEXTERRA BANK SA
+LOCATIA:1CLUJ NAPOCA            CLUJ NAPOCA    RO
+
+DATA/ORA205/11/08112:33:32
+
+ATM ID:4SEC NO:6AUTH:
+12938   246:000000    
+
+NUMAR CARD   :1427398XXXXXX9707
+
+TRANZACTIE :1INTEROGARE SOLD
+SUMA TRANZ :1          RON0.00
+SOLD DISP. :1      RON1,000.77
+
+6WWW.MKBROMEXTERRA.RO
+6INFOCARD:021-2223336
+3INFOCARD@MKBROMEXTERRA.RO
+
+:VA MULTUMIM!]  
+<wid>1n87dc7</wid>
+
+Applica.. 12:32:37.156 [Message Handler Control] - Trans Reply Expected
+                            Expected Count Now [0]  
+<wid>4s17gs10</wid>
+
+Applica.. 12:32:37.187 [Message Handler Control] - AppCore received acknowledgement from CustLayer  
+<wid>4n60dc6</wid>
+
+Applica.. 12:32:37.187 [Message Handler Control] - Processing Complete Signalled  
+<wid>22l290b7</wid>
+
+Applica.. 12:32:37.187 Message Handler - processing complete  
+<wid>4l195y12</wid>
+
+Applica.. 12:32:37.187 Checking Customisation Layer Status [TRANSACTION]  
+<wid>3n4843dc128</wid>
+
+Applica.. 12:32:37.203 Message Handler - awaiting incoming message...  
+<wid>8l194y12</wid>
+
+CustomJ.. 12:32:56.515 **********************************************************
+CALLING CLOSE STATE EXIT
+**********************************************************  
+<wid>2s1914g220</wid>
+
+CustomJ.. 12:32:57.625 Card ejected  
+<wid>9l1233y27</wid>
+
+CustomJ.. 12:32:57.625 Timer 9 started [12:32:57]  
+<wid>3l1293y27</wid>
+
+CustomJ.. 12:32:57.671 Starting Timer 2 [12:32:57]  
+<wid>10l1233y27</wid>
+
+CustomJ.. 12:32:58.109 Card taken  
+<wid>4l1235y27</wid>
+
+CustomJ.. 12:32:58.109 Card Ejected Flag - 1  
+<wid>1s1356g219</wid>
+
+CustomJ.. 12:32:58.109 Playing voice message X08  
+<wid>9l1234y27</wid>
+
+CustomJ.. 12:33:01.687 Timer 2 expired [12:33:01]  
+<wid>5l1233y27</wid>
+
+CustomJ.. 12:33:01.687 Waiting for statement tidy-up to complete...  
+<wid>10l1234y27</wid>
+
+CustomJ.. 12:33:01.687 Tar158425 - Check Dispenser. Envelope presented flag is 0 and the dispensed 0.  
+<wid>3d90ma2</wid>
+
+CustomJ.. 12:33:01.687 Tar158425 - No Envelope to retract.  
+<wid>5d90ma2</wid>
+
+CustomJ.. 12:33:01.687 Check For Jrnl Message To Print If Card Has Been Captured  
+<wid>9z6iy2</wid>
+
+CustomJ.. 12:33:01.718 Wrote Cash Handler Reg TCODE [OTHER]
+CustomJ.. 12:33:01.718 Exit from Close State
+Next State Number: [0]  
+<wid>1l1257y27</wid>
+
+CustomJ.. 12:33:01.718 Are we EJing?  
+<wid>5d379ma18</wid>
+
+CustomJ.. 12:33:01.718 Customisation Layer - EJ Status Processing Started [12:33:01]  
+<wid>0d357ma18</wid>
+
+Applica.. 12:33:01.718 Checking For EJ Status Messages  
+<wid>7d312ma18</wid>
+
+Applica.. 12:33:01.734 EJ Status Complete!  
+<wid>0d362ma18</wid>
+
+CustomJ.. 12:33:01.734 Customisation Layer - EJ Status Processing Complete - AC Signalled [12:33:01]  
+<wid>1n1055dc5</wid>
+
+Applica.. 12:33:01.984 Check for Pending EJ Messages
+Pending EJ Flag = 0  
+<wid>0p686a23</wid>
+
+Applica.. 12:33:02.000 Activating Pending Supervisor Messages
+Entry Message = 
+Exit Message =   
+<wid>4n625dc4</wid>
+
+Applica.. 12:33:02.046 Supervisor Pending Messages Complete
+On Exit Supervisor Entry Msg = 
+On Exit Supervisor Exit Msg =   
+<wid>3n625dc4</wid>
+
+Applica.. 12:33:02.046 Checking Customisation Layer Status [WAITING]  
+<wid>3n4843dc128</wid>
+
+Applica.. 12:33:02.062 Idle Processing Handler - processing complete  
+<wid>62l195y12</wid>
+
+Applica.. 12:33:02.062 Attempting to activate Customisation Layer...  
+<wid>2l194y12</wid>
+
+Applica.. 12:33:02.062 <1037640><abc><ac0> SetEvent sessionGranted
+Applica.. 12:33:02.062 <1037640><abc><ac0> ResetEvent sessionGranted
+Applica.. 12:33:02.062 <1037640><abc><594> WaitForSingleObject SessionComplete
+CustomJ.. 12:33:02.078 TAR158437 - Reinitialise printers with K01  
+<wid>1n751dc5</wid>
+
+CustomJ.. 12:33:02.328 ResAgent.RoleObtained = RM_USER_OBTAINED
+CustomJ.. 12:33:08.406 condition1:2  
+<wid>7n6098dc129</wid>
+
+CustomJ.. 12:33:08.406 condition2:2  
+<wid>8n6098dc129</wid>
+
+CustomJ.. 12:33:08.406 condition3:8  
+<wid>9n6098dc129</wid>
+
+CustomJ.. 12:33:08.406 Track2 only  
+<wid>18n6098dc129</wid>
+
+CustomJ.. 12:33:08.906 Trigger  
+<wid>14n6098dc129</wid>
+
+CustomJ.. 12:33:08.921 TRACK 2  
+<wid>27s7pg1</wid>
+
+CustomJ.. 12:33:08.921 Table entry 9 = 314  
+<wid>2a16s1</wid>
+
+CustomJ.. 12:33:08.953   Eject Card Not Required
+CustomJ.. 12:33:10.234 ** ENTER PIN  
+<wid>0r774r10</wid>
+
+CustomJ.. 12:33:10.234   REMOTE PIN ENTRY  
+<wid>1r774r10</wid>
+
+CustomJ.. 12:33:10.250     PIN ENTRY INITIATE  
+<wid>4s1108g105</wid>
+
+Applica.. 12:33:11.640 String [X]
+Applica.. 12:33:12.015 String [X]
+Applica.. 12:33:12.750 String [X]
+Applica.. 12:33:13.203 String [X]
+Applica.. 12:33:18.406 String [X]
+Applica.. 12:33:18.843 String [X]
+Applica.. 12:33:19.234 String [X]
+Applica.. 12:33:19.546 String [X]
+CustomJ.. 12:33:20.187     PIN COLLECTED  
+<wid>0s1108g105</wid>
+
+CustomJ.. 12:33:20.187 Initialise From FIT  
+<wid>1r731r10</wid>
+
+CustomJ.. 12:33:20.218 Build PIN Block  
+<wid>8r774r10</wid>
+
+CustomJ.. 12:33:20.328 Are we EJing?  
+<wid>5d379ma18</wid>
+
+CustomJ.. 12:33:20.328 Customisation Layer - EJ Status Processing Started [12:33:20]  
+<wid>0d357ma18</wid>
+
+Applica.. 12:33:20.328 Checking For EJ Status Messages  
+<wid>7d312ma18</wid>
+
+Applica.. 12:33:20.343 EJ Status Complete!  
+<wid>0d362ma18</wid>
+
+CustomJ.. 12:33:20.343 Customisation Layer - EJ Status Processing Complete - AC Signalled [12:33:20]  
+<wid>1n1055dc5</wid>
+
+CustomJ.. 12:33:30.812 Reset Ready Flag 0  
+<wid>28d836ma34</wid>
+
+Applica.. 12:33:31.890 Message Handler - new message received: [402932472980000000002475029<03MKB ROMEXTERRA BANK SA
+LOCATIA:1CLUJ NAPOCA            CLUJ NAPOCA    RO
+
+DATA/ORA205/11/08112:34:27
+
+ATM ID:4SEC NO:6AUTH:
+12938   247:000000    
+
+NUMAR CARD   :1427398XXXXXX9707
+
+TRANZACTIE :1INTEROGARE SOLD
+SUMA TRANZ :1          RON0.00
+SOLD DISP. :1      RON1,000.77
+
+6WWW.MKBROMEXTERRA.RO
+6INFOCARD:021-2223336
+3INFOCARD@MKBROMEXTERRA.RO
+
+:VA MULTUMIM!]  
+<wid>1n87dc7</wid>
+
+Applica.. 12:33:31.937 [Message Handler Control] - Trans Reply Expected
+                            Expected Count Now [0]  
+<wid>4s17gs10</wid>
+
+Applica.. 12:33:31.953 [Message Handler Control] - AppCore received acknowledgement from CustLayer  
+<wid>4n60dc6</wid>
+
+Applica.. 12:33:31.953 [Message Handler Control] - Processing Complete Signalled  
+<wid>22l290b7</wid>
+
+Applica.. 12:33:31.968 Message Handler - processing complete  
+<wid>4l195y12</wid>
+
+Applica.. 12:33:31.968 Checking Customisation Layer Status [TRANSACTION]  
+<wid>3n4843dc128</wid>
+
+Applica.. 12:33:31.984 Message Handler - awaiting incoming message...  
+<wid>8l194y12</wid>
+
+CustomJ.. 12:33:44.296 **********************************************************
+CALLING CLOSE STATE EXIT
+**********************************************************  
+<wid>2s1914g220</wid>
+
+CustomJ.. 12:33:45.421 Card ejected  
+<wid>9l1233y27</wid>
+
+CustomJ.. 12:33:45.421 Timer 9 started [12:33:45]  
+<wid>3l1293y27</wid>
+
+CustomJ.. 12:33:45.468 Starting Timer 2 [12:33:45]  
+<wid>10l1233y27</wid>
+
+CustomJ.. 12:33:45.953 Card taken  
+<wid>4l1235y27</wid>
+
+CustomJ.. 12:33:45.953 Card Ejected Flag - 1  
+<wid>1s1356g219</wid>
+
+CustomJ.. 12:33:45.953 Playing voice message X08  
+<wid>9l1234y27</wid>
+
+CustomJ.. 12:33:49.468 Timer 2 expired [12:33:49]  
+<wid>5l1233y27</wid>
+
+CustomJ.. 12:33:49.468 Waiting for statement tidy-up to complete...  
+<wid>10l1234y27</wid>
+
+CustomJ.. 12:33:49.468 Tar158425 - Check Dispenser. Envelope presented flag is 0 and the dispensed 0.  
+<wid>3d90ma2</wid>
+
+CustomJ.. 12:33:49.468 Tar158425 - No Envelope to retract.  
+<wid>5d90ma2</wid>
+
+CustomJ.. 12:33:49.468 Check For Jrnl Message To Print If Card Has Been Captured  
+<wid>9z6iy2</wid>
+
+CustomJ.. 12:33:49.500 Wrote Cash Handler Reg TCODE [OTHER]
+CustomJ.. 12:33:49.500 Exit from Close State
+Next State Number: [0]  
+<wid>1l1257y27</wid>
+
+CustomJ.. 12:33:49.500 Are we EJing?  
+<wid>5d379ma18</wid>
+
+CustomJ.. 12:33:49.500 Customisation Layer - EJ Status Processing Started [12:33:49]  
+<wid>0d357ma18</wid>
+
+Applica.. 12:33:49.500 Checking For EJ Status Messages  
+<wid>7d312ma18</wid>
+
+Applica.. 12:33:49.515 EJ Status Complete!  
+<wid>0d362ma18</wid>
+
+CustomJ.. 12:33:49.515 Customisation Layer - EJ Status Processing Complete - AC Signalled [12:33:49]  
+<wid>1n1055dc5</wid>
+
+Applica.. 12:33:49.765 Check for Pending EJ Messages
+Pending EJ Flag = 0  
+<wid>0p686a23</wid>
+
+Applica.. 12:33:49.781 Activating Pending Supervisor Messages
+Entry Message = 
+Exit Message =   
+<wid>4n625dc4</wid>
+
+Applica.. 12:33:49.828 Supervisor Pending Messages Complete
+On Exit Supervisor Entry Msg = 
+On Exit Supervisor Exit Msg =   
+<wid>3n625dc4</wid>
+
+Applica.. 12:33:49.828 Checking Customisation Layer Status [WAITING]  
+<wid>3n4843dc128</wid>
+
+Applica.. 12:33:49.843 Idle Processing Handler - processing complete  
+<wid>62l195y12</wid>
+
+Applica.. 12:33:49.843 Attempting to activate Customisation Layer...  
+<wid>2l194y12</wid>
+
+Applica.. 12:33:49.843 <1085421><abc><ac0> SetEvent sessionGranted
+Applica.. 12:33:49.843 <1085421><abc><ac0> ResetEvent sessionGranted
+Applica.. 12:33:49.843 <1085421><abc><f18> WaitForSingleObject SessionComplete
+CustomJ.. 12:33:49.859 TAR158437 - Reinitialise printers with K01  
+<wid>1n751dc5</wid>
+
+CustomJ.. 12:33:50.218 ResAgent.RoleObtained = RM_USER_OBTAINED
+Applica.. 12:33:52.843 OFFLINE Detected  
+<wid>1s845g101</wid>
+
+Applica.. 12:33:52.843 <1088421><abc><ac0> SetEvent sessionRelease
+Applica.. 12:33:52.906 <1088484><abc><ac0> ResetEvent sessionRelease
+Applica.. 12:33:52.921 Released...  
+<wid>7s765g99</wid>
+
+Applica.. 12:33:52.937 MODE CHANGE DETECTED 5  
+<wid>1s949g101</wid>
+
+Applica.. 12:33:52.953 OFFLINE (5) Mode Entered At 12:33:52  
+<wid>43s834g101</wid>
+
+Applica.. 12:33:53.062 read [600] from [HKEY_LOCAL_MACHINE\SOFTWARE\NCR\Advance NDC\VPIComms\OfflineTimer]
+Applica.. 12:33:53.062 OFFLINE TIMER PERIOD = 600  
+<wid>8r2738r24</wid>
+
+Applica.. 12:33:58.078 COMMS Connection Established  
+<wid>4n4380dc128</wid>
+
+Applica.. 12:33:58.109   Returning to InService  
+<wid>44s834g101</wid>
+
+Applica.. 12:33:58.140 Activating Pending Supervisor Messages
+Entry Message = 
+Exit Message =   
+<wid>4n625dc4</wid>
+
+Applica.. 12:33:58.171 Supervisor Pending Messages Complete
+On Exit Supervisor Entry Msg = 
+On Exit Supervisor Exit Msg =   
+<wid>3n625dc4</wid>
+
+Applica.. 12:33:58.187 In Service Mode Entered - Mode [4]  
+<wid>0s146g57</wid>
+
+Applica.. 12:33:58.250   -- Custom Data Received [0]
+  -- Download Save Option [0]
+  -- Config ID [4501]  
+<wid>20l318b7</wid>
+
+Applica.. 12:33:58.265 Activating Pending Supervisor Messages
+Entry Message = 
+Exit Message =   
+<wid>4n625dc4</wid>
+
+Applica.. 12:33:58.296 Supervisor Pending Messages Complete
+On Exit Supervisor Entry Msg = 
+On Exit Supervisor Exit Msg =   
+<wid>3n625dc4</wid>
+
+Applica.. 12:33:58.312 Check for Pending EJ Messages
+Pending EJ Flag = 0  
+<wid>0p686a23</wid>
+
+Applica.. 12:33:58.312 Checking Customisation Layer Status [IDLE]  
+<wid>3n4843dc128</wid>
+
+Applica.. 12:33:58.328 Attempting to activate Customisation Layer...  
+<wid>2l194y12</wid>
+
+Applica.. 12:33:58.343 <1093921><abc><ac0> SetEvent sessionGranted
+Applica.. 12:33:58.359 <1093937><abc><ac0> ResetEvent sessionGranted
+Applica.. 12:33:58.375 Message Handler - awaiting incoming message...  
+<wid>8l194y12</wid>
+
+Applica.. 12:33:58.390 <1093968><abc><da0> WaitForSingleObject SessionComplete
+CustomJ.. 12:33:58.406 TAR158437 - Reinitialise printers with K01  
+<wid>1n751dc5</wid>
+
+CustomJ.. 12:33:58.671 ResAgent.RoleObtained = RM_USER_OBTAINED
+CustomJ.. 12:34:14.296 condition1:2  
+<wid>7n6098dc129</wid>
+
+CustomJ.. 12:34:14.296 condition2:2  
+<wid>8n6098dc129</wid>
+
+CustomJ.. 12:34:14.296 condition3:8  
+<wid>9n6098dc129</wid>
+
+CustomJ.. 12:34:14.296 Track2 only  
+<wid>18n6098dc129</wid>
+
+CustomJ.. 12:34:14.906 Trigger  
+<wid>14n6098dc129</wid>
+
+CustomJ.. 12:34:14.906 TRACK 2  
+<wid>27s7pg1</wid>
+
+CustomJ.. 12:34:14.921 Table entry 9 = 314  
+<wid>2a16s1</wid>
+
+CustomJ.. 12:34:14.953   Eject Card Not Required
+CustomJ.. 12:34:16.171 ** ENTER PIN  
+<wid>0r774r10</wid>
+
+CustomJ.. 12:34:16.187   REMOTE PIN ENTRY  
+<wid>1r774r10</wid>
+
+CustomJ.. 12:34:16.187     PIN ENTRY INITIATE  
+<wid>4s1108g105</wid>
+
+Applica.. 12:34:17.875 String [X]
+Applica.. 12:34:18.265 String [X]
+Applica.. 12:34:18.859 String [X]
+Applica.. 12:34:19.171 String [X]
+CustomJ.. 12:34:20.953     PIN COLLECTED  
+<wid>0s1108g105</wid>
+
+CustomJ.. 12:34:20.953 Initialise From FIT  
+<wid>1r731r10</wid>
+
+CustomJ.. 12:34:20.984 Build PIN Block  
+<wid>8r774r10</wid>
+
+CustomJ.. 12:34:21.093 Are we EJing?  
+<wid>5d379ma18</wid>
+
+CustomJ.. 12:34:21.093 Customisation Layer - EJ Status Processing Started [12:34:21]  
+<wid>0d357ma18</wid>
+
+Applica.. 12:34:21.109 Checking For EJ Status Messages  
+<wid>7d312ma18</wid>
+
+Applica.. 12:34:21.109 EJ Status Complete!  
+<wid>0d362ma18</wid>
+
+CustomJ.. 12:34:21.109 Customisation Layer - EJ Status Processing Complete - AC Signalled [12:34:21]  
+<wid>1n1055dc5</wid>
+
+CustomJ.. 12:34:24.953 Reset Ready Flag 0  
+<wid>28d836ma34</wid>
+
+Applica.. 12:34:26.125 Message Handler - new message received: [402932482980000000002485029=03MKB ROMEXTERRA BANK SA
+LOCATIA:1CLUJ NAPOCA            CLUJ NAPOCA    RO
+
+DATA/ORA205/11/08112:35:21
+
+ATM ID:4SEC NO:6AUTH:
+12938   248:000000    
+
+NUMAR CARD   :1414049XXXXXX4002
+
+TRANZACTIE :1INTEROGARE SOLD
+SUMA TRANZ :1          RON0.00
+SOLD DISP. :1          RON0.00
+
+6WWW.MKBROMEXTERRA.RO
+6INFOCARD:021-2223336
+3INFOCARD@MKBROMEXTERRA.RO
+
+:VA MULTUMIM!]  
+<wid>1n87dc7</wid>
+
+Applica.. 12:34:26.171 [Message Handler Control] - Trans Reply Expected
+                            Expected Count Now [0]  
+<wid>4s17gs10</wid>
+
+Applica.. 12:34:26.203 [Message Handler Control] - AppCore received acknowledgement from CustLayer  
+<wid>4n60dc6</wid>
+
+Applica.. 12:34:26.203 [Message Handler Control] - Processing Complete Signalled  
+<wid>22l290b7</wid>
+
+Applica.. 12:34:26.203 Message Handler - processing complete  
+<wid>4l195y12</wid>
+
+Applica.. 12:34:26.203 Checking Customisation Layer Status [TRANSACTION]  
+<wid>3n4843dc128</wid>
+
+Applica.. 12:34:26.218 Message Handler - awaiting incoming message...  
+<wid>8l194y12</wid>
+
+CustomJ.. 12:34:38.140 **********************************************************
+CALLING CLOSE STATE EXIT
+**********************************************************  
+<wid>2s1914g220</wid>
+
+CustomJ.. 12:34:39.234 Card ejected  
+<wid>9l1233y27</wid>
+
+CustomJ.. 12:34:39.234 Timer 9 started [12:34:39]  
+<wid>3l1293y27</wid>
+
+CustomJ.. 12:34:39.296 Starting Timer 2 [12:34:39]  
+<wid>10l1233y27</wid>
+
+CustomJ.. 12:34:39.734 Card taken  
+<wid>4l1235y27</wid>
+
+CustomJ.. 12:34:39.734 Card Ejected Flag - 1  
+<wid>1s1356g219</wid>
+
+CustomJ.. 12:34:39.734 Playing voice message X08  
+<wid>9l1234y27</wid>
+
+CustomJ.. 12:34:43.312 Timer 2 expired [12:34:43]  
+<wid>5l1233y27</wid>
+
+CustomJ.. 12:34:43.312 Waiting for statement tidy-up to complete...  
+<wid>10l1234y27</wid>
+
+CustomJ.. 12:34:43.312 Tar158425 - Check Dispenser. Envelope presented flag is 0 and the dispensed 0.  
+<wid>3d90ma2</wid>
+
+CustomJ.. 12:34:43.312 Tar158425 - No Envelope to retract.  
+<wid>5d90ma2</wid>
+
+CustomJ.. 12:34:43.312 Check For Jrnl Message To Print If Card Has Been Captured  
+<wid>9z6iy2</wid>
+
+CustomJ.. 12:34:43.343 Wrote Cash Handler Reg TCODE [OTHER]
+CustomJ.. 12:34:43.343 Exit from Close State
+Next State Number: [0]  
+<wid>1l1257y27</wid>
+
+CustomJ.. 12:34:43.359 Are we EJing?  
+<wid>5d379ma18</wid>
+
+CustomJ.. 12:34:43.359 Customisation Layer - EJ Status Processing Started [12:34:43]  
+<wid>0d357ma18</wid>
+
+Applica.. 12:34:43.359 Checking For EJ Status Messages  
+<wid>7d312ma18</wid>
+
+Applica.. 12:34:43.359 EJ Status Complete!  
+<wid>0d362ma18</wid>
+
+CustomJ.. 12:34:43.359 Customisation Layer - EJ Status Processing Complete - AC Signalled [12:34:43]  
+<wid>1n1055dc5</wid>
+
+Applica.. 12:34:43.625 Check for Pending EJ Messages
+Pending EJ Flag = 0  
+<wid>0p686a23</wid>
+
+Applica.. 12:34:43.640 Activating Pending Supervisor Messages
+Entry Message = 
+Exit Message =   
+<wid>4n625dc4</wid>
+
+Applica.. 12:34:43.687 Supervisor Pending Messages Complete
+On Exit Supervisor Entry Msg = 
+On Exit Supervisor Exit Msg =   
+<wid>3n625dc4</wid>
+
+Applica.. 12:34:43.687 Checking Customisation Layer Status [WAITING]  
+<wid>3n4843dc128</wid>
+
+Applica.. 12:34:43.703 Idle Processing Handler - processing complete  
+<wid>62l195y12</wid>
+
+Applica.. 12:34:43.703 Attempting to activate Customisation Layer...  
+<wid>2l194y12</wid>
+
+Applica.. 12:34:43.703 <1139281><abc><ac0> SetEvent sessionGranted
+Applica.. 12:34:43.703 <1139281><abc><ac0> ResetEvent sessionGranted
+Applica.. 12:34:43.703 <1139281><abc><4d4> WaitForSingleObject SessionComplete
+CustomJ.. 12:34:43.718 TAR158437 - Reinitialise printers with K01  
+<wid>1n751dc5</wid>
+
+CustomJ.. 12:34:43.968 ResAgent.RoleObtained = RM_USER_OBTAINED
+CustomJ.. 12:34:49.093 condition1:2  
+<wid>7n6098dc129</wid>
+
+CustomJ.. 12:34:49.093 condition2:2  
+<wid>8n6098dc129</wid>
+
+CustomJ.. 12:34:49.093 condition3:8  
+<wid>9n6098dc129</wid>
+
+CustomJ.. 12:34:49.093 Track2 only  
+<wid>18n6098dc129</wid>
+
+CustomJ.. 12:34:49.609 Trigger  
+<wid>14n6098dc129</wid>
+
+CustomJ.. 12:34:49.609 TRACK 2  
+<wid>27s7pg1</wid>
+
+CustomJ.. 12:34:49.609 Table entry 9 = 314  
+<wid>2a16s1</wid>
+
+CustomJ.. 12:34:49.734   Eject Card Not Required
+CustomJ.. 12:34:51.406 ** ENTER PIN  
+<wid>0r774r10</wid>
+
+CustomJ.. 12:34:51.406   REMOTE PIN ENTRY  
+<wid>1r774r10</wid>
+
+CustomJ.. 12:34:51.406     PIN ENTRY INITIATE  
+<wid>4s1108g105</wid>
+
+Applica.. 12:34:52.640 String [X]
+Applica.. 12:34:53.015 String [X]
+Applica.. 12:34:53.468 String [X]
+Applica.. 12:34:53.781 String [X]
+CustomJ.. 12:34:54.859     PIN COLLECTED  
+<wid>0s1108g105</wid>
+
+CustomJ.. 12:34:54.859 Initialise From FIT  
+<wid>1r731r10</wid>
+
+CustomJ.. 12:34:54.890 Build PIN Block  
+<wid>8r774r10</wid>
+
+CustomJ.. 12:34:54.984 Are we EJing?  
+<wid>5d379ma18</wid>
+
+CustomJ.. 12:34:54.984 Customisation Layer - EJ Status Processing Started [12:34:54]  
+<wid>0d357ma18</wid>
+
+Applica.. 12:34:54.984 Checking For EJ Status Messages  
+<wid>7d312ma18</wid>
+
+Applica.. 12:34:55.000 EJ Status Complete!  
+<wid>0d362ma18</wid>
+
+CustomJ.. 12:34:55.000 Customisation Layer - EJ Status Processing Complete - AC Signalled [12:34:55]  
+<wid>1n1055dc5</wid>
+
+CustomJ.. 12:34:58.093 Reset Ready Flag 0  
+<wid>28d836ma34</wid>
+
+Applica.. 12:34:58.968 Message Handler - new message received: [4029302492270000000002495037>011
+**********
+129305/11/08612:35:544   249
+INQUIRY          
+CARD NO:424732XXXXXX1793
+TRACE NO:031327
+AMT REQ:1          RON0.00
+AMT ATH:1          RON0.00
+VOID:10420
+INVALID REQUEST FOR THIS ACCT ]  
+<wid>1n87dc7</wid>
+
+Applica.. 12:34:59.015 [Message Handler Control] - Trans Reply Expected
+                            Expected Count Now [0]  
+<wid>4s17gs10</wid>
+
+Applica.. 12:34:59.046 [Message Handler Control] - AppCore received acknowledgement from CustLayer  
+<wid>4n60dc6</wid>
+
+Applica.. 12:34:59.046 [Message Handler Control] - Processing Complete Signalled  
+<wid>22l290b7</wid>
+
+Applica.. 12:34:59.046 Message Handler - processing complete  
+<wid>4l195y12</wid>
+
+Applica.. 12:34:59.046 Checking Customisation Layer Status [TRANSACTION]  
+<wid>3n4843dc128</wid>
+
+Applica.. 12:34:59.062 Message Handler - awaiting incoming message...  
+<wid>8l194y12</wid>
+
+CustomJ.. 12:34:59.515 **********************************************************
+CALLING CLOSE STATE EXIT
+**********************************************************  
+<wid>2s1914g220</wid>
+
+CustomJ.. 12:35:00.640 Card ejected  
+<wid>9l1233y27</wid>
+
+CustomJ.. 12:35:00.640 Timer 9 started [12:35:00]  
+<wid>3l1293y27</wid>
+
+CustomJ.. 12:35:00.671 Starting Timer 2 [12:35:00]  
+<wid>10l1233y27</wid>
+
+CustomJ.. 12:35:01.921 Card taken  
+<wid>4l1235y27</wid>
+
+CustomJ.. 12:35:01.921 Card Ejected Flag - 1  
+<wid>1s1356g219</wid>
+
+CustomJ.. 12:35:01.921 Playing voice message X08  
+<wid>9l1234y27</wid>
+
+CustomJ.. 12:35:04.687 Timer 2 expired [12:35:04]  
+<wid>5l1233y27</wid>
+
+CustomJ.. 12:35:04.687 Waiting for statement tidy-up to complete...  
+<wid>10l1234y27</wid>
+
+CustomJ.. 12:35:04.687 Tar158425 - Check Dispenser. Envelope presented flag is 0 and the dispensed 0.  
+<wid>3d90ma2</wid>
+
+CustomJ.. 12:35:04.687 Tar158425 - No Envelope to retract.  
+<wid>5d90ma2</wid>
+
+CustomJ.. 12:35:04.687 Check For Jrnl Message To Print If Card Has Been Captured  
+<wid>9z6iy2</wid>
+
+CustomJ.. 12:35:04.718 Wrote Cash Handler Reg TCODE [OTHER]
+CustomJ.. 12:35:04.718 Exit from Close State
+Next State Number: [0]  
+<wid>1l1257y27</wid>
+
+CustomJ.. 12:35:04.718 Are we EJing?  
+<wid>5d379ma18</wid>
+
+CustomJ.. 12:35:04.718 Customisation Layer - EJ Status Processing Started [12:35:04]  
+<wid>0d357ma18</wid>
+
+Applica.. 12:35:04.718 Checking For EJ Status Messages  
+<wid>7d312ma18</wid>
+
+Applica.. 12:35:04.734 EJ Status Complete!  
+<wid>0d362ma18</wid>
+
+CustomJ.. 12:35:04.734 Customisation Layer - EJ Status Processing Complete - AC Signalled [12:35:04]  
+<wid>1n1055dc5</wid>
+
+Applica.. 12:35:04.984 Check for Pending EJ Messages
+Pending EJ Flag = 0  
+<wid>0p686a23</wid>
+
+Applica.. 12:35:05.000 Activating Pending Supervisor Messages
+Entry Message = 
+Exit Message =   
+<wid>4n625dc4</wid>
+
+Applica.. 12:35:05.046 Supervisor Pending Messages Complete
+On Exit Supervisor Entry Msg = 
+On Exit Supervisor Exit Msg =   
+<wid>3n625dc4</wid>
+
+Applica.. 12:35:05.046 Checking Customisation Layer Status [WAITING]  
+<wid>3n4843dc128</wid>
+
+Applica.. 12:35:05.062 Idle Processing Handler - processing complete  
+<wid>62l195y12</wid>
+
+Applica.. 12:35:05.062 Attempting to activate Customisation Layer...  
+<wid>2l194y12</wid>
+
+Applica.. 12:35:05.062 <1160640><abc><ac0> SetEvent sessionGranted
+Applica.. 12:35:05.062 <1160640><abc><ac0> ResetEvent sessionGranted
+Applica.. 12:35:05.062 <1160640><abc><f74> WaitForSingleObject SessionComplete
+CustomJ.. 12:35:05.078 TAR158437 - Reinitialise printers with K01  
+<wid>1n751dc5</wid>
+
+CustomJ.. 12:35:05.328 ResAgent.RoleObtained = RM_USER_OBTAINED
+CustomJ.. 12:35:12.578 condition1:2  
+<wid>7n6098dc129</wid>
+
+CustomJ.. 12:35:12.578 condition2:2  
+<wid>8n6098dc129</wid>
+
+CustomJ.. 12:35:12.578 condition3:8  
+<wid>9n6098dc129</wid>
+
+CustomJ.. 12:35:12.578 Track2 only  
+<wid>18n6098dc129</wid>
+
+CustomJ.. 12:35:13.078 Trigger  
+<wid>14n6098dc129</wid>
+
+CustomJ.. 12:35:13.093 TRACK 2  
+<wid>27s7pg1</wid>
+
+CustomJ.. 12:35:13.093 Table entry 9 = 314  
+<wid>2a16s1</wid>
+
+CustomJ.. 12:35:13.171   Eject Card Not Required
+CustomJ.. 12:35:13.218 ** ENTER PIN  
+<wid>0r774r10</wid>
+
+CustomJ.. 12:35:13.218   REMOTE PIN ENTRY  
+<wid>1r774r10</wid>
+
+CustomJ.. 12:35:13.218     PIN ENTRY INITIATE  
+<wid>4s1108g105</wid>
+
+Applica.. 12:35:14.593 String [X]
+Applica.. 12:35:14.968 String [X]
+Applica.. 12:35:15.343 String [X]
+Applica.. 12:35:15.593 String [X]
+CustomJ.. 12:35:15.671     PIN COLLECTED  
+<wid>0s1108g105</wid>
+
+CustomJ.. 12:35:15.671 Initialise From FIT  
+<wid>1r731r10</wid>
+
+CustomJ.. 12:35:15.703 Build PIN Block  
+<wid>8r774r10</wid>
+
+CustomJ.. 12:35:15.796 Are we EJing?  
+<wid>5d379ma18</wid>
+
+CustomJ.. 12:35:15.796 Customisation Layer - EJ Status Processing Started [12:35:15]  
+<wid>0d357ma18</wid>
+
+Applica.. 12:35:15.812 Checking For EJ Status Messages  
+<wid>7d312ma18</wid>
+
+Applica.. 12:35:15.812 EJ Status Complete!  
+<wid>0d362ma18</wid>
+
+CustomJ.. 12:35:15.812 Customisation Layer - EJ Status Processing Complete - AC Signalled [12:35:15]  
+<wid>1n1055dc5</wid>
+
+Applica.. 12:35:16.390 OFFLINE Detected  
+<wid>1s845g101</wid>
+
+Applica.. 12:35:16.390 <1171968><abc><ac0> SetEvent sessionRelease
+CustomJ.. 12:35:18.031 Reset Ready Flag 0  
+<wid>28d836ma34</wid>
+
+Applica.. 12:35:24.578 Message Handler - new message received: [402932502980000000002505029?03MKB ROMEXTERRA BANK SA
+LOCATIA:1CLUJ NAPOCA            CLUJ NAPOCA    RO
+
+DATA/ORA205/11/08112:36:15
+
+ATM ID:4SEC NO:6AUTH:
+12938   250:000000    
+
+NUMAR CARD   :1410540XXXXXX2704
+
+TRANZACTIE :1INTEROGARE SOLD
+SUMA TRANZ :1          RON0.00
+SOLD DISP. :1        RON733.77
+
+6WWW.MKBROMEXTERRA.RO
+6INFOCARD:021-2223336
+3INFOCARD@MKBROMEXTERRA.RO
+
+:VA MULTUMIM!]  
+<wid>1n87dc7</wid>
+
+Applica.. 12:35:24.625 [Message Handler Control] - Trans Reply Expected
+                            Expected Count Now [0]  
+<wid>4s17gs10</wid>
+
+Applica.. 12:35:24.656 [Message Handler Control] - AppCore received acknowledgement from CustLayer  
+<wid>4n60dc6</wid>
+
+Applica.. 12:35:24.656 [Message Handler Control] - Processing Complete Signalled  
+<wid>22l290b7</wid>
+
+Applica.. 12:35:24.656 Message Handler - processing complete  
+<wid>4l195y12</wid>
+
+Applica.. 12:35:24.656 Checking Customisation Layer Status [TRANSACTION]  
+<wid>3n4843dc128</wid>
+
+Applica.. 12:35:24.687 Message Handler - awaiting incoming message...  
+<wid>8l194y12</wid>
+
+CustomJ.. 12:35:35.656 **********************************************************
+CALLING CLOSE STATE EXIT
+**********************************************************  
+<wid>2s1914g220</wid>
+
+CustomJ.. 12:35:36.750 Card ejected  
+<wid>9l1233y27</wid>
+
+CustomJ.. 12:35:36.765 Timer 9 started [12:35:36]  
+<wid>3l1293y27</wid>
+
+CustomJ.. 12:35:36.796 Starting Timer 2 [12:35:36]  
+<wid>10l1233y27</wid>
+
+CustomJ.. 12:35:37.656 Card taken  
+<wid>4l1235y27</wid>
+
+CustomJ.. 12:35:37.656 Card Ejected Flag - 1  
+<wid>1s1356g219</wid>
+
+CustomJ.. 12:35:37.656 Playing voice message X08  
+<wid>9l1234y27</wid>
+
+CustomJ.. 12:35:40.828 Timer 2 expired [12:35:40]  
+<wid>5l1233y27</wid>
+
+CustomJ.. 12:35:40.828 Waiting for statement tidy-up to complete...  
+<wid>10l1234y27</wid>
+
+CustomJ.. 12:35:40.828 Tar158425 - Check Dispenser. Envelope presented flag is 0 and the dispensed 0.  
+<wid>3d90ma2</wid>
+
+CustomJ.. 12:35:40.828 Tar158425 - No Envelope to retract.  
+<wid>5d90ma2</wid>
+
+CustomJ.. 12:35:40.828 Check For Jrnl Message To Print If Card Has Been Captured  
+<wid>9z6iy2</wid>
+
+CustomJ.. 12:35:40.859 Wrote Cash Handler Reg TCODE [OTHER]
+CustomJ.. 12:35:40.859 Exit from Close State
+Next State Number: [0]  
+<wid>1l1257y27</wid>
+
+CustomJ.. 12:35:40.859 Are we EJing?  
+<wid>5d379ma18</wid>
+
+CustomJ.. 12:35:40.859 Customisation Layer - EJ Status Processing Started [12:35:40]  
+<wid>0d357ma18</wid>
+
+Applica.. 12:35:40.859 Checking For EJ Status Messages  
+<wid>7d312ma18</wid>
+
+Applica.. 12:35:40.875 EJ Status Complete!  
+<wid>0d362ma18</wid>
+
+CustomJ.. 12:35:40.875 Customisation Layer - EJ Status Processing Complete - AC Signalled [12:35:40]  
+<wid>1n1055dc5</wid>
+
+Applica.. 12:35:40.906 <1196484><abc><ac0> ResetEvent sessionRelease
+Applica.. 12:35:40.921 Released...  
+<wid>7s765g99</wid>
+
+Applica.. 12:35:40.921 MODE CHANGE DETECTED 5  
+<wid>1s949g101</wid>
+
+Applica.. 12:35:40.953 OFFLINE (5) Mode Entered At 12:35:40  
+<wid>43s834g101</wid>
+
+Applica.. 12:35:41.046 read [600] from [HKEY_LOCAL_MACHINE\SOFTWARE\NCR\Advance NDC\VPIComms\OfflineTimer]
+Applica.. 12:35:41.046 OFFLINE TIMER PERIOD = 600  
+<wid>8r2738r24</wid>
+
+Applica.. 12:35:51.078 COMMS Connection Established  
+<wid>4n4380dc128</wid>
+
+Applica.. 12:35:51.109   Returning to InService  
+<wid>44s834g101</wid>
+
+Applica.. 12:35:51.125 Activating Pending Supervisor Messages
+Entry Message = 
+Exit Message =   
+<wid>4n625dc4</wid>
+
+Applica.. 12:35:51.171 Supervisor Pending Messages Complete
+On Exit Supervisor Entry Msg = 
+On Exit Supervisor Exit Msg =   
+<wid>3n625dc4</wid>
+
+Applica.. 12:35:51.187 In Service Mode Entered - Mode [4]  
+<wid>0s146g57</wid>
+
+Applica.. 12:35:51.234   -- Custom Data Received [0]
+  -- Download Save Option [0]
+  -- Config ID [4501]  
+<wid>20l318b7</wid>
+
+Applica.. 12:35:51.265 Activating Pending Supervisor Messages
+Entry Message = 
+Exit Message =   
+<wid>4n625dc4</wid>
+
+Applica.. 12:35:51.296 Supervisor Pending Messages Complete
+On Exit Supervisor Entry Msg = 
+On Exit Supervisor Exit Msg =   
+<wid>3n625dc4</wid>
+
+Applica.. 12:35:51.312 Check for Pending EJ Messages
+Pending EJ Flag = 0  
+<wid>0p686a23</wid>
+
+Applica.. 12:35:51.312 Checking Customisation Layer Status [IDLE]  
+<wid>3n4843dc128</wid>
+
+Applica.. 12:35:51.328 Attempting to activate Customisation Layer...  
+<wid>2l194y12</wid>
+
+Applica.. 12:35:51.343 <1206921><abc><ac0> SetEvent sessionGranted
+Applica.. 12:35:51.359 <1206937><abc><ac0> ResetEvent sessionGranted
+Applica.. 12:35:51.390 Message Handler - awaiting incoming message...  
+<wid>8l194y12</wid>
+
+Applica.. 12:35:51.406 <1206984><abc><cc4> WaitForSingleObject SessionComplete
+CustomJ.. 12:35:51.406 TAR158437 - Reinitialise printers with K01  
+<wid>1n751dc5</wid>
+
+CustomJ.. 12:35:51.687 ResAgent.RoleObtained = RM_USER_OBTAINED
+Applica.. 12:36:03.812 SUPERVISOR MODE REQUESTED  
+<wid>3s672g99</wid>
+
+Applica.. 12:36:03.812 <1219390><abc><ac0> SetEvent sessionRelease
+Applica.. 12:36:03.890 <1219468><abc><ac0> ResetEvent sessionRelease
+Applica.. 12:36:03.906 grit 240858 False Supervisor Check Active
+Applica.. 12:36:03.984 MODE CHANGE DETECTED 3  
+<wid>1s949g101</wid>
+
+Applica.. 12:36:04.000 Supervisor Mode Entered [3]
+  Return Mode [4]  
+<wid>1s146g57</wid>
+
+Applica.. 12:36:04.000 SUPERVISOR ENTRY TEST FOR BNA DEBUG
+BNA FITNESS = -1
+DENOM CONFIG 1 =  
+DENOM CONFIG 2 =  
+DENOM CONFIG 3 =  
+PROGRAMMED CURRENCY COUNT = 0  
+<wid>3a209s7</wid>
+
+Applica.. 12:36:04.000 Supervisor waiting on supervisor resource....  
+<wid>11j91v1</wid>
+
+Applica.. 12:36:04.015 ResAgent.RoleObtained = RM_USER_OBTAINED
+Applica.. 12:36:04.046 Message Handler - awaiting incoming message...  
+<wid>8l194y12</wid>
+
+Supervi.. 12:36:04.375 Sensors Unsol: 12000P21  
+<wid>8l817y15</wid>
+
+Supervi.. 12:36:04.390 Storing Pending Supervisor Message
+Sensors Msg = 12000P21
+Pending Entry Msg =   
+<wid>5n625dc4</wid>
+
+Supervi.. 12:36:04.468 Op Keyboard Fitness: [-1]  
+<wid>1l995y17</wid>
+
+Supervi.. 12:36:04.468 FACIA Enabled  
+<wid>2s375g95</wid>
+
+Supervi.. 12:36:04.468 Activating Supervisor Exit Executor
+  Current I/F [0]  
+<wid>2s556g209</wid>
+
+Supervi.. 12:36:04.500 Activating Pending Supervisor
+Entry Msg = 12000P21
+Exit Msg =   
+<wid>6r641ichl21</wid>
+
+Supervi.. 12:36:04.515 Attempt to send Pending Supervisor Entry Message  
+<wid>22v1823m34</wid>
+
+Supervi.. 12:36:04.546 Supervisor Pending Complete  
+<wid>25v1823m34</wid>
+
+Supervi.. 12:36:07.578 Activating Pending Supervisor
+Entry Msg = 12000P21
+Exit Msg =   
+<wid>6r641ichl21</wid>
+
+Supervi.. 12:36:07.578 Attempt to send Pending Supervisor Entry Message  
+<wid>22v1823m34</wid>
+
+Supervi.. 12:36:07.625 Pending Supervisor Msg Sent  
+<wid>3v1830m34</wid>
+
+Supervi.. 12:36:13.609 Activating Supervisor Exit Executor
+  Current Menu [0]
+  Current Fnct [7]
+  Current I/F  [0]
+  Next Menu    [0]
+  Next I/F     [0]
+  Host Menu    [0]
+  Host Fnct    [7]  
+<wid>3s556g209</wid>
+
+Supervi.. 12:36:13.640 Activating Pending Supervisor Messages
+Entry Message = 
+Exit Message =   
+<wid>4n625dc4</wid>
+
+Supervi.. 12:36:13.671 SUPERVISOR : DIAGS [1]  
+<wid>4r644ichl21</wid>
+
+Supervi.. 12:36:13.671 SUPERVISOR :  Diagnostics Mode  
+<wid>26n2303dc125</wid>
+
+Supervi.. 12:36:13.703 SUPERVISOR :  VDM Supported  
+<wid>4n1195dc6</wid>
+
+Applica.. 12:36:13.718 APPCORE : releasing consumer & entering Diagnostics  
+<wid>7n2302dc125</wid>
+

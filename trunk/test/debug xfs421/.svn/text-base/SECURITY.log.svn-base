@@ -1,0 +1,97 @@
+
+*** START TRACE OF CustomJournalCam266v22 ***
+CustomJournalCam266v22 24/08/2007 13:56:54.478  - mNDCPINCollector::Start 3s1139g105
+CustomJournalCam266v22 24/08/2007 13:56:56.531  - mNDCPINCollector::ProcessEvent WFS_EXEE_PIN_KEY
+ wCompletion =            6
+ ulDigit =                1
+
+CustomJournalCam266v22 24/08/2007 13:56:57.121  - mNDCPINCollector::ProcessEvent WFS_EXEE_PIN_KEY
+ wCompletion =            6
+ ulDigit =                1
+
+CustomJournalCam266v22 24/08/2007 13:56:57.662  - mNDCPINCollector::ProcessEvent WFS_EXEE_PIN_KEY
+ wCompletion =            6
+ ulDigit =                1
+
+CustomJournalCam266v22 24/08/2007 13:56:58.143  - mNDCPINCollector::ProcessEvent WFS_EXEE_PIN_KEY
+ wCompletion =            6
+ ulDigit =                1
+
+CustomJournalCam266v22 24/08/2007 13:56:58.984  - mNDCPINCollector::ProcessEvent WFS_EXEE_PIN_KEY
+ wCompletion =            1
+ ulDigit =                1024
+
+CustomJournalCam266v22 24/08/2007 13:56:58.994  - mNDCPINCollector::OnKeyboardEvent ENTER/FDK PRESSED
+CustomJournalCam266v22 24/08/2007 13:56:59.104  - mNDCPINCollector::ProcessEvent Signal PIN Collected
+CustomJournalCam266v22 24/08/2007 13:58:31.777  - mNDCPINCollector::Start 3s1139g105
+CustomJournalCam266v22 24/08/2007 13:58:32.789  - mNDCPINCollector::ProcessEvent WFS_EXEE_PIN_KEY
+ wCompletion =            6
+ ulDigit =                1
+
+CustomJournalCam266v22 24/08/2007 13:58:33.079  - mNDCPINCollector::ProcessEvent WFS_EXEE_PIN_KEY
+ wCompletion =            6
+ ulDigit =                1
+
+CustomJournalCam266v22 24/08/2007 13:58:33.430  - mNDCPINCollector::ProcessEvent WFS_EXEE_PIN_KEY
+ wCompletion =            6
+ ulDigit =                1
+
+CustomJournalCam266v22 24/08/2007 13:58:33.700  - mNDCPINCollector::ProcessEvent WFS_EXEE_PIN_KEY
+ wCompletion =            6
+ ulDigit =                1
+
+CustomJournalCam266v22 24/08/2007 13:58:33.830  - mNDCPINCollector::ProcessEvent Signal PIN Collected
+CustomJournalCam266v22 24/08/2007 13:59:09.111  - mNDCPINCollector::Start 3s1139g105
+CustomJournalCam266v22 24/08/2007 13:59:12.286  - mNDCPINCollector::ProcessEvent WFS_EXEE_PIN_KEY
+ wCompletion =            6
+ ulDigit =                1
+
+CustomJournalCam266v22 24/08/2007 13:59:12.586  - mNDCPINCollector::ProcessEvent WFS_EXEE_PIN_KEY
+ wCompletion =            6
+ ulDigit =                1
+
+CustomJournalCam266v22 24/08/2007 13:59:12.987  - mNDCPINCollector::ProcessEvent WFS_EXEE_PIN_KEY
+ wCompletion =            6
+ ulDigit =                1
+
+CustomJournalCam266v22 24/08/2007 13:59:13.287  - mNDCPINCollector::ProcessEvent WFS_EXEE_PIN_KEY
+ wCompletion =            6
+ ulDigit =                1
+
+CustomJournalCam266v22 24/08/2007 13:59:13.427  - mNDCPINCollector::ProcessEvent Signal PIN Collected
+CustomJournalCam266v22 24/08/2007 14:00:01.667  - mNDCPINCollector::Start 3s1139g105
+CustomJournalCam266v22 24/08/2007 14:00:03.069  - mNDCPINCollector::ProcessEvent WFS_EXEE_PIN_KEY
+ wCompletion =            6
+ ulDigit =                1
+
+CustomJournalCam266v22 24/08/2007 14:00:03.419  - mNDCPINCollector::ProcessEvent WFS_EXEE_PIN_KEY
+ wCompletion =            6
+ ulDigit =                1
+
+CustomJournalCam266v22 24/08/2007 14:00:03.940  - mNDCPINCollector::ProcessEvent WFS_EXEE_PIN_KEY
+ wCompletion =            6
+ ulDigit =                1
+
+CustomJournalCam266v22 24/08/2007 14:00:04.270  - mNDCPINCollector::ProcessEvent WFS_EXEE_PIN_KEY
+ wCompletion =            6
+ ulDigit =                1
+
+CustomJournalCam266v22 24/08/2007 14:00:04.421  - mNDCPINCollector::ProcessEvent Signal PIN Collected
+CustomJournalCam266v22 24/08/2007 14:01:03.536  - mNDCPINCollector::Start 3s1139g105
+CustomJournalCam266v22 24/08/2007 14:01:04.467  - mNDCPINCollector::ProcessEvent WFS_EXEE_PIN_KEY
+ wCompletion =            6
+ ulDigit =                1
+
+CustomJournalCam266v22 24/08/2007 14:01:04.908  - mNDCPINCollector::ProcessEvent WFS_EXEE_PIN_KEY
+ wCompletion =            6
+ ulDigit =                1
+
+CustomJournalCam266v22 24/08/2007 14:01:05.298  - mNDCPINCollector::ProcessEvent WFS_EXEE_PIN_KEY
+ wCompletion =            6
+ ulDigit =                1
+
+CustomJournalCam266v22 24/08/2007 14:01:05.649  - mNDCPINCollector::ProcessEvent WFS_EXEE_PIN_KEY
+ wCompletion =            6
+ ulDigit =                1
+
+CustomJournalCam266v22 24/08/2007 14:01:05.819  - mNDCPINCollector::ProcessEvent Signal PIN Collected
