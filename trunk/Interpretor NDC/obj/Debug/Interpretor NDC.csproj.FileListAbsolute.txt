@@ -1,0 +1,8 @@
+\\psf\Home\Documents\GitHub\NDC\trunk\Interpretor NDC\bin\Debug\Interpretor NDC.exe
+\\psf\Home\Documents\GitHub\NDC\trunk\Interpretor NDC\bin\Debug\Interpretor NDC.pdb
+\\psf\Home\Documents\GitHub\NDC\trunk\Interpretor NDC\obj\Debug\Interpretor NDC.csprojResolveAssemblyReference.cache
+\\psf\Home\Documents\GitHub\NDC\trunk\Interpretor NDC\obj\Debug\Interpretor_NDC.Form1.resources
+\\psf\Home\Documents\GitHub\NDC\trunk\Interpretor NDC\obj\Debug\Interpretor_NDC.Properties.Resources.resources
+\\psf\Home\Documents\GitHub\NDC\trunk\Interpretor NDC\obj\Debug\Interpretor NDC.csproj.GenerateResource.Cache
+\\psf\Home\Documents\GitHub\NDC\trunk\Interpretor NDC\obj\Debug\Interpretor NDC.exe
+\\psf\Home\Documents\GitHub\NDC\trunk\Interpretor NDC\obj\Debug\Interpretor NDC.pdb
